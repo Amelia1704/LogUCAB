@@ -114,6 +114,10 @@ CREATE TABLE usuario(
 	constraint fk_empleado foreign key (fk_empleado) references empleado(id),
 	constraint fk_rol foreign key (fk_rol) references rol(codigo)	
 );
+CREATE TABLE tipoenvio(
+	codigo serial NOT NULL primary key,
+	nombre varchar(40) NOT NULL
+);
 CREATE TABLE envio(
 	numero serial NOT NULL primary key,
 	cantidad_paquete integer NOT NULL,
@@ -121,8 +125,10 @@ CREATE TABLE envio(
 	telefono integer NOT NULL,
 	fk_cliente_recibe integer NOT NULL,
 	fk_cliente_envia integer NOT NULL,
+	fk_tipoenvio integer NOT NULL,
 	constraint fk_cliente_recibe foreign key(fk_cliente_recibe) references cliente(id),
-	constraint fk_cliente_envia foreign key(fk_cliente_envia) references cliente(id)
+	constraint fk_cliente_envia foreign key(fk_cliente_envia) references cliente(id),
+	constraint fk_tipoenvio foreign key(fk_tipoenvio) references tipoenvio(codigo)
 );
 CREATE TABLE tipopaquete(
 	codigo serial NOT NULL primary key,
@@ -254,10 +260,8 @@ CREATE TABLE sucursal_envio(
 	fecha_salida varchar(40) NOT NULL,
 	fk_sucursal integer NOT NULL,
 	fk_envio integer NOT NULL,
-	fk_tipoenvio integer NOT NULL,
 	constraint fk_sucursal foreign key(fk_sucursal) references sucursal(codigo),
-	constraint fk_envio foreign key(fk_envio) references envio(numero),
-	constraint fk_tipoenvio foreign key(fk_tipoenvio) references tipoenvio(codigo)
+	constraint fk_envio foreign key(fk_envio) references envio(numero)
 	
 );
 CREATE TABLE empleado_zona(
@@ -321,10 +325,6 @@ CREATE TABLE estatus_envio(
 	fk_envio integer NOT NULL,
 	constraint fk_estatus foreign key(fk_estatus) references estatus(codigo),
 	constraint fk_envio foreign key(fk_envio) references envio(numero)
-);
-CREATE TABLE tipoenvio(
-	codigo serial NOT NULL primary key,
-	nombre varchar(40) NOT NULL
 );
 CREATE TABLE ruta(
 	id serial NOT NULL primary key,
