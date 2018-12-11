@@ -1,2 +1,0 @@
-# LogUCAB
-Proyecto DB1
