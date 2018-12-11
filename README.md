@@ -5,3 +5,4 @@ TO DO
 - Origen y destino distintos
 - Rutas con transporte
 - Colocar URL bien
+- Arreglar search en terrestre
