@@ -9,3 +9,4 @@ TO DO
 - Envíos
 - Empleados inactivos (reporte)
 - Si me falta un campo no borrar todo lo anterior
+- En cada transporte debe mostrar los de su tipo
