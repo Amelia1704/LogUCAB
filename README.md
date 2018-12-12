@@ -5,8 +5,6 @@ TO DO
 - Origen y destino distintos
 - Rutas con transporte
 - Colocar URL bien
-- Arreglar search en terrestre
 - Envíos
 - Empleados inactivos (reporte)
 - Si me falta un campo no borrar todo lo anterior
-- En cada transporte debe mostrar los de su tipo
