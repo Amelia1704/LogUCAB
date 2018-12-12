@@ -7,3 +7,4 @@ TO DO
 - Colocar URL bien
 - Arreglar search en terrestre
 - Envíos
+- Empleados inactivos (reporte)
