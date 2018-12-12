@@ -6,5 +6,5 @@ TO DO
 - Rutas con transporte
 - Colocar URL bien
 - Envíos
-- Empleados inactivos (reporte)
+- Empleados inactivos (reporte) -> halfway
 - Si me falta un campo no borrar todo lo anterior
