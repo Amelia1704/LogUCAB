@@ -8,3 +8,4 @@ TO DO
 - Arreglar search en terrestre
 - Envíos
 - Empleados inactivos (reporte)
+- Si me falta un campo no borrar todo lo anterior
