@@ -4,6 +4,7 @@ TO DO
 - Puto salario de mierda
 - Origen y destino distintos
 - Rutas con transporte
-- Envíos
+- Envíos (empezado)
 - Empleados inactivos (reporte) -> halfway
 - Si me falta un campo no borrar todo lo anterior
+- Roles y usuario (login, ocultar/mostrar acciones según su rol)
