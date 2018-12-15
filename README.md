@@ -10,6 +10,7 @@ TO DO
 - Agregar tuerquita y no se que es lo otro en vez de boton editar y eliminar 
 - <b>Editar y eliminar usuario</b>
 - <b>Arreglar vista de usuario</b>
+- En cliente agregar un campo para insertar a qué sucursal pertenece (en los requerimientos pide que haya cliente por sucursales) 
 
 ENTREGA #3
 
