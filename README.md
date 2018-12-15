@@ -2,8 +2,8 @@
 TO DO
 - Convertir cliente en VIP automaticamente
 - Origen y destino distintos
-- Rutas con transporte
-- Envíos (agregar contacto del cliente que envia, fecha de entrega, sucursal envio y destino y tipo de transporte.. las dimensiones del paquete ya están)
+- <b>Rutas con transporte</b>
+- <b>Envíos (agregar contacto del cliente que envia, fecha de entrega, sucursal envio y destino y tipo de transporte.. las dimensiones del paquete ya están)</b>
 - Si me falta un campo no borrar todo lo anterior
 - Poder editar el teléfono (empleado, cliente, sucursal) 
 - Agregar en que zona de la sucursal trabaja (relacion n-n entre empleado y zona)
