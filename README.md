@@ -8,8 +8,8 @@ TO DO
 - Poder editar el teléfono (empleado, cliente, sucursal) 
 - Agregar en que zona de la sucursal trabaja (relacion n-n entre empleado y zona)
 - Agregar tuerquita y no se que es lo otro en vez de boton editar y eliminar 
-<b>- Editar y eliminar usuario</b>
-- Arreglar vista de usuario
+- <b>Editar y eliminar usuario</b>
+- <b>Arreglar vista de usuario</b>
 
 ENTREGA #3
 
