@@ -8,6 +8,7 @@ TO DO
 - Agregar en que zona de la sucursal trabaja (relacion n-n entre empleado y zona)
 - Agregar tuerquita y no se que es lo otro en vez de boton editar y eliminar 
 - Colocar acceso a  Rol en el menú
+- Hacer cambios de envío en MER
 
 
 ENTREGA #3
