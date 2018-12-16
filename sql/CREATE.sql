@@ -34,8 +34,8 @@ CREATE TABLE zona(
 CREATE TABLE horario(
 	codigo serial NOT NULL unique primary key,
 	dia varchar(30) NOT NULL,
-	hora_entrada time NOT NULL,
-	hora_salida time NOT NULL
+	hora_entrada varchar(30),
+	hora_salida varchar(30) 
 );
 CREATE TABLE rol(
 	codigo serial NOT NULL unique primary key,
@@ -71,23 +71,25 @@ CREATE TABLE pago(
 CREATE TABLE empleado(
 	id serial NOT NULL unique primary key,
 	cedula integer NOT NULL,
-	nombre varchar(30) NOT NULL,
-	apellido varchar(30) NOT NULL,
-	email_personal varchar(30) NOT NULL,
-	email_empresa varchar(30) NOT NULL,
+	nombre varchar(60) NOT NULL,
+	apellido varchar(60) NOT NULL,
+	email_personal varchar(60) NOT NULL,
+	email_empresa varchar(60) NOT NULL,
 	fecha_nac varchar(30) NOT NULL,
-	nivel_academico varchar(30) NOT NULL,
-	profesion varchar(30) NOT NULL,
-	estado_civil varchar(30) NOT NULL,
+	nivel_academico varchar(60) NOT NULL,
+	profesion varchar(60) NOT NULL,
+	estado_civil varchar(60) NOT NULL,
 	numero_hijos integer NOT NULL,
-	salario integer NOT NULL,
-	fecha_ingreso date NOT NULL,
-	fecha_egreso date,
+	fecha_ingreso varchar(60) NOT NULL,
+	fecha_egreso varchar(60),
 	activo varchar(30),
+	salario integer NOT NULL,
 	fk_lugar integer NOT NULL,
+	fk_sucursal integer NOT NULL,
 	constraint estado_civil check(estado_civil IN('Soltero', 'Casado', 'Divorciado', 'Viudo', 'Comprometido')),
 	constraint activo check(activo IN('Si', 'No')),
-	constraint fk_lugar foreign key(fk_lugar) references lugar(codigo)
+	constraint fk_lugar foreign key(fk_lugar) references lugar(codigo),
+	constraint fk_sucursal foreign key(fk_sucursal) references sucursal(codigo)
 );
 CREATE TABLE cliente(
 	id serial NOT NULL unique primary key,
@@ -96,44 +98,58 @@ CREATE TABLE cliente(
 	apellido varchar(30) NOT NULL,
 	fecha_nac varchar(30) NOT NULL,
 	estado_civil varchar(30) NOT NULL,
-	empresa varchar(30),
+	empresa varchar(60),
 	l_vip varchar(30),
 	fk_lugar integer NOT NULL,
+	fk_sucursal integer NOT NULL,
 	constraint estado_civil check(estado_civil IN('Soltero', 'Casado', 'Divorciado', 'Viudo', 'Comprometido')),
 	constraint l_vip check(l_vip IN('Si', 'No')),
-	constraint fk_lugar foreign key(fk_lugar) references lugar(codigo)
+	constraint fk_lugar foreign key(fk_lugar) references lugar(codigo),
+	constraint fk_sucursal foreign key(fk_sucursal) references sucursal(codigo)
 );
 CREATE TABLE usuario(
 	codigo serial NOT NULL unique primary key,
 	nombre varchar(30) NOT NULL,
 	contraseña varchar(30) NOT NULL,
-	fk_cliente integer NOT NULL,
-	fk_empleado integer NOT NULL,
+	fk_cliente integer,
+	fk_empleado integer,
 	fk_rol integer NOT NULL,
 	constraint fk_cliente foreign key (fk_cliente) references cliente(id),
 	constraint fk_empleado foreign key (fk_empleado) references empleado(id),
 	constraint fk_rol foreign key (fk_rol) references rol(codigo)	
 );
+CREATE TABLE telefono(
+	codigo serial NOT NULL primary key,
+	numero varchar(30) NOT NULL,
+	tipo varchar(40) NOT NULL,
+	fk_sucursal integer,
+	fk_cliente integer,
+	fk_empleado integer,
+	fk_personacontacto integer,
+	constraint fk_sucursal foreign key(fk_sucursal) references sucursal(codigo),
+	constraint fk_cliente foreign key(fk_cliente) references cliente(id),
+	constraint fk_empleado foreign key(fk_empleado) references empleado(id),
+	constraint fk_personacontacto foreign key(fk_personacontacto) references personacontacto(id)	
+);
+CREATE TABLE ruta(
+	id serial NOT NULL primary key,
+	costo integer NOT NULL,
+	duracion integer NOT NULL,
+	fk_sucursal_origen integer NOT NULL,
+	fk_sucursal_destino integer NOT NULL,
+	constraint fk_sucursal_origen foreign key(fk_sucursal_origen) references sucursal(codigo),
+	constraint fk_sucursal_destino foreign key(fk_sucursal_destino) references sucursal(codigo)
+);
 CREATE TABLE tipoenvio(
 	codigo serial NOT NULL primary key,
 	nombre varchar(40) NOT NULL
 );
-CREATE TABLE envio(
-	numero serial NOT NULL primary key,
-	cantidad_paquete integer NOT NULL,
-	costo integer NOT NULL,
-	telefono integer NOT NULL,
-	fk_cliente_recibe integer NOT NULL,
-	fk_cliente_envia integer NOT NULL,
-	fk_tipoenvio integer NOT NULL,
-	constraint fk_cliente_recibe foreign key(fk_cliente_recibe) references cliente(id),
-	constraint fk_cliente_envia foreign key(fk_cliente_envia) references cliente(id),
-	constraint fk_tipoenvio foreign key(fk_tipoenvio) references tipoenvio(codigo)
-);
+
 CREATE TABLE tipopaquete(
 	codigo serial NOT NULL primary key,
 	nombre varchar(40) NOT NULL
 );
+
 
 CREATE TABLE paquete(
 	codigo serial NOT NULL primary key,
@@ -141,11 +157,28 @@ CREATE TABLE paquete(
 	largo numeric NOT NULL,
 	ancho numeric NOT NULL,
 	alto numeric NOT NULL,
-	fk_envio integer NOT NULL,
 	fk_tipopaquete integer NOT NULL,
-	constraint fk_envio foreign key(fk_envio) references envio(numero),
 	constraint fk_tipopaquete foreign key(fk_tipopaquete) references tipopaquete(codigo)
 );
+
+CREATE TABLE envio(
+	numero serial NOT NULL primary key,
+	costo integer,
+	fk_cliente_envia integer NOT NULL,
+	fk_tipoenvio integer NOT NULL,
+	fk_paquete integer NOT NULL,
+	fk_telefono integer NOT NULL,
+	nombre_recibe varchar(60) NOT NULL,
+	apellido_recibe varchar(60) NOT NULL,
+	email_recibe varchar(60) NOT NULL,
+	fk_ruta integer NOT NULL,
+	constraint fk_cliente_envia foreign key(fk_cliente_envia) references cliente(id),
+	constraint fk_tipoenvio foreign key(fk_tipoenvio) references tipoenvio(codigo),
+	constraint fk_paquete foreign key(fk_paquete) references paquete(codigo),
+	constraint fk_telefono foreign key(fk_telefono) references telefono(codigo),
+	constraint fk_ruta foreign key(fk_ruta) references ruta(id)
+);
+
 CREATE TABLE transporte(
 	codigo serial NOT NULL primary key,
 	clasificacion varchar(30) NOT NULL,
@@ -154,23 +187,22 @@ CREATE TABLE transporte(
 	matricula varchar(30) NOT NULL,
 	marca varchar(30) NOT NULL,
 	modelo varchar(30) NOT NULL,
-	fecha_vehiculo date NOT NULL,
-	nacional boolean NOT NULL,
-	longitud numeric NOT NULL,
-	envergadura numeric NOT NULL,
-	area numeric NOT NULL,
-	altura numeric NOT NULL,
-	ancho_cabina numeric NOT NULL,
-	diametro_fuselaje numeric NOT NULL,
-	peso_vacio numeric NOT NULL,
-	peso_maximo numeric NOT NULL,
-	carrera_despeje varchar(30) NOT NULL,
-	velocidad_maxima numeric  NOT NULL,
-	capacidad_combustible numeric NOT NULL,
-	cantidad_motor integer NOT NULL,
-	peso numeric NOT NULL,
-	descripcion varchar(30) NOT NULL,
-	serial_carroceria varchar(30) NOT NULL,
+	fecha_vehiculo varchar(30) NOT NULL,
+	longitud numeric,
+	envergadura numeric,
+	area numeric,
+	altura numeric,
+	ancho_cabina numeric,
+	diametro_fuselaje numeric,
+	peso_vacio numeric,
+	peso_maximo numeric,
+	carrera_despeje varchar(30),
+	velocidad_maxima numeric,
+	capacidad_combustible numeric,
+	cantidad_motor integer,
+	peso numeric,
+	descripcion varchar(30),
+	serial_carroceria varchar(30),
 	fk_sucursal integer NOT NULL,
 	tipo varchar(30) NOT NULL,
 	constraint clasificacion check (clasificacion IN('Terrestre', 'Marítimo', 'Aéreo')),
@@ -201,19 +233,7 @@ CREATE TABLE fallatransporte(
 	fk_transporte_servicio integer NOT NULL,
 	constraint fk_transporte_servicio foreign key(fk_transporte_servicio) references transporte_servicio(codigo)	
 );
-CREATE TABLE telefono(
-	codigo serial NOT NULL primary key,
-	numero integer NOT NULL,
-	tipo varchar(40) NOT NULL,
-	fk_sucursal integer NOT NULL,
-	fk_cliente integer NOT NULL,
-	fk_empleado integer NOT NULL,
-	fk_personacontacto integer NOT NULL,
-	constraint fk_sucursal foreign key(fk_sucursal) references sucursal(codigo),
-	constraint fk_cliente foreign key(fk_cliente) references cliente(id),
-	constraint fk_empleado foreign key(fk_empleado) references empleado(id),
-	constraint fk_personacontacto foreign key(fk_personacontacto) references personacontacto(id)	
-);
+
 CREATE TABLE asistencia(
 	codigo serial NOT NULL primary key,
 	fecha varchar(40) NOT NULL,
@@ -257,6 +277,14 @@ CREATE TABLE area(
 CREATE TABLE sucursal_envio(
 	clave serial NOT NULL primary key,
 	fecha_entrega varchar(40) NOT NULL,
+	fk_sucursal integer NOT NULL,
+	fk_envio integer NOT NULL,
+	constraint fk_sucursal foreign key(fk_sucursal) references sucursal(codigo),
+	constraint fk_envio foreign key(fk_envio) references envio(numero)
+	
+);
+CREATE TABLE sucursal_envio_destino(
+	clave serial NOT NULL primary key,
 	fecha_salida varchar(40) NOT NULL,
 	fk_sucursal integer NOT NULL,
 	fk_envio integer NOT NULL,
@@ -326,15 +354,7 @@ CREATE TABLE estatus_envio(
 	constraint fk_estatus foreign key(fk_estatus) references estatus(codigo),
 	constraint fk_envio foreign key(fk_envio) references envio(numero)
 );
-CREATE TABLE ruta(
-	id serial NOT NULL primary key,
-	costo integer NOT NULL,
-	duracion integer NOT NULL,
-	fk_sucursal_origen integer NOT NULL,
-	fk_sucursal_destino integer NOT NULL,
-	constraint fk_sucursal_origen foreign key(fk_sucursal_origen) references sucursal(codigo),
-	constraint fk_sucursal_destino foreign key(fk_sucursal_destino) references sucursal(codigo)
-);
+
 CREATE TABLE gasto(
 	codigo serial NOT NULL primary key,
 	monto_total integer NOT NULL,
@@ -365,4 +385,12 @@ CREATE TABLE ruta_envio(
 	fk_ruta integer NOT NULL,
 	constraint fk_envio foreign key(fk_envio) references envio(numero),
 	constraint fk_ruta foreign key(fk_ruta) references ruta(id)
+);
+
+CREATE TABLE ruta_transporte(
+	codigo serial NOT NULL primary key, 
+	fk_ruta integer NOT NULL,
+	fk_transporte integer NOT NULL,
+	constraint fk_ruta foreign key(fk_ruta) 	references ruta(id),
+	constraint fk_transporte foreign key	(fk_transporte) references transporte(codigo)
 );
