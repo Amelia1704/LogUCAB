@@ -8,6 +8,8 @@ TO DO
 - Poder editar el teléfono (empleado, cliente, sucursal) 
 - Agregar en que zona de la sucursal trabaja (relacion n-n entre empleado y zona)
 - Agregar tuerquita y no se que es lo otro en vez de boton editar y eliminar 
+- Colocar en la vista de rutas, en duración (minutos) para que ana K vea 
+
 
 ENTREGA #3
 
