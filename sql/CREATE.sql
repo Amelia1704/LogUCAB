@@ -6,16 +6,16 @@
 	constraint fk_lugar foreign key(fk_lugar) references lugar(codigo)
 );
 CREATE TABLE PersonaContacto(
-	id serial NOT NULL unique primary key,
+	id serial NOT NULL primary key,
 	nombre varchar(30) NOT NULL,
 	apellido varchar(30) NOT NULL,
 	cedula integer NOT NULL unique
 );
 CREATE TABLE sucursal(
 	codigo serial NOT NULL unique primary key,
-	nombre varchar(30) NOT NULL,
+	nombre varchar(60) NOT NULL,
 	capacidad integer NOT NULL,
-	email varchar(30) NOT NULL unique,
+	email varchar(60) NOT NULL unique,
 	capacidad_almacenamiento integer NOT NULL,
 	fk_PersonaContacto integer NOT NULL,
 	fk_lugar integer NOT NULL,
@@ -57,12 +57,12 @@ CREATE TABLE pago(
 	codigo serial NOT NULL unique primary key,
 	monto varchar(30) NOT NULL,
 	descripcion varchar(30) NOT NULL,
-	cedula integer NOT NULL unique,
+	cedula integer NOT NULL,
 	tipo_moneda varchar(30) default 'Bolívares'  NOT NULL,
-	numero_cuenta integer NOT NULL unique,
-	banco varchar(30) NOT NULL,
-	cuenta varchar(30) NOT NULL,
-	numero_tarjeta integer NOT NULL unique,
+	numero_cuenta integer unique,
+	banco varchar(30),
+	cuenta varchar(30),
+	numero_tarjeta integer,
 	codigo_seguridad integer,
 	tipo varchar(30) NOT NULL,	
 	constraint cuenta check(cuenta IN('Ahorro', 'Corriente')),
