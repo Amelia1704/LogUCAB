@@ -40739,7 +40739,7 @@ insert into rol_accion (fk_rol, fk_accion) values (5, 2);
 insert into usuario (nombre, contraseña,  fk_empleado, fk_rol) values ('Fabiano', 'QcJsOyJ8VD0', 42, 2);
 insert into usuario (nombre, contraseña,  fk_empleado, fk_rol) values ('Desi', 'Jmmsl3KGv', 160, 4);
 insert into usuario (nombre, contraseña, fk_cliente, fk_rol) values ('Garreth', 'wAtfhStLQCp', 220, 1);
-insert into usuario (nombre, contraseña,  fk_empleado, fk_rol) values ('Gannie', '9LlRImpMg', 11, 1);
+insert into usuario (nombre, contraseña,  fk_empleado, fk_rol) values ('Gannie', '9LlRImpMg', 11, 2);
 insert into usuario (nombre, contraseña, fk_empleado, fk_rol) values ('Hermione', 'ZAxgVoKiKf2', 243, 2);
 
 insert into servicio (tipo, pagina_web, descripcion) values ('Agua', 'https://bizjournals.com', 'Deuda agua');
@@ -42545,20 +42545,20 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 4, 608, 'Rozella', 'Beig', 'rbeig3@cbsnews.com', 111);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7285, 584, 
 
-2, 5, 1792, 'Mag', 'Sharple', 'msharple4@squarespace.com', 21);
+2, 5, 1392, 'Mag', 'Sharple', 'msharple4@squarespace.com', 21);
 
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2523, 671, 
 
 1, 6, 177, 'Lizabeth', 'Skeen', 'lskeen0@unblog.fr', 268);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (791, 671, 
 
-1, 7, 1705, 'Emmye', 'Taberner', 'etaberner1@xrea.com', 164);
+1, 7, 1105, 'Emmye', 'Taberner', 'etaberner1@xrea.com', 164);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (887, 671, 
 
-3, 8, 1833, 'Dwain', 'Danshin', 'ddanshin2@cargocollective.com', 43);
+3, 8, 1133, 'Dwain', 'Danshin', 'ddanshin2@cargocollective.com', 43);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5293, 671, 
 
-3, 9, 2586, 'Bernardina', 'Goldie', 'bgoldie3@stumbleupon.com', 328);
+3, 9, 1586, 'Bernardina', 'Goldie', 'bgoldie3@stumbleupon.com', 328);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3889, 671, 
 
 1, 10, 1537, 'Ambrose', 'Josse', 'ajosse4@springer.com', 34);
@@ -42598,10 +42598,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 21, 181, 'Benni', 'Yetman', 'byetmana@addtoany.com', 197);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1837, 12, 
 
-2, 22, 2406, 'Arielle', 'Jurn', 'ajurnb@lycos.com', 172);
+2, 22, 1406, 'Arielle', 'Jurn', 'ajurnb@lycos.com', 172);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7549, 13, 
 
-3, 23, 1759, 'Michail', 'Dayer', 'mdayerc@comsenz.com', 152);
+3, 23, 1459, 'Michail', 'Dayer', 'mdayerc@comsenz.com', 152);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7060, 14, 
 
 3, 24, 158, 'Barton', 'ducarme', 'bducarmed@imageshack.us', 31);
@@ -42625,13 +42625,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 30, 1090, 'Hobart', 'Apdell', 'hapdellj@privacy.gov.au', 176);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6374, 21, 
 
-1, 31, 1835, 'Grissel', 'Pargent', 'gpargentk@bloglovin.com', 122);
+1, 31, 1235, 'Grissel', 'Pargent', 'gpargentk@bloglovin.com', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3139, 22, 
 
-2, 32, 2135, 'Delphine', 'Kemwal', 'dkemwall@360.cn', 212);
+2, 32, 1135, 'Delphine', 'Kemwal', 'dkemwall@360.cn', 212);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8345, 23, 
 
-1, 33, 2561, 'Corinne', 'McGaugey', 'cmcgaugeym@typepad.com', 255);
+1, 33, 1561, 'Corinne', 'McGaugey', 'cmcgaugeym@typepad.com', 255);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5956, 24, 
 
 2, 34, 226, 'Yolanthe', 'Blaskett', 'yblaskettn@barnesandnoble.com', 141);
@@ -42661,7 +42661,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 42, 1496, 'Say', 'Maile', 'smailev@berkeley.edu', 300);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5226, 33, 
 
-2, 43, 2000, 'Monti', 'Lowdham', 'mlowdhamw@wordpress.com', 332);
+2, 43, 1000, 'Monti', 'Lowdham', 'mlowdhamw@wordpress.com', 332);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4344, 34, 
 
 2, 44, 692, 'Derwin', 'Gelletly', 'dgelletlyx@artisteer.com', 27);
@@ -42670,22 +42670,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 45, 1013, 'Giorgio', 'Ioan', 'gioany@si.edu', 219);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7841, 36, 
 
-2, 46, 2098, 'Leroy', 'Simonelli', 'lsimonelliz@hc360.com', 275);
+2, 46, 1098, 'Leroy', 'Simonelli', 'lsimonelliz@hc360.com', 275);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (158, 37, 1, 
 
-47, 2162, 'Devan', 'Titta', 'dtitta10@bandcamp.com', 98);
+47, 1162, 'Devan', 'Titta', 'dtitta10@bandcamp.com', 98);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3163, 38, 
 
 3, 48, 779, 'Bunni', 'Bernardot', 'bbernardot11@eepurl.com', 208);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7960, 39, 
 
-2, 49, 1761, 'Fredia', 'Bolley', 'fbolley12@techcrunch.com', 122);
+2, 49, 1561, 'Fredia', 'Bolley', 'fbolley12@techcrunch.com', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (996, 40, 3, 
 
 50, 1461, 'Siward', 'Lumber', 'slumber13@edublogs.org', 190);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1510, 41, 
 
-2, 51, 1789, 'Alexandro', 'Knoles', 'aknoles14@mlb.com', 149);
+2, 51, 1489, 'Alexandro', 'Knoles', 'aknoles14@mlb.com', 149);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4583, 42, 
 
 1, 52, 329, 'Latrena', 'Passingham', 'lpassingham15@engadget.com', 25);
@@ -42694,7 +42694,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 53, 1334, 'Charmain', 'Spence', 'cspence16@blinklist.com', 187);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1251, 44, 
 
-3, 54, 1818, 'Annabella', 'Jouannin', 'ajouannin17@home.pl', 261);
+3, 54, 1118, 'Annabella', 'Jouannin', 'ajouannin17@home.pl', 261);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2178, 45, 
 
 2, 55, 688, 'Hewe', 'Farnall', 'hfarnall18@china.com.cn', 264);
@@ -42709,7 +42709,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 58, 795, 'Hayyim', 'Betser', 'hbetser1b@wired.com', 210);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2904, 49, 
 
-2, 59, 2654, 'Kandace', 'Beesley', 'kbeesley1c@tinyurl.com', 254);
+2, 59, 1654, 'Kandace', 'Beesley', 'kbeesley1c@tinyurl.com', 254);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5986, 50, 
 
 1, 60, 1310, 'Welsh', 'Gatrell', 'wgatrell1d@skype.com', 2);
@@ -42721,19 +42721,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 62, 134, 'Nickey', 'Standish', 'nstandish1f@howstuffworks.com', 143);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3605, 53, 
 
-2, 63, 1788, 'Jarrad', 'Yakobowitch', 'jyakobowitch1g@google.ru', 282);
+2, 63, 1188, 'Jarrad', 'Yakobowitch', 'jyakobowitch1g@google.ru', 282);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7103, 54, 
 
 3, 64, 1445, 'Carola', 'Scalera', 'cscalera1h@toplist.cz', 301);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9488, 55, 
 
-1, 65, 2623, 'Paddie', 'Sudddard', 'psudddard1i@who.int', 301);
+1, 65, 1623, 'Paddie', 'Sudddard', 'psudddard1i@who.int', 301);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8069, 56, 
 
 2, 66, 597, 'Rustie', 'Roft', 'rroft1j@biblegateway.com', 134);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5592, 57, 
 
-3, 67, 2486, 'Kenton', 'Gruczka', 'kgruczka1k@jigsy.com', 259);
+3, 67, 1486, 'Kenton', 'Gruczka', 'kgruczka1k@jigsy.com', 259);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3110, 58, 
 
 2, 68, 124, 'Terrill', 'Rosthorn', 'trosthorn1l@spotify.com', 83);
@@ -42751,7 +42751,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 72, 972, 'Glori', 'Ostrich', 'gostrich1p@ebay.com', 8);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9798, 63, 
 
-1, 73, 1960, 'Trixi', 'Inett', 'tinett1q@reuters.com', 104);
+1, 73, 1160, 'Trixi', 'Inett', 'tinett1q@reuters.com', 104);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7034, 64, 
 
 2, 74, 1527, 'Ripley', 'Elles', 'relles1r@sogou.com', 318);
@@ -42763,13 +42763,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 76, 418, 'Pietrek', 'Pennetti', 'ppennetti1t@lulu.com', 268);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5928, 67, 
 
-2, 77, 1976, 'Winny', 'Hebble', 'whebble1u@google.com.br', 55);
+2, 77, 1176, 'Winny', 'Hebble', 'whebble1u@google.com.br', 55);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8193, 68, 
 
-3, 78, 2167, 'Eberto', 'Tomaszewicz', 'etomaszewicz1v@nsw.gov.au', 134);
+3, 78, 1167, 'Eberto', 'Tomaszewicz', 'etomaszewicz1v@nsw.gov.au', 134);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8418, 69, 
 
-3, 79, 1885, 'Karisa', 'Luffman', 'kluffman1w@feedburner.com', 325);
+3, 79, 1185, 'Karisa', 'Luffman', 'kluffman1w@feedburner.com', 325);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (175, 70, 1, 
 
 80, 107, 'Eustace', 'Banke', 'ebanke1x@wisc.edu', 67);
@@ -42796,7 +42796,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 87, 1543, 'Davie', 'Wrathall', 'dwrathall24@phoca.cz', 325);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6715, 78, 
 
-3, 88, 2217, 'Laurie', 'Raleston', 'lraleston25@tripod.com', 54);
+3, 88, 1217, 'Laurie', 'Raleston', 'lraleston25@tripod.com', 54);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4551, 79, 
 
 1, 89, 393, 'Bernete', 'Walker', 'bwalker26@ycombinator.com', 232);
@@ -42808,22 +42808,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 91, 879, 'Nathalie', 'Simenon', 'nsimenon28@friendfeed.com', 323);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2783, 82, 
 
-1, 92, 2308, 'Della', 'Davidavidovics', 'ddavidavidovics29@imgur.com', 20);
+1, 92, 1308, 'Della', 'Davidavidovics', 'ddavidavidovics29@imgur.com', 20);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5794, 83, 
 
-1, 93, 2284, 'Frasco', 'Buffy', 'fbuffy2a@so-net.ne.jp', 274);
+1, 93, 1284, 'Frasco', 'Buffy', 'fbuffy2a@so-net.ne.jp', 274);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8318, 84, 
 
 1, 94, 250, 'Marigold', 'Stormont', 'mstormont2b@mediafire.com', 126);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6779, 85, 
 
-2, 95, 1970, 'Lorna', 'Dowse', 'ldowse2c@blinklist.com', 17);
+2, 95, 1170, 'Lorna', 'Dowse', 'ldowse2c@blinklist.com', 17);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9423, 86, 
 
 3, 96, 1199, 'Grenville', 'Pleass', 'gpleass2d@skyrock.com', 106);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1796, 87, 
 
-3, 97, 1288, 'Trudie', 'Whyard', 'twhyard2e@shareasale.com', 76);
+3, 97, 1188, 'Trudie', 'Whyard', 'twhyard2e@shareasale.com', 76);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (782, 88, 3, 
 
 98, 1047, 'Ingaborg', 'de Mendoza', 'idemendoza2f@youtube.com', 203);
@@ -42832,10 +42832,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 99, 122, 'Del', 'Weiner', 'dweiner2g@intel.com', 25);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1543, 90, 
 
-1, 100, 1711, 'Hinda', 'Liepina', 'hliepina2h@businesswire.com', 316);
+1, 100, 1111, 'Hinda', 'Liepina', 'hliepina2h@businesswire.com', 316);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3139, 91, 
 
-2, 101, 1888, 'Rafferty', 'Crabbe', 'rcrabbe2i@360.cn', 24);
+2, 101, 1188, 'Rafferty', 'Crabbe', 'rcrabbe2i@360.cn', 24);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8708, 92, 
 
 3, 102, 1553, 'Tonie', 'Lauks', 'tlauks2j@mac.com', 93);
@@ -42850,7 +42850,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 105, 929, 'Ingamar', 'Childes', 'ichildes2m@123-reg.co.uk', 117);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8949, 96, 
 
-1, 106, 2256, 'Ernie', 'Bratton', 'ebratton2n@slashdot.org', 65);
+1, 106, 1256, 'Ernie', 'Bratton', 'ebratton2n@slashdot.org', 65);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (831, 97, 2, 
 
 107, 1079, 'Burtie', 'Rigts', 'brigts2o@hhs.gov', 248);
@@ -42868,7 +42868,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 111, 1266, 'Parrnell', 'MacCrann', 'pmaccrann2s@ftc.gov', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5488, 102, 
 
-2, 112, 2368, 'Rodrigo', 'Kinglake', 'rkinglake2t@springer.com', 36);
+2, 112, 1368, 'Rodrigo', 'Kinglake', 'rkinglake2t@springer.com', 36);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1996, 103, 
 
 3, 113, 927, 'Yves', 'Crowcroft', 'ycrowcroft2u@rakuten.co.jp', 48);
@@ -42892,49 +42892,49 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 119, 794, 'Moira', 'Blyth', 'mblyth30@nasa.gov', 165);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7724, 110, 
 
-1, 120, 2151, 'Clarance', 'Gerner', 'cgerner31@gov.uk', 153);
+1, 120, 1151, 'Clarance', 'Gerner', 'cgerner31@gov.uk', 153);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2209, 111, 
 
 2, 121, 97, 'Nikki', 'Titmarsh', 'ntitmarsh32@issuu.com', 59);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (764, 112, 
 
-3, 122, 2513, 'Ashby', 'Instone', 'ainstone33@naver.com', 118);
+3, 122, 1513, 'Ashby', 'Instone', 'ainstone33@naver.com', 118);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5480, 113, 
 
-2, 123, 1756, 'Issiah', 'Lergan', 'ilergan34@istockphoto.com', 301);
+2, 123, 1256, 'Issiah', 'Lergan', 'ilergan34@istockphoto.com', 301);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7550, 114, 
 
 2, 124, 1211, 'Chantal', 'Ambrus', 'cambrus35@bloomberg.com', 51);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8933, 115, 
 
-1, 125, 2334, 'Merrielle', 'Allen', 'mallen36@csmonitor.com', 7);
+1, 125, 1334, 'Merrielle', 'Allen', 'mallen36@csmonitor.com', 7);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8884, 116, 
 
 2, 126, 905, 'Nilson', 'Joutapaitis', 'njoutapaitis37@usda.gov', 54);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7555, 117, 
 
-1, 127, 2208, 'Nahum', 'Dragoe', 'ndragoe38@bloomberg.com', 288);
+1, 127, 1208, 'Nahum', 'Dragoe', 'ndragoe38@bloomberg.com', 288);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5014, 118, 
 
 2, 128, 1582, 'Frants', 'Schusterl', 'fschusterl39@google.co.uk', 148);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7149, 119, 
 
-1, 129, 1962, 'Beverlee', 'Hess', 'bhess3a@parallels.com', 13);
+1, 129, 1162, 'Beverlee', 'Hess', 'bhess3a@parallels.com', 13);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2952, 120, 
 
-3, 130, 2118, 'Blair', 'Flips', 'bflips3b@virginia.edu', 93);
+3, 130, 1118, 'Blair', 'Flips', 'bflips3b@virginia.edu', 93);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9773, 121, 
 
 3, 131, 1145, 'Tyrone', 'Soldan', 'tsoldan3c@berkeley.edu', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7340, 122, 
 
-2, 132, 2362, 'Janela', 'Tomisch', 'jtomisch3d@facebook.com', 40);
+2, 132, 1362, 'Janela', 'Tomisch', 'jtomisch3d@facebook.com', 40);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1487, 123, 
 
-1, 133, 2191, 'Marielle', 'Kennewell', 'mkennewell3e@typepad.com', 255);
+1, 133, 1191, 'Marielle', 'Kennewell', 'mkennewell3e@typepad.com', 255);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9165, 124, 
 
-3, 134, 2327, 'Aldous', 'Copestick', 'acopestick3f@de.vu', 69);
+3, 134, 1327, 'Aldous', 'Copestick', 'acopestick3f@de.vu', 69);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8373, 125, 
 
 2, 135, 1992, 'Rochester', 'Ranken', 'rranken3g@nba.com', 171);
@@ -42946,13 +42946,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 137, 1318, 'Kellina', 'Batting', 'kbatting3i@google.nl', 156);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2472, 128, 
 
-1, 138, 2559, 'Janessa', 'Bygreaves', 'jbygreaves3j@csmonitor.com', 248);
+1, 138, 1559, 'Janessa', 'Bygreaves', 'jbygreaves3j@csmonitor.com', 248);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1692, 129, 
 
 2, 139, 952, 'Isahella', 'Syfax', 'isyfax3k@cpanel.net', 133);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3612, 130, 
 
-3, 140, 2302, 'Kania', 'Foord', 'kfoord3l@sakura.ne.jp', 254);
+3, 140, 1302, 'Kania', 'Foord', 'kfoord3l@sakura.ne.jp', 254);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2620, 131, 
 
 3, 141, 621, 'Gasper', 'Greenshields', 'ggreenshields3m@ox.ac.uk', 6);
@@ -42961,7 +42961,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 142, 555, 'Brenda', 'Hairsnape', 'bhairsnape3n@ibm.com', 207);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7868, 133, 
 
-2, 143, 2423, 'Kip', 'Collidge', 'kcollidge3o@psu.edu', 90);
+2, 143, 1423, 'Kip', 'Collidge', 'kcollidge3o@psu.edu', 90);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (512, 134, 
 
 3, 144, 932, 'Aindrea', 'Kilsby', 'akilsby3p@goodreads.com', 120);
@@ -42976,10 +42976,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 147, 252, 'Olvan', 'Osbaldstone', 'oosbaldstone3s@angelfire.com', 155);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9827, 138, 
 
-1, 148, 2385, 'Bondy', 'De Beauchemp', 'bdebeauchemp3t@wisc.edu', 291);
+1, 148, 1385, 'Bondy', 'De Beauchemp', 'bdebeauchemp3t@wisc.edu', 291);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9166, 139, 
 
-1, 149, 2033, 'Garreth', 'Randerson', 'granderson3u@squarespace.com', 106);
+1, 149, 1033, 'Garreth', 'Randerson', 'granderson3u@squarespace.com', 106);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4436, 140, 
 
 3, 150, 1517, 'Garwin', 'Shevlan', 'gshevlan3v@people.com.cn', 175);
@@ -43000,7 +43000,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 155, 54, 'Harry', 'Pillinger', 'hpillinger40@joomla.org', 39);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7878, 146, 
 
-3, 156, 2070, 'Davina', 'Haversum', 'dhaversum41@yelp.com', 24);
+3, 156, 1070, 'Davina', 'Haversum', 'dhaversum41@yelp.com', 24);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8351, 147, 
 
 1, 157, 49, 'Bucky', 'Rollo', 'brollo42@tripod.com', 35);
@@ -43009,16 +43009,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 158, 1489, 'Pauly', 'Joscelyne', 'pjoscelyne43@dion.ne.jp', 236);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4146, 149, 
 
-3, 159, 1862, 'Shelton', 'Howford', 'showford44@i2i.jp', 311);
+3, 159, 1162, 'Shelton', 'Howford', 'showford44@i2i.jp', 311);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9324, 150, 
 
 2, 160, 464, 'Katinka', 'Godball', 'kgodball45@google.com.br', 6);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7071, 151, 
 
-3, 161, 1726, 'Olympia', 'Stichel', 'ostichel46@adobe.com', 213);
+3, 161, 1126, 'Olympia', 'Stichel', 'ostichel46@adobe.com', 213);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9642, 152, 
 
-1, 162, 2425, 'Sianna', 'Butland', 'sbutland47@dedecms.com', 203);
+1, 162, 1425, 'Sianna', 'Butland', 'sbutland47@dedecms.com', 203);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3048, 153, 
 
 1, 163, 1329, 'Ted', 'Mitie', 'tmitie48@geocities.com', 26);
@@ -43039,16 +43039,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 168, 903, 'Matilde', 'Stapley', 'mstapley4d@trellian.com', 38);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7461, 159, 
 
-1, 169, 2589, 'Byran', 'Matfield', 'bmatfield4e@newsvine.com', 121);
+1, 169, 1589, 'Byran', 'Matfield', 'bmatfield4e@newsvine.com', 121);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4267, 160, 
 
-3, 170, 2591, 'Barry', 'Thies', 'bthies4f@wikimedia.org', 254);
+3, 170, 1591, 'Barry', 'Thies', 'bthies4f@wikimedia.org', 254);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (741, 161, 
 
-1, 171, 2655, 'Michaella', 'Trewman', 'mtrewman4g@soup.io', 279);
+1, 171, 1655, 'Michaella', 'Trewman', 'mtrewman4g@soup.io', 279);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6525, 162, 
 
-3, 172, 1819, 'Dillon', 'Surgener', 'dsurgener4h@1und1.de', 53);
+3, 172, 1119, 'Dillon', 'Surgener', 'dsurgener4h@1und1.de', 53);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4156, 163, 
 
 1, 173, 1655, 'Raphaela', 'Godart', 'rgodart4i@tripadvisor.com', 224);
@@ -43060,10 +43060,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 175, 185, 'Farah', 'Kift', 'fkift4k@utexas.edu', 330);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6090, 166, 
 
-3, 176, 2253, 'Adella', 'Towey', 'atowey4l@odnoklassniki.ru', 275);
+3, 176, 1253, 'Adella', 'Towey', 'atowey4l@odnoklassniki.ru', 275);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (838, 167, 
 
-3, 177, 2405, 'Emmery', 'Soigoux', 'esoigoux4m@w3.org', 90);
+3, 177, 1405, 'Emmery', 'Soigoux', 'esoigoux4m@w3.org', 90);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9670, 168, 
 
 2, 178, 87, 'Garrott', 'Hobell', 'ghobell4n@diigo.com', 64);
@@ -43072,10 +43072,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 179, 1012, 'Arlen', 'Poppleton', 'apoppleton4o@sciencedaily.com', 110);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7556, 170, 
 
-2, 180, 1695, 'Conway', 'Oby', 'coby4p@digg.com', 197);
+2, 180, 1615, 'Conway', 'Oby', 'coby4p@digg.com', 197);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7098, 171, 
 
-1, 181, 2630, 'Jody', 'Wildey', 'jwildey4q@webeden.co.uk', 293);
+1, 181, 1630, 'Jody', 'Wildey', 'jwildey4q@webeden.co.uk', 293);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9838, 172, 
 
 3, 182, 370, 'Urban', 'Thebeaud', 'uthebeaud4r@dyndns.org', 264);
@@ -43084,55 +43084,55 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 183, 1167, 'Marsha', 'Grantham', 'mgrantham4s@vistaprint.com', 162);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6745, 174, 
 
-3, 184, 1777, 'Henrie', 'Golsby', 'hgolsby4t@alibaba.com', 16);
+3, 184, 1177, 'Henrie', 'Golsby', 'hgolsby4t@alibaba.com', 16);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3126, 175, 
 
-2, 185, 2142, 'Raoul', 'Shortall', 'rshortall4u@smh.com.au', 164);
+2, 185, 1142, 'Raoul', 'Shortall', 'rshortall4u@smh.com.au', 164);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8093, 176, 
 
 1, 186, 658, 'Brander', 'Gynni', 'bgynni4v@indiatimes.com', 51);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4871, 177, 
 
-2, 187, 2246, 'Berny', 'Dunseath', 'bdunseath4w@paypal.com', 96);
+2, 187, 1246, 'Berny', 'Dunseath', 'bdunseath4w@paypal.com', 96);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2895, 178, 
 
 2, 188, 63, 'Zena', 'Spick', 'zspick4x@ted.com', 275);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3564, 179, 
 
-2, 189, 1822, 'Anne-corinne', 'Tapp', 'atapp4y@squarespace.com', 7);
+2, 189, 1122, 'Anne-corinne', 'Tapp', 'atapp4y@squarespace.com', 7);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (630, 180, 
 
-1, 190, 2621, 'Lefty', 'Enticknap', 'lenticknap4z@accuweather.com', 238);
+1, 190, 1621, 'Lefty', 'Enticknap', 'lenticknap4z@accuweather.com', 238);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7712, 181, 
 
-2, 191, 1929, 'Emlynne', 'Walne', 'ewalne50@state.tx.us', 91);
+2, 191, 1129, 'Emlynne', 'Walne', 'ewalne50@state.tx.us', 91);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9427, 182, 
 
-1, 192, 1859, 'Batsheva', 'Kitchenham', 'bkitchenham51@yahoo.co.jp', 247);
+1, 192, 1159, 'Batsheva', 'Kitchenham', 'bkitchenham51@yahoo.co.jp', 247);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5532, 183, 
 
 3, 193, 1352, 'Bren', 'Carman', 'bcarman52@weebly.com', 257);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6718, 184, 
 
-1, 194, 2195, 'Sherlocke', 'Portwain', 'sportwain53@woothemes.com', 154);
+1, 194, 1195, 'Sherlocke', 'Portwain', 'sportwain53@woothemes.com', 154);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5349, 185, 
 
-3, 195, 2565, 'Dru', 'Christley', 'dchristley54@state.gov', 108);
+3, 195, 1565, 'Dru', 'Christley', 'dchristley54@state.gov', 108);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (626, 186, 
 
-3, 196, 1946, 'Gale', 'Hewes', 'ghewes55@unicef.org', 32);
+3, 196, 1146, 'Gale', 'Hewes', 'ghewes55@unicef.org', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5541, 187, 
 
-3, 197, 1847, 'Jocelyne', 'McIlveen', 'jmcilveen56@weibo.com', 247);
+3, 197, 1147, 'Jocelyne', 'McIlveen', 'jmcilveen56@weibo.com', 247);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3559, 188, 
 
 3, 198, 27, 'North', 'Haggarth', 'nhaggarth57@vkontakte.ru', 83);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9097, 189, 
 
-1, 199, 1866, 'Ameline', 'Proswell', 'aproswell58@thetimes.co.uk', 243);
+1, 199, 1266, 'Ameline', 'Proswell', 'aproswell58@thetimes.co.uk', 243);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1200, 190, 
 
-2, 200, 2333, 'Ki', 'Tremberth', 'ktremberth59@edublogs.org', 58);
+2, 200, 1333, 'Ki', 'Tremberth', 'ktremberth59@edublogs.org', 58);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5499, 191, 
 
 1, 201, 1127, 'Minetta', 'Reynish', 'mreynish5a@kickstarter.com', 120);
@@ -43165,28 +43165,28 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 210, 581, 'Licha', 'Hutchence', 'lhutchence5j@phoca.cz', 305);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7334, 201, 
 
-1, 211, 2101, 'Wallie', 'Broadbury', 'wbroadbury5k@blog.com', 93);
+1, 211, 1101, 'Wallie', 'Broadbury', 'wbroadbury5k@blog.com', 93);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8532, 202, 
 
-2, 212, 2326, 'Damaris', 'Sizeland', 'dsizeland5l@alibaba.com', 290);
+2, 212, 1326, 'Damaris', 'Sizeland', 'dsizeland5l@alibaba.com', 290);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1462, 203, 
 
 3, 213, 229, 'Selig', 'Ionnidis', 'sionnidis5m@posterous.com', 237);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5191, 204, 
 
-1, 214, 2543, 'Laurette', 'Vasyukhichev', 'lvasyukhichev5n@weibo.com', 133);
+1, 214, 1543, 'Laurette', 'Vasyukhichev', 'lvasyukhichev5n@weibo.com', 133);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3272, 205, 
 
-2, 215, 2162, 'Shay', 'Cawt', 'scawt5o@ucoz.ru', 108);
+2, 215, 1162, 'Shay', 'Cawt', 'scawt5o@ucoz.ru', 108);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7193, 206, 
 
 2, 216, 522, 'Brew', 'Roussell', 'broussell5p@meetup.com', 197);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8740, 207, 
 
-1, 217, 2418, 'Cordey', 'Keeton', 'ckeeton5q@pinterest.com', 281);
+1, 217, 1418, 'Cordey', 'Keeton', 'ckeeton5q@pinterest.com', 281);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2323, 208, 
 
-2, 218, 2587, 'Adelle', 'Peller', 'apeller5r@eventbrite.com', 130);
+2, 218, 1587, 'Adelle', 'Peller', 'apeller5r@eventbrite.com', 130);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9757, 209, 
 
 1, 219, 327, 'Danny', 'Seydlitz', 'dseydlitz5s@xing.com', 201);
@@ -43210,7 +43210,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 225, 215, 'Olenolin', 'Cocklin', 'ococklin5y@patch.com', 325);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7150, 216, 
 
-1, 226, 1794, 'Bondie', 'Christophle', 'bchristophle5z@goo.ne.jp', 56);
+1, 226, 1194, 'Bondie', 'Christophle', 'bchristophle5z@goo.ne.jp', 56);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9778, 217, 
 
 3, 227, 989, 'Cary', 'Redmire', 'credmire60@microsoft.com', 187);
@@ -43222,7 +43222,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 229, 1340, 'Dixie', 'Huband', 'dhuband62@chicagotribune.com', 147);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8392, 220, 
 
-3, 230, 2166, 'Honor', 'Tuite', 'htuite63@amazonaws.com', 270);
+3, 230, 1166, 'Honor', 'Tuite', 'htuite63@amazonaws.com', 270);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1614, 221, 
 
 3, 231, 1597, 'Domini', 'Buff', 'dbuff64@booking.com', 311);
@@ -43234,7 +43234,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 233, 1375, 'Claudine', 'Moodey', 'cmoodey66@behance.net', 238);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7978, 224, 
 
-1, 234, 1678, 'Eldridge', 'Lamy', 'elamy67@independent.co.uk', 295);
+1, 234, 1628, 'Eldridge', 'Lamy', 'elamy67@independent.co.uk', 295);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5605, 225, 
 
 1, 235, 1045, 'Chaddie', 'Finlay', 'cfinlay68@patch.com', 98);
@@ -43258,13 +43258,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 241, 1457, 'Cletis', 'Pohl', 'cpohl6e@clickbank.net', 35);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9114, 232, 
 
-1, 242, 1966, 'Rufe', 'Chinn', 'rchinn6f@sitemeter.com', 82);
+1, 242, 1166, 'Rufe', 'Chinn', 'rchinn6f@sitemeter.com', 82);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7307, 233, 
 
 3, 243, 873, 'Albie', 'Schubbert', 'aschubbert6g@artisteer.com', 154);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9861, 234, 
 
-1, 244, 2629, 'Early', 'Brunsden', 'ebrunsden6h@whitehouse.gov', 312);
+1, 244, 1629, 'Early', 'Brunsden', 'ebrunsden6h@whitehouse.gov', 312);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4073, 235, 
 
 3, 245, 284, 'Francesca', 'Sherebrooke', 'fsherebrooke6i@list-manage.com', 244);
@@ -43285,10 +43285,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 250, 1150, 'Nola', 'Shawe', 'nshawe6n@com.com', 80);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (600, 241, 
 
-2, 251, 2106, 'Esteban', 'Yitzhok', 'eyitzhok6o@google.com.br', 65);
+2, 251, 1106, 'Esteban', 'Yitzhok', 'eyitzhok6o@google.com.br', 65);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7602, 242, 
 
-1, 252, 1893, 'Udall', 'Willerson', 'uwillerson6p@comsenz.com', 304);
+1, 252, 1193, 'Udall', 'Willerson', 'uwillerson6p@comsenz.com', 304);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (700, 243, 
 
 3, 253, 1533, 'Donni', 'Martill', 'dmartill6q@kickstarter.com', 186);
@@ -43303,7 +43303,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 256, 692, 'Alyss', 'Daoust', 'adaoust6t@addthis.com', 191);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6553, 247, 
 
-3, 257, 2635, 'Rodolfo', 'Inman', 'rinman6u@sfgate.com', 14);
+3, 257, 1635, 'Rodolfo', 'Inman', 'rinman6u@sfgate.com', 14);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3905, 248, 
 
 1, 258, 1363, 'Harlen', 'Snaden', 'hsnaden6v@freewebs.com', 59);
@@ -43321,7 +43321,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 262, 1659, 'Huntlee', 'Noller', 'hnoller6z@hugedomains.com', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5384, 253, 
 
-2, 263, 1816, 'Dav', 'Cristou', 'dcristou70@dion.ne.jp', 300);
+2, 263, 1116, 'Dav', 'Cristou', 'dcristou70@dion.ne.jp', 300);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4561, 254, 
 
 2, 264, 1584, 'Sunny', 'Heims', 'sheims71@theatlantic.com', 251);
@@ -43330,13 +43330,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 265, 61, 'Jessalyn', 'Kinglesyd', 'jkinglesyd72@businessweek.com', 281);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8828, 256, 
 
-1, 266, 2575, 'Willem', 'Porkiss', 'wporkiss73@biglobe.ne.jp', 333);
+1, 266, 1575, 'Willem', 'Porkiss', 'wporkiss73@biglobe.ne.jp', 333);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1255, 257, 
 
 1, 267, 1185, 'Lionel', 'Ivanyutin', 'livanyutin74@rambler.ru', 262);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1136, 258, 
 
-3, 268, 2157, 'Kippy', 'Mazzilli', 'kmazzilli75@mozilla.org', 45);
+3, 268, 1157, 'Kippy', 'Mazzilli', 'kmazzilli75@mozilla.org', 45);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9897, 259, 
 
 2, 269, 794, 'Christean', 'Meaden', 'cmeaden76@theatlantic.com', 190);
@@ -43345,13 +43345,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 270, 577, 'Lari', 'Davidov', 'ldavidov77@techcrunch.com', 8);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (532, 261, 
 
-2, 271, 2486, 'Freddie', 'Senett', 'fsenett78@msn.com', 173);
+2, 271, 1486, 'Freddie', 'Senett', 'fsenett78@msn.com', 173);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8299, 262, 
 
-2, 272, 2171, 'Feliza', 'Hanwright', 'fhanwright79@bigcartel.com', 134);
+2, 272, 1171, 'Feliza', 'Hanwright', 'fhanwright79@bigcartel.com', 134);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9703, 263, 
 
-3, 273, 2585, 'Nettle', 'Roslen', 'nroslen7a@businessinsider.com', 39);
+3, 273, 1585, 'Nettle', 'Roslen', 'nroslen7a@businessinsider.com', 39);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4428, 264, 
 
 1, 274, 519, 'Constantin', 'Pates', 'cpates7b@bing.com', 3);
@@ -43381,7 +43381,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 282, 1562, 'George', 'Belamy', 'gbelamy7j@ycombinator.com', 291);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2367, 273, 
 
-3, 283, 2520, 'Vernon', 'Lambdean', 'vlambdean7k@webmd.com', 328);
+3, 283, 1520, 'Vernon', 'Lambdean', 'vlambdean7k@webmd.com', 328);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5580, 274, 
 
 3, 284, 1210, 'Alta', 'Kerss', 'akerss7l@devhub.com', 47);
@@ -43405,25 +43405,25 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 290, 1527, 'Siobhan', 'Coomer', 'scoomer7r@goo.ne.jp', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3548, 281, 
 
-1, 291, 2080, 'Mendy', 'Padkin', 'mpadkin7s@privacy.gov.au', 97);
+1, 291, 1080, 'Mendy', 'Padkin', 'mpadkin7s@privacy.gov.au', 97);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9930, 282, 
 
-2, 292, 2101, 'Cathyleen', 'McNulty', 'cmcnulty7t@homestead.com', 23);
+2, 292, 1101, 'Cathyleen', 'McNulty', 'cmcnulty7t@homestead.com', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9523, 283, 
 
-2, 293, 2446, 'Goldarina', 'Caves', 'gcaves7u@youku.com', 100);
+2, 293, 1446, 'Goldarina', 'Caves', 'gcaves7u@youku.com', 100);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (983, 284, 
 
 1, 294, 797, 'Alina', 'Marflitt', 'amarflitt7v@skype.com', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8140, 285, 
 
-1, 295, 1837, 'Urban', 'Bygrave', 'ubygrave7w@usa.gov', 9);
+1, 295, 1137, 'Urban', 'Bygrave', 'ubygrave7w@usa.gov', 9);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5256, 286, 
 
 2, 296, 188, 'Eadmund', 'Roswarne', 'eroswarne7x@ucsd.edu', 325);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1917, 287, 
 
-2, 297, 2385, 'Humfrid', 'Petrov', 'hpetrov7y@webnode.com', 187);
+2, 297, 1385, 'Humfrid', 'Petrov', 'hpetrov7y@webnode.com', 187);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7714, 288, 
 
 1, 298, 1284, 'Errick', 'Fantin', 'efantin7z@ning.com', 321);
@@ -43432,7 +43432,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 299, 301, 'Price', 'Ivatt', 'pivatt80@google.co.jp', 242);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3797, 290, 
 
-3, 300, 2432, 'Jillana', 'Braund', 'jbraund81@npr.org', 79);
+3, 300, 1432, 'Jillana', 'Braund', 'jbraund81@npr.org', 79);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1235, 291, 
 
 1, 301, 1231, 'Floyd', 'Rotchell', 'frotchell82@hubpages.com', 226);
@@ -43444,7 +43444,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 303, 706, 'Stepha', 'Ocheltree', 'socheltree84@nationalgeographic.com', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3423, 294, 
 
-1, 304, 2422, 'Beulah', 'Eckford', 'beckford85@moonfruit.com', 297);
+1, 304, 1422, 'Beulah', 'Eckford', 'beckford85@moonfruit.com', 297);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6435, 295, 
 
 1, 305, 775, 'Lucia', 'Clark', 'lclark86@soup.io', 302);
@@ -43453,10 +43453,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 306, 436, 'Chico', 'Pithcock', 'cpithcock87@mozilla.org', 79);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3706, 297, 
 
-1, 307, 2221, 'Zelma', 'Duer', 'zduer88@sfgate.com', 44);
+1, 307, 1221, 'Zelma', 'Duer', 'zduer88@sfgate.com', 44);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6185, 298, 
 
-3, 308, 1877, 'Jackquelin', 'Canning', 'jcanning89@wikipedia.org', 43);
+3, 308, 1177, 'Jackquelin', 'Canning', 'jcanning89@wikipedia.org', 43);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9819, 299, 
 
 1, 309, 945, 'Garrick', 'Leindecker', 'gleindecker8a@unblog.fr', 221);
@@ -43465,10 +43465,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 310, 664, 'Bev', 'Stogill', 'bstogill8b@etsy.com', 151);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8078, 301, 
 
-1, 311, 2350, 'Tessa', 'Atwool', 'tatwool8c@barnesandnoble.com', 74);
+1, 311, 1350, 'Tessa', 'Atwool', 'tatwool8c@barnesandnoble.com', 74);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2664, 302, 
 
-1, 312, 2563, 'Josefina', 'Nitto', 'jnitto8d@upenn.edu', 102);
+1, 312, 1563, 'Josefina', 'Nitto', 'jnitto8d@upenn.edu', 102);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1827, 303, 
 
 3, 313, 873, 'Gwenni', 'Baxill', 'gbaxill8e@stumbleupon.com', 308);
@@ -43489,10 +43489,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 318, 585, 'Suzann', 'Fawthrop', 'sfawthrop8j@privacy.gov.au', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2544, 309, 
 
-3, 319, 1693, 'Margette', 'Melburg', 'mmelburg8k@apple.com', 160);
+3, 319, 1643, 'Margette', 'Melburg', 'mmelburg8k@apple.com', 160);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4176, 310, 
 
-3, 320, 2256, 'Sayre', 'Franciskiewicz', 'sfranciskiewicz8l@go.com', 299);
+3, 320, 1256, 'Sayre', 'Franciskiewicz', 'sfranciskiewicz8l@go.com', 299);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9236, 311, 
 
 1, 321, 1547, 'Bev', 'Ridgley', 'bridgley8m@yolasite.com', 301);
@@ -43501,7 +43501,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 322, 86, 'Drake', 'Skaif', 'dskaif8n@google.cn', 156);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9929, 313, 
 
-3, 323, 2651, 'Boonie', 'Lethlay', 'blethlay8o@cornell.edu', 321);
+3, 323, 1651, 'Boonie', 'Lethlay', 'blethlay8o@cornell.edu', 321);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6032, 314, 
 
 1, 324, 168, 'Juan', 'Lago', 'jlago8p@slashdot.org', 224);
@@ -43519,13 +43519,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 328, 437, 'Gardy', 'Lenchenko', 'glenchenko8t@biglobe.ne.jp', 314);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2731, 319, 
 
-3, 329, 1915, 'Maddy', 'Leadstone', 'mleadstone8u@cpanel.net', 143);
+3, 329, 1415, 'Maddy', 'Leadstone', 'mleadstone8u@cpanel.net', 143);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1056, 320, 
 
 1, 330, 133, 'Haily', 'Batkin', 'hbatkin8v@ucoz.ru', 286);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3542, 321, 
 
-3, 331, 2615, 'Nedi', 'Orts', 'norts8w@cbslocal.com', 204);
+3, 331, 1615, 'Nedi', 'Orts', 'norts8w@cbslocal.com', 204);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3631, 322, 
 
 3, 332, 1251, 'Eula', 'Shillabeare', 'eshillabeare8x@blogs.com', 247);
@@ -43543,7 +43543,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 336, 355, 'Rorie', 'McDonnell', 'rmcdonnell91@amazon.de', 255);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3543, 327, 
 
-1, 337, 2492, 'Carlotta', 'Panton', 'cpanton92@cnn.com', 136);
+1, 337, 1492, 'Carlotta', 'Panton', 'cpanton92@cnn.com', 136);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9907, 328, 
 
 3, 338, 1311, 'Braden', 'Brolan', 'bbrolan93@mozilla.org', 94);
@@ -43552,13 +43552,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 339, 659, 'Peri', 'Orneles', 'porneles94@soup.io', 169);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1751, 330, 
 
-1, 340, 1706, 'Ysabel', 'Bartoletti', 'ybartoletti95@barnesandnoble.com', 154);
+1, 340, 1306, 'Ysabel', 'Bartoletti', 'ybartoletti95@barnesandnoble.com', 154);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4995, 331, 
 
 3, 341, 1607, 'Cami', 'Sterling', 'csterling96@multiply.com', 237);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7192, 332, 
 
-2, 342, 2028, 'Guillema', 'Goroni', 'ggoroni97@liveinternet.ru', 114);
+2, 342, 1028, 'Guillema', 'Goroni', 'ggoroni97@liveinternet.ru', 114);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7611, 333, 
 
 1, 343, 1394, 'Mart', 'Bernlin', 'mbernlin98@un.org', 223);
@@ -43570,10 +43570,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 345, 802, 'Izabel', 'Matthisson', 'imatthisson9a@tripadvisor.com', 185);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3442, 336, 
 
-3, 346, 1719, 'Torey', 'Cogdon', 'tcogdon9b@nydailynews.com', 102);
+3, 346, 1519, 'Torey', 'Cogdon', 'tcogdon9b@nydailynews.com', 102);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1270, 337, 
 
-2, 347, 2156, 'Sauncho', 'Likely', 'slikely9c@storify.com', 281);
+2, 347, 1156, 'Sauncho', 'Likely', 'slikely9c@storify.com', 281);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6065, 338, 
 
 3, 348, 563, 'Edin', 'Alesin', 'ealesin9d@arstechnica.com', 126);
@@ -43588,7 +43588,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 351, 442, 'Brendon', 'Lewzey', 'blewzey9g@vk.com', 234);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9512, 342, 
 
-3, 352, 1894, 'Mischa', 'Behan', 'mbehan9h@unesco.org', 318);
+3, 352, 1394, 'Mischa', 'Behan', 'mbehan9h@unesco.org', 318);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9930, 343, 
 
 2, 353, 174, 'Mitchel', 'Beuscher', 'mbeuscher9i@sogou.com', 117);
@@ -43597,10 +43597,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 354, 1255, 'Leia', 'Vinton', 'lvinton9j@weebly.com', 58);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1877, 345, 
 
-1, 355, 1931, 'Abbey', 'Edwards', 'aedwards9k@sun.com', 135);
+1, 355, 1631, 'Abbey', 'Edwards', 'aedwards9k@sun.com', 135);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8014, 346, 
 
-2, 356, 2409, 'Venita', 'Sawkin', 'vsawkin9l@newsvine.com', 228);
+2, 356, 1409, 'Venita', 'Sawkin', 'vsawkin9l@newsvine.com', 228);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5186, 347, 
 
 2, 357, 1001, 'Gertruda', 'Mulqueeny', 'gmulqueeny9m@pbs.org', 128);
@@ -43621,31 +43621,31 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 362, 545, 'Fabiano', 'Reay', 'freay9r@fema.gov', 65);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1657, 353, 
 
-3, 363, 2573, 'Dwayne', 'Dorward', 'ddorward9s@nbcnews.com', 3);
+3, 363, 1573, 'Dwayne', 'Dorward', 'ddorward9s@nbcnews.com', 3);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8100, 354, 
 
-1, 364, 2303, 'Heindrick', 'Swatridge', 'hswatridge9t@opensource.org', 111);
+1, 364, 1303, 'Heindrick', 'Swatridge', 'hswatridge9t@opensource.org', 111);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9942, 355, 
 
-3, 365, 2168, 'Vasilis', 'Yakob', 'vyakob9u@parallels.com', 332);
+3, 365, 1168, 'Vasilis', 'Yakob', 'vyakob9u@parallels.com', 332);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1961, 356, 
 
 2, 366, 826, 'Ozzy', 'Dugald', 'odugald9v@cnbc.com', 206);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2919, 357, 
 
-2, 367, 1828, 'Ebba', 'Deluze', 'edeluze9w@cbc.ca', 133);
+2, 367, 1628, 'Ebba', 'Deluze', 'edeluze9w@cbc.ca', 133);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4110, 358, 
 
-3, 368, 1774, 'Abe', 'Behnke', 'abehnke9x@miibeian.gov.cn', 328);
+3, 368, 1574, 'Abe', 'Behnke', 'abehnke9x@miibeian.gov.cn', 328);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7146, 359, 
 
-2, 369, 1912, 'Dorothea', 'Haggerty', 'dhaggerty9y@usatoday.com', 134);
+2, 369, 1512, 'Dorothea', 'Haggerty', 'dhaggerty9y@usatoday.com', 134);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8098, 360, 
 
 2, 370, 7, 'Winona', 'Tabor', 'wtabor9z@bbb.org', 73);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6676, 361, 
 
-3, 371, 2119, 'Orsa', 'Habercham', 'ohaberchama0@mozilla.com', 46);
+3, 371, 1119, 'Orsa', 'Habercham', 'ohaberchama0@mozilla.com', 46);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (320, 362, 
 
 2, 372, 1355, 'Mendy', 'Eannetta', 'meannettaa1@pinterest.com', 231);
@@ -43669,7 +43669,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 378, 1607, 'Julio', 'Mungin', 'jmungina7@list-manage.com', 313);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4492, 369, 
 
-2, 379, 2120, 'Tressa', 'Trench', 'ttrencha8@weebly.com', 304);
+2, 379, 1120, 'Tressa', 'Trench', 'ttrencha8@weebly.com', 304);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1822, 370, 
 
 2, 380, 573, 'Ulrica', 'Brucker', 'ubruckera9@ezinearticles.com', 229);
@@ -43693,7 +43693,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 386, 962, 'Ricca', 'Hatliffe', 'rhatliffeaf@youtube.com', 294);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1374, 377, 
 
-1, 387, 2156, 'Sam', 'Mainz', 'smainzag@printfriendly.com', 90);
+1, 387, 1156, 'Sam', 'Mainz', 'smainzag@printfriendly.com', 90);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8548, 378, 
 
 3, 388, 907, 'Vallie', 'Cleve', 'vcleveah@wikipedia.org', 16);
@@ -43702,7 +43702,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 389, 593, 'Darb', 'Peiro', 'dpeiroai@a8.net', 150);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1381, 380, 
 
-2, 390, 2420, 'Bram', 'Cahill', 'bcahillaj@pcworld.com', 72);
+2, 390, 1420, 'Bram', 'Cahill', 'bcahillaj@pcworld.com', 72);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4052, 381, 
 
 2, 391, 1404, 'Rosemarie', 'O''Calleran', 'rocalleranak@dion.ne.jp', 200);
@@ -43717,7 +43717,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 394, 1039, 'Fionnula', 'Creus', 'fcreusan@prnewswire.com', 149);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4537, 385, 
 
-3, 395, 2567, 'Tiebout', 'Cleworth', 'tcleworthao@reddit.com', 173);
+3, 395, 1567, 'Tiebout', 'Cleworth', 'tcleworthao@reddit.com', 173);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5821, 386, 
 
 2, 396, 1245, 'Martina', 'Lawrie', 'mlawrieap@latimes.com', 290);
@@ -43726,7 +43726,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 397, 695, 'Hayley', 'Georgeson', 'hgeorgesonaq@washington.edu', 298);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9516, 388, 
 
-1, 398, 2173, 'Tressa', 'Tourner', 'ttournerar@furl.net', 160);
+1, 398, 1173, 'Tressa', 'Tourner', 'ttournerar@furl.net', 160);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2857, 389, 
 
 2, 399, 1512, 'Curry', 'Polo', 'cpoloas@google.nl', 280);
@@ -43735,10 +43735,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 400, 1321, 'Abelard', 'Elrick', 'aelrickat@uiuc.edu', 329);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6423, 391, 
 
-3, 401, 1828, 'Becki', 'Laingmaid', 'blaingmaidau@auda.org.au', 53);
+3, 401, 1528, 'Becki', 'Laingmaid', 'blaingmaidau@auda.org.au', 53);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2341, 392, 
 
-3, 402, 1939, 'Lonee', 'Shinn', 'lshinnav@freewebs.com', 21);
+3, 402, 1539, 'Lonee', 'Shinn', 'lshinnav@freewebs.com', 21);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1062, 393, 
 
 3, 403, 776, 'Kesley', 'Teale', 'ktealeaw@reference.com', 274);
@@ -43747,43 +43747,43 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 404, 1446, 'Layney', 'Matyushkin', 'lmatyushkinax@hhs.gov', 13);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1435, 395, 
 
-1, 405, 1970, 'Connor', 'Zannelli', 'czannelliay@google.fr', 236);
+1, 405, 1570, 'Connor', 'Zannelli', 'czannelliay@google.fr', 236);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5110, 396, 
 
-2, 406, 1867, 'Clair', 'Martinon', 'cmartinonaz@ameblo.jp', 218);
+2, 406, 1567, 'Clair', 'Martinon', 'cmartinonaz@ameblo.jp', 218);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9687, 397, 
 
-1, 407, 2249, 'Kalina', 'Gideon', 'kgideonb0@redcross.org', 74);
+1, 407, 1549, 'Kalina', 'Gideon', 'kgideonb0@redcross.org', 74);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5695, 398, 
 
-1, 408, 2263, 'Ewan', 'Croughan', 'ecroughanb1@surveymonkey.com', 61);
+1, 408, 1563, 'Ewan', 'Croughan', 'ecroughanb1@surveymonkey.com', 61);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9052, 399, 
 
 3, 409, 199, 'Danna', 'Sparshutt', 'dsparshuttb2@upenn.edu', 282);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7869, 400, 
 
-3, 410, 2053, 'Dino', 'Dowzell', 'ddowzellb3@forbes.com', 104);
+3, 410, 1053, 'Dino', 'Dowzell', 'ddowzellb3@forbes.com', 104);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7886, 401, 
 
-3, 411, 1773, 'Nefen', 'Eastman', 'neastmanb4@accuweather.com', 7);
+3, 411, 1573, 'Nefen', 'Eastman', 'neastmanb4@accuweather.com', 7);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2164, 402, 
 
-2, 412, 2436, 'Rabi', 'Gleader', 'rgleaderb5@chron.com', 259);
+2, 412, 1436, 'Rabi', 'Gleader', 'rgleaderb5@chron.com', 259);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3223, 403, 
 
-2, 413, 1717, 'Boycie', 'Grubbe', 'bgrubbeb6@moonfruit.com', 279);
+2, 413, 1517, 'Boycie', 'Grubbe', 'bgrubbeb6@moonfruit.com', 279);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9404, 404, 
 
 2, 414, 799, 'Cornelius', 'Weeks', 'cweeksb7@hao123.com', 214);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4673, 405, 
 
-1, 415, 1279, 'Griselda', 'Giovannazzi', 'ggiovannazzib8@livejournal.com', 119);
+1, 415, 1579, 'Griselda', 'Giovannazzi', 'ggiovannazzib8@livejournal.com', 119);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2385, 406, 
 
-3, 416, 2232, 'Justinian', 'Rushbury', 'jrushburyb9@webs.com', 185);
+3, 416, 1532, 'Justinian', 'Rushbury', 'jrushburyb9@webs.com', 185);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3619, 407, 
 
-1, 417, 2646, 'Reeba', 'Sinson', 'rsinsonba@elpais.com', 163);
+1, 417, 1546, 'Reeba', 'Sinson', 'rsinsonba@elpais.com', 163);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6344, 408, 
 
 3, 418, 851, 'Winnie', 'Mathews', 'wmathewsbb@ow.ly', 286);
@@ -43792,22 +43792,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 419, 278, 'Vivie', 'Fairchild', 'vfairchildbc@naver.com', 79);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8396, 410, 
 
-2, 420, 1933, 'Teresita', 'Kharchinski', 'tkharchinskibd@google.co.uk', 19);
+2, 420, 1433, 'Teresita', 'Kharchinski', 'tkharchinskibd@google.co.uk', 19);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8750, 411, 
 
 3, 421, 370, 'Carlin', 'Swayte', 'cswaytebe@utexas.edu', 264);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9428, 412, 
 
-1, 422, 2392, 'Alverta', 'Elverston', 'aelverstonbf@marriott.com', 161);
+1, 422, 1392, 'Alverta', 'Elverston', 'aelverstonbf@marriott.com', 161);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3792, 413, 
 
-3, 423, 2541, 'Schuyler', 'Cunningham', 'scunninghambg@51.la', 122);
+3, 423, 1541, 'Schuyler', 'Cunningham', 'scunninghambg@51.la', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3796, 414, 
 
-1, 424, 2371, 'Libby', 'Latty', 'llattybh@miitbeian.gov.cn', 290);
+1, 424, 1371, 'Libby', 'Latty', 'llattybh@miitbeian.gov.cn', 290);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6542, 415, 
 
-1, 425, 2345, 'Kessiah', 'Althrope', 'kalthropebi@google.co.uk', 80);
+1, 425, 1345, 'Kessiah', 'Althrope', 'kalthropebi@google.co.uk', 80);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2292, 416, 
 
 3, 426, 24, 'Jennica', 'Sunner', 'jsunnerbj@mtv.com', 39);
@@ -43816,7 +43816,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 427, 1404, 'Salomon', 'McReidy', 'smcreidybk@google.co.uk', 41);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5755, 418, 
 
-2, 428, 2536, 'Scottie', 'Raycroft', 'sraycroftbl@dell.com', 68);
+2, 428, 1536, 'Scottie', 'Raycroft', 'sraycroftbl@dell.com', 68);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3167, 419, 
 
 1, 429, 29, 'Joela', 'Etridge', 'jetridgebm@canalblog.com', 120);
@@ -43825,13 +43825,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 430, 1251, 'Bernarr', 'Halsho', 'bhalshobn@php.net', 120);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2408, 421, 
 
-1, 431, 2398, 'Devondra', 'Grimsdale', 'dgrimsdalebo@nsw.gov.au', 140);
+1, 431, 1398, 'Devondra', 'Grimsdale', 'dgrimsdalebo@nsw.gov.au', 140);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6317, 422, 
 
 2, 432, 165, 'Bethena', 'Sollitt', 'bsollittbp@businessweek.com', 184);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8410, 423, 
 
-1, 433, 1998, 'Delmer', 'Quick', 'dquickbq@discuz.net', 242);
+1, 433, 1498, 'Delmer', 'Quick', 'dquickbq@discuz.net', 242);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7140, 424, 
 
 1, 434, 677, 'Der', 'Crasswell', 'dcrasswellbr@ebay.com', 17);
@@ -43855,16 +43855,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 440, 1342, 'Nickolai', 'Scrimgeour', 'nscrimgeourbx@feedburner.com', 91);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7109, 431, 
 
-2, 441, 2644, 'Ursa', 'Pennini', 'upenniniby@is.gd', 186);
+2, 441, 1644, 'Ursa', 'Pennini', 'upenniniby@is.gd', 186);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1941, 432, 
 
-2, 442, 2271, 'Banky', 'Ellery', 'bellerybz@prlog.org', 289);
+2, 442, 1471, 'Banky', 'Ellery', 'bellerybz@prlog.org', 289);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3263, 433, 
 
-2, 443, 1860, 'Karole', 'Minico', 'kminicoc0@t-online.de', 299);
+2, 443, 1460, 'Karole', 'Minico', 'kminicoc0@t-online.de', 299);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4656, 434, 
 
-3, 444, 2360, 'Blake', 'Troak', 'btroakc1@exblog.jp', 218);
+3, 444, 1360, 'Blake', 'Troak', 'btroakc1@exblog.jp', 218);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (395, 435, 
 
 3, 445, 1440, 'Uriel', 'McCaughran', 'umccaughranc2@lulu.com', 54);
@@ -43873,10 +43873,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 446, 717, 'Benn', 'Crucetti', 'bcrucettic3@yelp.com', 13);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (310, 437, 
 
-2, 447, 1684, 'Briant', 'Neesam', 'bneesamc4@yale.edu', 229);
+2, 447, 1634, 'Briant', 'Neesam', 'bneesamc4@yale.edu', 229);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (167, 438, 
 
-1, 448, 2652, 'Keelia', 'Greatrakes', 'kgreatrakesc5@soundcloud.com', 145);
+1, 448, 1652, 'Keelia', 'Greatrakes', 'kgreatrakesc5@soundcloud.com', 145);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6971, 439, 
 
 2, 449, 248, 'Nariko', 'Casin', 'ncasinc6@vkontakte.ru', 150);
@@ -43885,7 +43885,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 450, 128, 'Rip', 'Peye', 'rpeyec7@networkadvertising.org', 100);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3405, 441, 
 
-2, 451, 2449, 'Domenic', 'Romanelli', 'dromanellic8@typepad.com', 212);
+2, 451, 1449, 'Domenic', 'Romanelli', 'dromanellic8@typepad.com', 212);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4485, 442, 
 
 3, 452, 432, 'Townsend', 'Handrock', 'thandrockc9@cyberchimps.com', 191);
@@ -43894,13 +43894,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 453, 472, 'Giovanni', 'Charville', 'gcharvilleca@jugem.jp', 260);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3893, 444, 
 
-1, 454, 1826, 'Margery', 'Coon', 'mcooncb@tamu.edu', 310);
+1, 454, 1426, 'Margery', 'Coon', 'mcooncb@tamu.edu', 310);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6859, 445, 
 
 1, 455, 886, 'Ruy', 'Sollett', 'rsollettcc@comsenz.com', 255);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6559, 446, 
 
-2, 456, 2013, 'Harrison', 'Achrameev', 'hachrameevcd@list-manage.com', 55);
+2, 456, 1013, 'Harrison', 'Achrameev', 'hachrameevcd@list-manage.com', 55);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8010, 447, 
 
 1, 457, 159, 'Eula', 'Lally', 'elallyce@msu.edu', 122);
@@ -43912,10 +43912,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 459, 1544, 'Kiri', 'Fealey', 'kfealeycg@addtoany.com', 221);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2487, 450, 
 
-3, 460, 2272, 'Clemmie', 'Lynn', 'clynnch@reverbnation.com', 45);
+3, 460, 1272, 'Clemmie', 'Lynn', 'clynnch@reverbnation.com', 45);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5840, 451, 
 
-2, 461, 2065, 'Adrian', 'Fallen', 'afallenci@nasa.gov', 124);
+2, 461, 1065, 'Adrian', 'Fallen', 'afallenci@nasa.gov', 124);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8434, 452, 
 
 1, 462, 1631, 'Orren', 'Hagland', 'ohaglandcj@fema.gov', 151);
@@ -43927,7 +43927,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 464, 1272, 'Corrie', 'Tiffany', 'ctiffanycl@twitter.com', 154);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7886, 455, 
 
-1, 465, 2568, 'Nicole', 'McInnerny', 'nmcinnernycm@yandex.ru', 122);
+1, 465, 1568, 'Nicole', 'McInnerny', 'nmcinnernycm@yandex.ru', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8592, 456, 
 
 3, 466, 713, 'Harper', 'Leake', 'hleakecn@wordpress.org', 266);
@@ -43939,13 +43939,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 468, 973, 'Harriet', 'Nolan', 'hnolancp@amazon.com', 280);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2156, 459, 
 
-3, 469, 1716, 'Curt', 'Robecon', 'crobeconcq@blinklist.com', 328);
+3, 469, 1316, 'Curt', 'Robecon', 'crobeconcq@blinklist.com', 328);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6047, 460, 
 
 2, 470, 923, 'Kalvin', 'Pallesen', 'kpallesencr@nationalgeographic.com', 72);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5174, 461, 
 
-2, 471, 2533, 'Nicolina', 'Skeel', 'nskeelcs@cloudflare.com', 204);
+2, 471, 1533, 'Nicolina', 'Skeel', 'nskeelcs@cloudflare.com', 204);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2658, 462, 
 
 2, 472, 346, 'Amii', 'Barszczewski', 'abarszczewskict@marriott.com', 205);
@@ -43957,10 +43957,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 474, 1154, 'Florian', 'Alastair', 'falastaircv@mtv.com', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8767, 465, 
 
-2, 475, 2638, 'Francklin', 'Lowres', 'flowrescw@yahoo.co.jp', 120);
+2, 475, 1638, 'Francklin', 'Lowres', 'flowrescw@yahoo.co.jp', 120);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3223, 466, 
 
-3, 476, 2082, 'Jasun', 'Pollen', 'jpollencx@washingtonpost.com', 21);
+3, 476, 1082, 'Jasun', 'Pollen', 'jpollencx@washingtonpost.com', 21);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4801, 467, 
 
 1, 477, 1526, 'Guthry', 'Regina', 'greginacy@google.de', 141);
@@ -43972,7 +43972,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 479, 668, 'Alissa', 'Curmi', 'acurmid0@indiegogo.com', 174);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9125, 470, 
 
-3, 480, 2320, 'Natividad', 'Upsale', 'nupsaled1@comsenz.com', 191);
+3, 480, 1320, 'Natividad', 'Upsale', 'nupsaled1@comsenz.com', 191);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7501, 471, 
 
 1, 481, 1030, 'Shana', 'Bulcock', 'sbulcockd2@comsenz.com', 114);
@@ -43990,16 +43990,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 485, 583, 'Moina', 'Fernier', 'mfernierd6@bbb.org', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4048, 476, 
 
-3, 486, 1973, 'Quent', 'Stanaway', 'qstanawayd7@delicious.com', 150);
+3, 486, 1273, 'Quent', 'Stanaway', 'qstanawayd7@delicious.com', 150);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9843, 477, 
 
-3, 487, 2658, 'Tiler', 'Zoellner', 'tzoellnerd8@google.com.hk', 309);
+3, 487, 1258, 'Tiler', 'Zoellner', 'tzoellnerd8@google.com.hk', 309);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8261, 478, 
 
 1, 488, 916, 'Rora', 'Sloy', 'rsloyd9@mozilla.com', 264);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9341, 479, 
 
-3, 489, 1841, 'Perkin', 'Laidel', 'plaidelda@freewebs.com', 10);
+3, 489, 1441, 'Perkin', 'Laidel', 'plaidelda@freewebs.com', 10);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (471, 480, 
 
 2, 490, 1257, 'Zia', 'Heinl', 'zheinldb@booking.com', 248);
@@ -44011,10 +44011,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 492, 619, 'Gamaliel', 'Keaysell', 'gkeayselldd@businesswire.com', 237);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9211, 483, 
 
-2, 493, 2508, 'Rik', 'Walcot', 'rwalcotde@livejournal.com', 120);
+2, 493, 1508, 'Rik', 'Walcot', 'rwalcotde@livejournal.com', 120);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3173, 484, 
 
-3, 494, 2596, 'Paulette', 'Grooby', 'pgroobydf@skype.com', 139);
+3, 494, 1596, 'Paulette', 'Grooby', 'pgroobydf@skype.com', 139);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4734, 485, 
 
 3, 495, 853, 'Adriaens', 'Yegorev', 'ayegorevdg@skype.com', 66);
@@ -44026,13 +44026,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 497, 502, 'Noel', 'Meugens', 'nmeugensdi@hao123.com', 5);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3184, 488, 
 
-3, 498, 1850, 'Colin', 'Bothie', 'cbothiedj@gmpg.org', 320);
+3, 498, 1350, 'Colin', 'Bothie', 'cbothiedj@gmpg.org', 320);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4827, 489, 
 
 3, 499, 647, 'Abigael', 'Seefeldt', 'aseefeldtdk@dell.com', 329);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7162, 490, 
 
-3, 500, 1856, 'Tamarra', 'Champagne', 'tchampagnedl@senate.gov', 23);
+3, 500, 1356, 'Tamarra', 'Champagne', 'tchampagnedl@senate.gov', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4740, 491, 
 
 3, 501, 275, 'Bili', 'Cairns', 'bcairnsdm@blinklist.com', 140);
@@ -44041,16 +44041,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 502, 784, 'Kermit', 'Clac', 'kclacdn@globo.com', 88);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (764, 493, 
 
-2, 503, 2561, 'Berget', 'Relfe', 'brelfedo@flickr.com', 218);
+2, 503, 1561, 'Berget', 'Relfe', 'brelfedo@flickr.com', 218);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9713, 494, 
 
 3, 504, 222, 'Emogene', 'Halden', 'ehaldendp@networkadvertising.org', 38);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8024, 495, 
 
-3, 505, 1934, 'Stephanus', 'Bhatia', 'sbhatiadq@nhs.uk', 176);
+3, 505, 1134, 'Stephanus', 'Bhatia', 'sbhatiadq@nhs.uk', 176);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2111, 496, 
 
-2, 506, 2468, 'Aurea', 'Pearsey', 'apearseydr@independent.co.uk', 232);
+2, 506, 1468, 'Aurea', 'Pearsey', 'apearseydr@independent.co.uk', 232);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9722, 497, 
 
 2, 507, 1126, 'Randie', 'Blakelock', 'rblakelockds@china.com.cn', 84);
@@ -44065,10 +44065,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 510, 528, 'Edmon', 'Berrecloth', 'eberreclothdv@hugedomains.com', 298);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7202, 501, 
 
-1, 511, 1864, 'Loydie', 'Rock', 'lrockdw@bbb.org', 272);
+1, 511, 1364, 'Loydie', 'Rock', 'lrockdw@bbb.org', 272);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3541, 502, 
 
-1, 512, 2599, 'Chilton', 'Dincke', 'cdinckedx@squarespace.com', 231);
+1, 512, 1599, 'Chilton', 'Dincke', 'cdinckedx@squarespace.com', 231);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4146, 503, 
 
 2, 513, 1501, 'Nataniel', 'Cultcheth', 'ncultchethdy@multiply.com', 319);
@@ -44080,7 +44080,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 515, 202, 'Jere', 'Zettler', 'jzettlere0@newsvine.com', 80);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8724, 506, 
 
-3, 516, 2284, 'Fabio', 'McArd', 'fmcarde1@indiatimes.com', 179);
+3, 516, 1284, 'Fabio', 'McArd', 'fmcarde1@indiatimes.com', 179);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6699, 507, 
 
 3, 517, 643, 'Elfrieda', 'Guyonnet', 'eguyonnete2@themeforest.net', 241);
@@ -44110,7 +44110,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 525, 1470, 'Rora', 'Kleehuhler', 'rkleehuhlerea@usatoday.com', 187);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4855, 516, 
 
-2, 526, 2601, 'Karlene', 'Titmus', 'ktitmuseb@techcrunch.com', 222);
+2, 526, 1601, 'Karlene', 'Titmus', 'ktitmuseb@techcrunch.com', 222);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3038, 517, 
 
 1, 527, 743, 'Haven', 'Heimann', 'hheimannec@imgur.com', 138);
@@ -44119,7 +44119,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 528, 1670, 'Jilleen', 'Lidster', 'jlidstered@irs.gov', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (879, 519, 
 
-1, 529, 2469, 'Karly', 'Drinkwater', 'kdrinkwateree@lulu.com', 3);
+1, 529, 1469, 'Karly', 'Drinkwater', 'kdrinkwateree@lulu.com', 3);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4194, 520, 
 
 2, 530, 1160, 'Natty', 'Chaldecott', 'nchaldecottef@1und1.de', 69);
@@ -44143,7 +44143,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 536, 363, 'Glendon', 'Nutbeem', 'gnutbeemel@mit.edu', 299);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1480, 527, 
 
-1, 537, 2336, 'Tyler', 'Pretious', 'tpretiousem@time.com', 170);
+1, 537, 1336, 'Tyler', 'Pretious', 'tpretiousem@time.com', 170);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6567, 528, 
 
 3, 538, 1660, 'Maris', 'Capitano', 'mcapitanoen@bloomberg.com', 23);
@@ -44155,7 +44155,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 540, 1033, 'Romola', 'Yateman', 'ryatemanep@chicagotribune.com', 307);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9627, 531, 
 
-3, 541, 2263, 'Dosi', 'O'' Cuolahan', 'docuolahaneq@craigslist.org', 151);
+3, 541, 1163, 'Dosi', 'O'' Cuolahan', 'docuolahaneq@craigslist.org', 151);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (829, 532, 
 
 2, 542, 616, 'Bryn', 'Giannasi', 'bgiannasier@vinaora.com', 68);
@@ -44170,13 +44170,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 545, 866, 'Bobbye', 'Lanfare', 'blanfareeu@bigcartel.com', 216);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1236, 536, 
 
-3, 546, 1884, 'Westbrooke', 'Lippini', 'wlippiniev@paypal.com', 177);
+3, 546, 1284, 'Westbrooke', 'Lippini', 'wlippiniev@paypal.com', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5950, 537, 
 
-3, 547, 1967, 'Willi', 'Whild', 'wwhildew@mozilla.org', 75);
+3, 547, 1367, 'Willi', 'Whild', 'wwhildew@mozilla.org', 75);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3176, 538, 
 
-1, 548, 2294, 'Colline', 'Lear', 'clearex@cornell.edu', 251);
+1, 548, 1294, 'Colline', 'Lear', 'clearex@cornell.edu', 251);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3102, 539, 
 
 3, 549, 181, 'Manuel', 'Beavers', 'mbeaversey@lycos.com', 211);
@@ -44185,7 +44185,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 550, 1144, 'Rozella', 'Robbeke', 'rrobbekeez@dropbox.com', 306);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (705, 541, 
 
-1, 551, 2259, 'Brinn', 'Hallor', 'bhallorf0@theguardian.com', 250);
+1, 551, 1259, 'Brinn', 'Hallor', 'bhallorf0@theguardian.com', 250);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2531, 542, 
 
 2, 552, 732, 'Art', 'Reach', 'areachf1@dot.gov', 277);
@@ -44194,10 +44194,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 553, 352, 'Tann', 'Millington', 'tmillingtonf2@abc.net.au', 127);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8985, 544, 
 
-3, 554, 2292, 'Quincy', 'Addenbrooke', 'qaddenbrookef3@cpanel.net', 167);
+3, 554, 1292, 'Quincy', 'Addenbrooke', 'qaddenbrookef3@cpanel.net', 167);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5480, 545, 
 
-3, 555, 2106, 'Rickert', 'Potticary', 'rpotticaryf4@ihg.com', 258);
+3, 555, 1106, 'Rickert', 'Potticary', 'rpotticaryf4@ihg.com', 258);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8950, 546, 
 
 3, 556, 1632, 'Rubina', 'Simnell', 'rsimnellf5@xinhuanet.com', 306);
@@ -44206,10 +44206,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 557, 621, 'Giulietta', 'Saphin', 'gsaphinf6@wikispaces.com', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2125, 548, 
 
-2, 558, 1828, 'Harlin', 'Scrowton', 'hscrowtonf7@hp.com', 308);
+2, 558, 1128, 'Harlin', 'Scrowton', 'hscrowtonf7@hp.com', 308);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1939, 549, 
 
-3, 559, 2448, 'Taryn', 'Yemm', 'tyemmf8@lulu.com', 165);
+3, 559, 1448, 'Taryn', 'Yemm', 'tyemmf8@lulu.com', 165);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2440, 550, 
 
 3, 560, 14, 'Ev', 'Lage', 'elagef9@twitpic.com', 184);
@@ -44221,13 +44221,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 562, 408, 'Dulcinea', 'Twining', 'dtwiningfb@sphinn.com', 271);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9991, 553, 
 
-1, 563, 2373, 'Pen', 'Dran', 'pdranfc@senate.gov', 312);
+1, 563, 373, 'Pen', 'Dran', 'pdranfc@senate.gov', 312);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2322, 554, 
 
 3, 564, 829, 'Buck', 'Drysdale', 'bdrysdalefd@si.edu', 45);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1153, 555, 
 
-3, 565, 2091, 'Kathryn', 'Lorek', 'klorekfe@marketwatch.com', 114);
+3, 565, 291, 'Kathryn', 'Lorek', 'klorekfe@marketwatch.com', 114);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2896, 556, 
 
 3, 566, 1271, 'Tersina', 'Fulker', 'tfulkerff@digg.com', 281);
@@ -44236,10 +44236,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 567, 421, 'Vinita', 'Farnfield', 'vfarnfieldfg@vk.com', 41);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3353, 558, 
 
-1, 568, 1976, 'Elvira', 'O''Flynn', 'eoflynnfh@parallels.com', 23);
+1, 568, 176, 'Elvira', 'O''Flynn', 'eoflynnfh@parallels.com', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7216, 559, 
 
-1, 569, 2103, 'Elliott', 'Rea', 'ereafi@drupal.org', 279);
+1, 569, 103, 'Elliott', 'Rea', 'ereafi@drupal.org', 279);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9242, 560, 
 
 2, 570, 1259, 'Ellette', 'Maulden', 'emauldenfj@tripadvisor.com', 114);
@@ -44266,19 +44266,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 577, 1226, 'Albie', 'Mattam', 'amattamfq@engadget.com', 135);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2279, 568, 
 
-1, 578, 2615, 'Pincas', 'Dunbobin', 'pdunbobinfr@va.gov', 183);
+1, 578, 615, 'Pincas', 'Dunbobin', 'pdunbobinfr@va.gov', 183);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (278, 569, 
 
 2, 579, 952, 'Darelle', 'Oglevie', 'dogleviefs@dailymail.co.uk', 242);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7652, 570, 
 
-1, 580, 2432, 'Glendon', 'Igoe', 'gigoeft@cafepress.com', 153);
+1, 580, 432, 'Glendon', 'Igoe', 'gigoeft@cafepress.com', 153);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1707, 571, 
 
 2, 581, 1521, 'Gibby', 'McSpirron', 'gmcspirronfu@constantcontact.com', 34);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6452, 572, 
 
-2, 582, 2053, 'Linda', 'Bresnen', 'lbresnenfv@wikispaces.com', 261);
+2, 582, 253, 'Linda', 'Bresnen', 'lbresnenfv@wikispaces.com', 261);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3835, 573, 
 
 1, 583, 1475, 'Katherine', 'Ginnell', 'kginnellfw@freewebs.com', 239);
@@ -44293,19 +44293,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 586, 1634, 'Sue', 'Waddicor', 'swaddicorfz@ihg.com', 235);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4001, 577, 
 
-1, 587, 2356, 'Emylee', 'Cunnah', 'ecunnahg0@ehow.com', 156);
+1, 587, 356, 'Emylee', 'Cunnah', 'ecunnahg0@ehow.com', 156);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9668, 578, 
 
 2, 588, 128, 'Rubin', 'Beathem', 'rbeathemg1@cam.ac.uk', 35);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3715, 579, 
 
-3, 589, 2031, 'Lauryn', 'Bridgens', 'lbridgensg2@liveinternet.ru', 255);
+3, 589, 231, 'Lauryn', 'Bridgens', 'lbridgensg2@liveinternet.ru', 255);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5875, 580, 
 
-2, 590, 1711, 'Moyra', 'Corness', 'mcornessg3@drupal.org', 164);
+2, 590, 171, 'Moyra', 'Corness', 'mcornessg3@drupal.org', 164);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3761, 581, 
 
-2, 591, 2087, 'Durant', 'Bullivant', 'dbullivantg4@shareasale.com', 116);
+2, 591, 287, 'Durant', 'Bullivant', 'dbullivantg4@shareasale.com', 116);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (948, 582, 
 
 1, 592, 53, 'Raymond', 'Lamberti', 'rlambertig5@amazonaws.com', 190);
@@ -44314,7 +44314,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 593, 1272, 'Marlane', 'Monnelly', 'mmonnellyg6@desdev.cn', 65);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5206, 585, 
 
-1, 594, 2293, 'Giulia', 'Kynaston', 'gkynaston0@stanford.edu', 203);
+1, 594, 223, 'Giulia', 'Kynaston', 'gkynaston0@stanford.edu', 203);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8733, 586, 
 
 1, 595, 1640, 'Kalina', 'Brend', 'kbrend1@fc2.com', 103);
@@ -44323,7 +44323,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 596, 124, 'Jakob', 'Root', 'jroot2@de.vu', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6112, 588, 
 
-3, 597, 2572, 'Janette', 'Dalligan', 'jdalligan3@dell.com', 289);
+3, 597, 252, 'Janette', 'Dalligan', 'jdalligan3@dell.com', 289);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1595, 589, 
 
 1, 598, 216, 'Bearnard', 'Ault', 'bault4@networkadvertising.org', 51);
@@ -44332,10 +44332,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 599, 1330, 'Thaddus', 'Spencelayh', 'tspencelayh5@nyu.edu', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1412, 591, 
 
-2, 600, 1780, 'Vin', 'Lappine', 'vlappine6@yelp.com', 148);
+2, 600, 180, 'Vin', 'Lappine', 'vlappine6@yelp.com', 148);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4124, 592, 
 
-3, 601, 2181, 'Vale', 'Cabedo', 'vcabedo7@goo.gl', 29);
+3, 601, 281, 'Vale', 'Cabedo', 'vcabedo7@goo.gl', 29);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3437, 593, 
 
 1, 602, 1664, 'Suzie', 'Baptista', 'sbaptista8@altervista.org', 219);
@@ -44344,7 +44344,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 603, 1014, 'Mariele', 'Leyburn', 'mleyburn9@dmoz.org', 165);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5730, 595, 
 
-1, 604, 2533, 'Zsazsa', 'Huglin', 'zhuglina@rambler.ru', 163);
+1, 604, 233, 'Zsazsa', 'Huglin', 'zhuglina@rambler.ru', 163);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5642, 596, 
 
 2, 605, 1567, 'Josee', 'Hirtz', 'jhirtzb@webmd.com', 28);
@@ -44365,28 +44365,28 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 610, 552, 'Dorena', 'Dello', 'ddellog@discovery.com', 102);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9358, 602, 
 
-1, 611, 1842, 'Danie', 'Spedroni', 'dspedronih@unesco.org', 170);
+1, 611, 142, 'Danie', 'Spedroni', 'dspedronih@unesco.org', 170);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7912, 603, 
 
-1, 612, 1722, 'Terrijo', 'Gormally', 'tgormallyi@umich.edu', 75);
+1, 612, 122, 'Terrijo', 'Gormally', 'tgormallyi@umich.edu', 75);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3173, 604, 
 
-1, 613, 1737, 'Heidi', 'Alelsandrovich', 'halelsandrovichj@google.com.au', 191);
+1, 613, 137, 'Heidi', 'Alelsandrovich', 'halelsandrovichj@google.com.au', 191);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2833, 605, 
 
-1, 614, 2003, 'Yorke', 'Medcalfe', 'ymedcalfek@yahoo.co.jp', 55);
+1, 614, 203, 'Yorke', 'Medcalfe', 'ymedcalfek@yahoo.co.jp', 55);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9093, 606, 
 
 2, 615, 674, 'Collete', 'Crang', 'ccrangl@discovery.com', 170);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8189, 607, 
 
-3, 616, 2618, 'Lolita', 'Fyrth', 'lfyrthm@nih.gov', 152);
+3, 616, 618, 'Lolita', 'Fyrth', 'lfyrthm@nih.gov', 152);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1863, 608, 
 
-1, 617, 2143, 'Erek', 'Sannes', 'esannesn@umn.edu', 148);
+1, 617, 143, 'Erek', 'Sannes', 'esannesn@umn.edu', 148);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7325, 609, 
 
-3, 618, 2624, 'Deb', 'Wilcinskis', 'dwilcinskiso@yellowpages.com', 185);
+3, 618, 624, 'Deb', 'Wilcinskis', 'dwilcinskiso@yellowpages.com', 185);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4091, 610, 
 
 1, 619, 1008, 'Cecilia', 'Wissby', 'cwissbyp@ted.com', 51);
@@ -44398,19 +44398,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 621, 1533, 'Nanon', 'Denslow', 'ndenslowr@reference.com', 14);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7060, 613, 
 
-1, 622, 1734, 'Hew', 'Abeau', 'habeaus@newyorker.com', 334);
+1, 622, 134, 'Hew', 'Abeau', 'habeaus@newyorker.com', 334);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5807, 614, 
 
 3, 623, 1504, 'Romola', 'Friese', 'rfrieset@unesco.org', 158);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3933, 615, 
 
-3, 624, 2338, 'Kristien', 'Mayzes', 'kmayzesu@reuters.com', 264);
+3, 624, 338, 'Kristien', 'Mayzes', 'kmayzesu@reuters.com', 264);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8852, 616, 
 
-1, 625, 2224, 'Daryn', 'Sandercroft', 'dsandercroftv@youtube.com', 189);
+1, 625, 224, 'Daryn', 'Sandercroft', 'dsandercroftv@youtube.com', 189);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9942, 617, 
 
-3, 626, 2671, 'Liesa', 'Spanswick', 'lspanswickw@vkontakte.ru', 273);
+3, 626, 671, 'Liesa', 'Spanswick', 'lspanswickw@vkontakte.ru', 273);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3229, 618, 
 
 1, 627, 397, 'Kailey', 'Want', 'kwantx@domainmarket.com', 315);
@@ -44425,40 +44425,40 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 630, 380, 'Calvin', 'Willmore', 'cwillmore10@time.com', 125);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7991, 622, 
 
-2, 631, 1922, 'Priscilla', 'Craigg', 'pcraigg11@usatoday.com', 192);
+2, 631, 922, 'Priscilla', 'Craigg', 'pcraigg11@usatoday.com', 192);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3771, 623, 
 
-1, 632, 2181, 'Buiron', 'Meekins', 'bmeekins12@nydailynews.com', 47);
+1, 632, 181, 'Buiron', 'Meekins', 'bmeekins12@nydailynews.com', 47);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3083, 624, 
 
-3, 633, 2444, 'Lyn', 'MacCostigan', 'lmaccostigan13@bbc.co.uk', 13);
+3, 633, 444, 'Lyn', 'MacCostigan', 'lmaccostigan13@bbc.co.uk', 13);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (566, 625, 
 
-1, 634, 2618, 'Callean', 'Lobe', 'clobe14@reverbnation.com', 268);
+1, 634, 618, 'Callean', 'Lobe', 'clobe14@reverbnation.com', 268);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8438, 626, 
 
-1, 635, 1737, 'Tabbatha', 'Irving', 'tirving15@whitehouse.gov', 214);
+1, 635, 737, 'Tabbatha', 'Irving', 'tirving15@whitehouse.gov', 214);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9602, 627, 
 
-1, 636, 1679, 'Jephthah', 'Rankcom', 'jrankcom16@4shared.com', 277);
+1, 636, 169, 'Jephthah', 'Rankcom', 'jrankcom16@4shared.com', 277);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7407, 628, 
 
-2, 637, 1949, 'Bale', 'Rapelli', 'brapelli17@hatena.ne.jp', 332);
+2, 637, 199, 'Bale', 'Rapelli', 'brapelli17@hatena.ne.jp', 332);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3443, 629, 
 
-3, 638, 2134, 'Roddy', 'Dicker', 'rdicker18@freewebs.com', 142);
+3, 638, 134, 'Roddy', 'Dicker', 'rdicker18@freewebs.com', 142);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7526, 630, 
 
 3, 639, 897, 'Gabriella', 'Breckon', 'gbreckon19@cargocollective.com', 106);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (964, 631, 
 
-2, 640, 1956, 'Flin', 'Beverley', 'fbeverley1a@businesswire.com', 288);
+2, 640, 156, 'Flin', 'Beverley', 'fbeverley1a@businesswire.com', 288);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4451, 632, 
 
 2, 641, 1155, 'Cara', 'McEntegart', 'cmcentegart1b@desdev.cn', 67);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (150, 633, 
 
-3, 642, 2255, 'Hortense', 'Biskupek', 'hbiskupek1c@cargocollective.com', 38);
+3, 642, 255, 'Hortense', 'Biskupek', 'hbiskupek1c@cargocollective.com', 38);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9266, 634, 
 
 1, 643, 1139, 'Giorgia', 'Hamer', 'ghamer1d@quantcast.com', 24);
@@ -44470,7 +44470,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 645, 452, 'Sanson', 'Sterrie', 'ssterrie1f@ted.com', 215);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2600, 637, 
 
-3, 646, 1750, 'Nicolette', 'Jamieson', 'njamieson1g@zdnet.com', 5);
+3, 646, 150, 'Nicolette', 'Jamieson', 'njamieson1g@zdnet.com', 5);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7128, 638, 
 
 3, 647, 941, 'Winfield', 'Kinavan', 'wkinavan1h@meetup.com', 83);
@@ -44479,7 +44479,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 648, 225, 'Franky', 'Diggons', 'fdiggons1i@oaic.gov.au', 123);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8194, 640, 
 
-2, 649, 2665, 'Ertha', 'Lansley', 'elansley1j@bravesites.com', 126);
+2, 649, 665, 'Ertha', 'Lansley', 'elansley1j@bravesites.com', 126);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6579, 641, 
 
 3, 650, 1096, 'Lars', 'Le Marchand', 'llemarchand1k@sbwire.com', 24);
@@ -44488,28 +44488,28 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 651, 828, 'Sammy', 'Brayshaw', 'sbrayshaw1l@networksolutions.com', 54);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6213, 643, 
 
-2, 652, 2223, 'Drona', 'Weedenburg', 'dweedenburg1m@vk.com', 239);
+2, 652, 223, 'Drona', 'Weedenburg', 'dweedenburg1m@vk.com', 239);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6160, 644, 
 
 3, 653, 1202, 'Langsdon', 'O''Ruane', 'loruane1n@goodreads.com', 182);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7170, 645, 
 
-2, 654, 2160, 'Lanette', 'Craggs', 'lcraggs1o@stanford.edu', 95);
+2, 654, 260, 'Lanette', 'Craggs', 'lcraggs1o@stanford.edu', 95);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2628, 646, 
 
-1, 655, 2436, 'Farlay', 'Jauncey', 'fjauncey1p@hexun.com', 149);
+1, 655, 246, 'Farlay', 'Jauncey', 'fjauncey1p@hexun.com', 149);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (925, 647, 
 
-2, 656, 1786, 'Lazare', 'Bonney', 'lbonney1q@cloudflare.com', 144);
+2, 656, 178, 'Lazare', 'Bonney', 'lbonney1q@cloudflare.com', 144);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2244, 648, 
 
-2, 657, 2282, 'Lemuel', 'Wurz', 'lwurz1r@ezinearticles.com', 201);
+2, 657, 228, 'Lemuel', 'Wurz', 'lwurz1r@ezinearticles.com', 201);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3293, 649, 
 
 3, 658, 222, 'Alexia', 'Llewellyn', 'allewellyn1s@altervista.org', 65);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6864, 650, 
 
-2, 659, 2385, 'Buckie', 'Steel', 'bsteel1t@pagesperso-orange.fr', 131);
+2, 659, 235, 'Buckie', 'Steel', 'bsteel1t@pagesperso-orange.fr', 131);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5700, 651, 
 
 2, 660, 1184, 'Marcia', 'Doswell', 'mdoswell1u@google.ru', 326);
@@ -44518,10 +44518,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 661, 392, 'Darwin', 'Riddoch', 'driddoch1v@washington.edu', 146);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (295, 653, 
 
-3, 662, 2645, 'Aarika', 'Genicke', 'agenicke1w@un.org', 241);
+3, 662, 245, 'Aarika', 'Genicke', 'agenicke1w@un.org', 241);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (362, 654, 
 
-1, 663, 2175, 'Marylou', 'Craster', 'mcraster1x@spiegel.de', 318);
+1, 663, 275, 'Marylou', 'Craster', 'mcraster1x@spiegel.de', 318);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7802, 655, 
 
 2, 664, 178, 'Henry', 'Tobin', 'htobin1y@skyrock.com', 333);
@@ -44530,7 +44530,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 665, 1087, 'Wendel', 'Fearby', 'wfearby1z@psu.edu', 303);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6606, 657, 
 
-3, 666, 2072, 'Kean', 'Baccas', 'kbaccas20@booking.com', 5);
+3, 666, 1072, 'Kean', 'Baccas', 'kbaccas20@booking.com', 5);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9271, 658, 
 
 3, 667, 1537, 'Madella', 'Pettengell', 'mpettengell21@columbia.edu', 132);
@@ -44539,13 +44539,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 668, 949, 'Marijn', 'Bavister', 'mbavister22@fastcompany.com', 125);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7723, 660, 
 
-2, 669, 2361, 'Gil', 'Griswaite', 'ggriswaite23@vimeo.com', 19);
+2, 669, 1361, 'Gil', 'Griswaite', 'ggriswaite23@vimeo.com', 19);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7973, 661, 
 
 3, 670, 1020, 'Marquita', 'Matcham', 'mmatcham24@cocolog-nifty.com', 12);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7613, 662, 
 
-2, 671, 2049, 'Layla', 'Merrikin', 'lmerrikin25@stumbleupon.com', 50);
+2, 671, 1049, 'Layla', 'Merrikin', 'lmerrikin25@stumbleupon.com', 50);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5085, 663, 
 
 3, 672, 169, 'Andrea', 'McGregor', 'amcgregor26@ft.com', 87);
@@ -44566,7 +44566,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 677, 901, 'Austine', 'Brideau', 'abrideau2b@japanpost.jp', 20);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7194, 669, 
 
-2, 678, 1973, 'Joana', 'Sellan', 'jsellan2c@berkeley.edu', 209);
+2, 678, 1173, 'Joana', 'Sellan', 'jsellan2c@berkeley.edu', 209);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3939, 670, 
 
 1, 679, 1521, 'Constance', 'Jacobs', 'cjacobs2d@google.it', 186);
@@ -44596,7 +44596,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 687, 1255, 'Polly', 'Illem', 'pillem7@sun.com', 80);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4187, 680, 
 
-3, 688, 1684, 'Ches', 'Langstone', 'clangstone8@51.la', 98);
+3, 688, 1284, 'Ches', 'Langstone', 'clangstone8@51.la', 98);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2686, 681, 
 
 3, 689, 712, 'Marcus', 'Froom', 'mfroom9@timesonline.co.uk', 290);
@@ -44605,34 +44605,34 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 690, 856, 'Dyanna', 'Cribbin', 'dcribbina@google.cn', 161);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (117, 683, 
 
-1, 691, 2293, 'Harrietta', 'Burdekin', 'hburdekinb@boston.com', 147);
+1, 691, 293, 'Harrietta', 'Burdekin', 'hburdekinb@boston.com', 147);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2061, 684, 
 
 3, 692, 1430, 'Nil', 'Herrero', 'nherreroc@yale.edu', 75);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6388, 685, 
 
-2, 693, 2550, 'Cairistiona', 'O'' Bee', 'cobeed@joomla.org', 188);
+2, 693, 550, 'Cairistiona', 'O'' Bee', 'cobeed@joomla.org', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1191, 686, 
 
-1, 694, 2335, 'Pip', 'Samsonsen', 'psamsonsene@prlog.org', 329);
+1, 694, 335, 'Pip', 'Samsonsen', 'psamsonsene@prlog.org', 329);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6513, 687, 
 
 1, 695, 179, 'Giacopo', 'Haslewood', 'ghaslewoodf@businessinsider.com', 285);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5900, 688, 
 
-3, 696, 2639, 'Edouard', 'Dunstall', 'edunstallg@yellowbook.com', 55);
+3, 696, 639, 'Edouard', 'Dunstall', 'edunstallg@yellowbook.com', 55);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2036, 689, 
 
-3, 697, 1745, 'Maribel', 'Storch', 'mstorchh@indiegogo.com', 67);
+3, 697, 745, 'Maribel', 'Storch', 'mstorchh@indiegogo.com', 67);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8506, 690, 
 
-1, 698, 2016, 'Audrey', 'Lyall', 'alyalli@printfriendly.com', 265);
+1, 698, 216, 'Audrey', 'Lyall', 'alyalli@printfriendly.com', 265);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9704, 691, 
 
 1, 699, 331, 'Tybi', 'Cristoforo', 'tcristoforoj@seattletimes.com', 247);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3860, 692, 
 
-2, 700, 2357, 'Ario', 'Ingarfill', 'aingarfillk@netvibes.com', 87);
+2, 700, 357, 'Ario', 'Ingarfill', 'aingarfillk@netvibes.com', 87);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1985, 693, 
 
 1, 701, 773, 'Mahala', 'Boik', 'mboikl@dailymail.co.uk', 26);
@@ -44644,7 +44644,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 703, 1335, 'Karin', 'Clyburn', 'kclyburnn@reddit.com', 282);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (112, 696, 
 
-2, 704, 2336, 'Hartley', 'Thredder', 'hthreddero@weebly.com', 188);
+2, 704, 336, 'Hartley', 'Thredder', 'hthreddero@weebly.com', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1326, 697, 
 
 3, 705, 459, 'Chris', 'Lace', 'clacep@sun.com', 227);
@@ -44665,16 +44665,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 710, 1260, 'Ryon', 'Gannaway', 'rgannawayu@unblog.fr', 105);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9498, 703, 
 
-2, 711, 1867, 'Kean', 'Gibson', 'kgibsonv@hhs.gov', 197);
+2, 711, 167, 'Kean', 'Gibson', 'kgibsonv@hhs.gov', 197);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7703, 704, 
 
-3, 712, 2452, 'Clare', 'McCurrie', 'cmccurriew@indiatimes.com', 82);
+3, 712, 252, 'Clare', 'McCurrie', 'cmccurriew@indiatimes.com', 82);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1978, 705, 
 
-3, 713, 1756, 'Skipp', 'O''Sheerin', 'sosheerinx@nhs.uk', 291);
+3, 713, 156, 'Skipp', 'O''Sheerin', 'sosheerinx@nhs.uk', 291);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (515, 706, 
 
-1, 714, 2280, 'Agustin', 'Van den Velde', 'avandenveldey@sbwire.com', 74);
+1, 714, 280, 'Agustin', 'Van den Velde', 'avandenveldey@sbwire.com', 74);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7743, 707, 
 
 3, 715, 295, 'Cristionna', 'Rosenbloom', 'crosenbloomz@printfriendly.com', 278);
@@ -44701,7 +44701,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 722, 803, 'Harris', 'Knappitt', 'hknappitt16@artisteer.com', 76);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6700, 715, 
 
-3, 723, 2445, 'Marcelia', 'Hortop', 'mhortop17@blinklist.com', 304);
+3, 723, 245, 'Marcelia', 'Hortop', 'mhortop17@blinklist.com', 304);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3564, 716, 
 
 1, 724, 77, 'Emalia', 'Crothers', 'ecrothers18@cpanel.net', 290);
@@ -44710,7 +44710,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 725, 793, 'Jemima', 'Tremaine', 'jtremaine19@posterous.com', 137);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9605, 718, 
 
-1, 726, 1828, 'Jermayne', 'Pull', 'jpull1a@vinaora.com', 247);
+1, 726, 828, 'Jermayne', 'Pull', 'jpull1a@vinaora.com', 247);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2013, 719, 
 
 2, 727, 358, 'Janeen', 'Bonnin', 'jbonnin1b@comcast.net', 206);
@@ -44719,16 +44719,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 728, 1543, 'Fransisco', 'Tart', 'ftart1c@bbc.co.uk', 269);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9478, 721, 
 
-2, 729, 1915, 'Tiff', 'Abelovitz', 'tabelovitz1d@examiner.com', 112);
+2, 729, 115, 'Tiff', 'Abelovitz', 'tabelovitz1d@examiner.com', 112);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (814, 722, 
 
-1, 730, 1875, 'Calhoun', 'Bride', 'cbride1e@dropbox.com', 129);
+1, 730, 185, 'Calhoun', 'Bride', 'cbride1e@dropbox.com', 129);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (829, 723, 
 
 1, 731, 1599, 'Granthem', 'Yeliashev', 'gyeliashev1f@europa.eu', 240);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4132, 724, 
 
-2, 732, 2194, 'Madelina', 'Denne', 'mdenne1g@unesco.org', 66);
+2, 732, 219, 'Madelina', 'Denne', 'mdenne1g@unesco.org', 66);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7433, 725, 
 
 2, 733, 1045, 'Nataline', 'Applin', 'napplin1h@blinklist.com', 308);
@@ -44767,7 +44767,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 744, 789, 'Jordanna', 'Keiley', 'jkeiley1s@w3.org', 287);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4988, 737, 
 
-1, 745, 2361, 'Nico', 'Maitland', 'nmaitland1t@auda.org.au', 293);
+1, 745, 231, 'Nico', 'Maitland', 'nmaitland1t@auda.org.au', 293);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6380, 738, 
 
 2, 746, 759, 'Willis', 'Ahern', 'wahern1u@youku.com', 132);
@@ -44779,16 +44779,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 748, 1233, 'Wrennie', 'Pohling', 'wpohling1w@diigo.com', 255);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1981, 741, 
 
-3, 749, 2282, 'Ashbey', 'Waltho', 'awaltho1x@bloomberg.com', 107);
+3, 749, 282, 'Ashbey', 'Waltho', 'awaltho1x@bloomberg.com', 107);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9087, 742, 
 
 1, 750, 831, 'Candace', 'Leneham', 'cleneham1y@icio.us', 117);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6589, 743, 
 
-2, 751, 2175, 'Felisha', 'De Maria', 'fdemaria1z@tuttocitta.it', 91);
+2, 751, 275, 'Felisha', 'De Maria', 'fdemaria1z@tuttocitta.it', 91);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1067, 744, 
 
-1, 752, 1694, 'Niccolo', 'Caulton', 'ncaulton20@time.com', 158);
+1, 752, 164, 'Niccolo', 'Caulton', 'ncaulton20@time.com', 158);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9446, 745, 
 
 1, 753, 330, 'Evaleen', 'Kenrack', 'ekenrack21@yale.edu', 46);
@@ -44803,13 +44803,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 756, 997, 'Adina', 'Blumfield', 'ablumfield24@wikipedia.org', 245);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4578, 749, 
 
-3, 757, 2181, 'Raul', 'Woolfenden', 'rwoolfenden25@auda.org.au', 180);
+3, 757, 281, 'Raul', 'Woolfenden', 'rwoolfenden25@auda.org.au', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2349, 750, 
 
 2, 758, 392, 'Peder', 'Dene', 'pdene26@fda.gov', 227);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2869, 751, 
 
-2, 759, 2017, 'Rancell', 'De La Cote', 'rdelacote27@si.edu', 209);
+2, 759, 217, 'Rancell', 'De La Cote', 'rdelacote27@si.edu', 209);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8770, 752, 
 
 1, 760, 120, 'Kellyann', 'Marlin', 'kmarlin28@cam.ac.uk', 116);
@@ -44818,13 +44818,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 761, 1193, 'Hanni', 'Tailby', 'htailby29@spiegel.de', 141);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (964, 754, 
 
-2, 762, 2286, 'Nev', 'Terrill', 'nterrill2a@state.tx.us', 267);
+2, 762, 286, 'Nev', 'Terrill', 'nterrill2a@state.tx.us', 267);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (253, 755, 
 
 3, 763, 849, 'Samuel', 'Allum', 'sallum2b@networksolutions.com', 78);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6056, 756, 
 
-1, 764, 2387, 'Netti', 'Wyatt', 'nwyatt2c@seattletimes.com', 90);
+1, 764, 387, 'Netti', 'Wyatt', 'nwyatt2c@seattletimes.com', 90);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3399, 757, 
 
 3, 765, 1363, 'Kynthia', 'Denyer', 'kdenyer2d@nhs.uk', 266);
@@ -44836,22 +44836,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 767, 980, 'Rafe', 'Kyttor', 'rkyttor2f@wiley.com', 77);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9725, 760, 
 
-3, 768, 1940, 'Merl', 'Filipchikov', 'mfilipchikov2g@nasa.gov', 287);
+3, 768, 140, 'Merl', 'Filipchikov', 'mfilipchikov2g@nasa.gov', 287);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (419, 761, 
 
-1, 769, 2428, 'Megen', 'Ferrone', 'mferrone2h@google.co.jp', 128);
+1, 769, 428, 'Megen', 'Ferrone', 'mferrone2h@google.co.jp', 128);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8007, 762, 
 
-2, 770, 1709, 'Koenraad', 'Balston', 'kbalston2i@cam.ac.uk', 165);
+2, 770, 109, 'Koenraad', 'Balston', 'kbalston2i@cam.ac.uk', 165);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (336, 763, 
 
-2, 771, 2000, 'Pierce', 'Matresse', 'pmatresse2j@theglobeandmail.com', 205);
+2, 771, 300, 'Pierce', 'Matresse', 'pmatresse2j@theglobeandmail.com', 205);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8755, 764, 
 
 2, 772, 1212, 'Leah', 'Piesing', 'lpiesing2k@shareasale.com', 42);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (747, 765, 
 
-1, 773, 2131, 'Adeline', 'Bau', 'abau2l@cloudflare.com', 265);
+1, 773, 131, 'Adeline', 'Bau', 'abau2l@cloudflare.com', 265);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3174, 766, 
 
 3, 774, 879, 'Wayland', 'Eastway', 'weastway2m@parallels.com', 128);
@@ -44860,7 +44860,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 775, 795, 'Kati', 'Gunderson', 'kgunderson2n@cloudflare.com', 138);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8862, 768, 
 
-1, 776, 1839, 'Tarah', 'France', 'tfrance2o@livejournal.com', 179);
+1, 776, 139, 'Tarah', 'France', 'tfrance2o@livejournal.com', 179);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2736, 769, 
 
 3, 777, 100, 'Cody', 'Giovannardi', 'cgiovannardi2p@goo.ne.jp', 139);
@@ -44875,37 +44875,37 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 780, 1010, 'Daniella', 'Skirvane', 'dskirvane2s@dmoz.org', 172);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6743, 773, 
 
-3, 781, 2176, 'Lydon', 'Pittman', 'lpittman2t@hud.gov', 100);
+3, 781, 176, 'Lydon', 'Pittman', 'lpittman2t@hud.gov', 100);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8589, 774, 
 
 3, 782, 1365, 'Hallie', 'Doust', 'hdoust2u@ebay.co.uk', 154);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1687, 775, 
 
-3, 783, 1794, 'Keeley', 'Dechelle', 'kdechelle2v@networksolutions.com', 166);
+3, 783, 194, 'Keeley', 'Dechelle', 'kdechelle2v@networksolutions.com', 166);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4652, 776, 
 
-3, 784, 2260, 'Charlena', 'Borrows', 'cborrows2w@usatoday.com', 323);
+3, 784, 260, 'Charlena', 'Borrows', 'cborrows2w@usatoday.com', 323);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2091, 777, 
 
-3, 785, 2578, 'Phillip', 'Tuther', 'ptuther2x@skype.com', 261);
+3, 785, 278, 'Phillip', 'Tuther', 'ptuther2x@skype.com', 261);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4802, 778, 
 
 1, 786, 1544, 'Celinda', 'Bretland', 'cbretland2y@nifty.com', 233);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9729, 779, 
 
-2, 787, 2320, 'Lenci', 'Hanson', 'lhanson2z@nature.com', 240);
+2, 787, 320, 'Lenci', 'Hanson', 'lhanson2z@nature.com', 240);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (592, 780, 
 
 2, 788, 1471, 'Gerianna', 'Gianuzzi', 'ggianuzzi30@nationalgeographic.com', 158);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8252, 781, 
 
-2, 789, 2328, 'Hermann', 'Gentreau', 'hgentreau31@fc2.com', 110);
+2, 789, 328, 'Hermann', 'Gentreau', 'hgentreau31@fc2.com', 110);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4582, 782, 
 
-1, 790, 2613, 'Fabian', 'Radclyffe', 'fradclyffe32@arizona.edu', 9);
+1, 790, 213, 'Fabian', 'Radclyffe', 'fradclyffe32@arizona.edu', 9);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3373, 783, 
 
-2, 791, 2258, 'Elysha', 'Pittock', 'epittock33@surveymonkey.com', 21);
+2, 791, 258, 'Elysha', 'Pittock', 'epittock33@surveymonkey.com', 21);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (636, 784, 
 
 3, 792, 1414, 'Ezri', 'Fawlo', 'efawlo34@netlog.com', 229);
@@ -44914,7 +44914,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 793, 961, 'Carley', 'Lasseter', 'classeter35@yolasite.com', 30);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8575, 786, 
 
-3, 794, 1837, 'Mauricio', 'Schafer', 'mschafer36@instagram.com', 179);
+3, 794, 837, 'Mauricio', 'Schafer', 'mschafer36@instagram.com', 179);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7996, 787, 
 
 2, 795, 1514, 'Olympia', 'Coram', 'ocoram37@xinhuanet.com', 136);
@@ -44923,13 +44923,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 796, 1509, 'Mariejeanne', 'Twigg', 'mtwigg38@tamu.edu', 253);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5179, 789, 
 
-3, 797, 2458, 'Abramo', 'Pendrey', 'apendrey39@msn.com', 25);
+3, 797, 258, 'Abramo', 'Pendrey', 'apendrey39@msn.com', 25);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (824, 790, 
 
 2, 798, 458, 'Lorna', 'Marl', 'lmarl3a@apache.org', 216);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3172, 791, 
 
-3, 799, 2171, 'Carroll', 'Hedau', 'chedau3b@admin.ch', 58);
+3, 799, 171, 'Carroll', 'Hedau', 'chedau3b@admin.ch', 58);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5766, 792, 
 
 3, 800, 1667, 'Conan', 'Moralas', 'cmoralas3c@imgur.com', 12);
@@ -44938,25 +44938,25 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 801, 1153, 'Celine', 'Linacre', 'clinacre3d@theatlantic.com', 44);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6446, 794, 
 
-1, 802, 1687, 'Elsbeth', 'Kivits', 'ekivits3e@trellian.com', 50);
+1, 802, 167, 'Elsbeth', 'Kivits', 'ekivits3e@trellian.com', 50);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5491, 795, 
 
-3, 803, 2471, 'Shannan', 'Tredgold', 'stredgold3f@qq.com', 51);
+3, 803, 271, 'Shannan', 'Tredgold', 'stredgold3f@qq.com', 51);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9542, 796, 
 
-3, 804, 1737, 'Catherine', 'Bagnell', 'cbagnell3g@columbia.edu', 217);
+3, 804, 1237, 'Catherine', 'Bagnell', 'cbagnell3g@columbia.edu', 217);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4900, 797, 
 
 3, 805, 423, 'Gene', 'Leap', 'gleap3h@ask.com', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2608, 798, 
 
-3, 806, 1892, 'Fayre', 'Threadkell', 'fthreadkell3i@stumbleupon.com', 119);
+3, 806, 1192, 'Fayre', 'Threadkell', 'fthreadkell3i@stumbleupon.com', 119);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9259, 799, 
 
-2, 807, 1901, 'Elsbeth', 'Shulver', 'eshulver3j@usatoday.com', 228);
+2, 807, 101, 'Elsbeth', 'Shulver', 'eshulver3j@usatoday.com', 228);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1347, 800, 
 
-2, 808, 2276, 'Lorain', 'Aizkovitch', 'laizkovitch3k@digg.com', 296);
+2, 808, 276, 'Lorain', 'Aizkovitch', 'laizkovitch3k@digg.com', 296);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4568, 801, 
 
 1, 809, 909, 'Freemon', 'Chilles', 'fchilles3l@blogger.com', 263);
@@ -44965,7 +44965,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 810, 1414, 'Hilliary', 'Blaber', 'hblaber3m@hud.gov', 313);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9975, 803, 
 
-3, 811, 1742, 'Carol', 'Ortler', 'cortler3n@scientificamerican.com', 276);
+3, 811, 1342, 'Carol', 'Ortler', 'cortler3n@scientificamerican.com', 276);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1852, 804, 
 
 2, 812, 372, 'Adelina', 'Welfair', 'awelfair3o@kickstarter.com', 180);
@@ -44974,19 +44974,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 813, 849, 'Kali', 'Lucas', 'klucas3p@phpbb.com', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4409, 806, 
 
-1, 814, 2628, 'Rori', 'MacCrosson', 'rmaccrosson3q@1und1.de', 88);
+1, 814, 228, 'Rori', 'MacCrosson', 'rmaccrosson3q@1und1.de', 88);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3877, 807, 
 
-2, 815, 2024, 'Bryna', 'Proud', 'bproud3r@clickbank.net', 54);
+2, 815, 124, 'Bryna', 'Proud', 'bproud3r@clickbank.net', 54);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3894, 808, 
 
 3, 816, 225, 'Patsy', 'Kiebes', 'pkiebes3s@wsj.com', 61);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1695, 809, 
 
-2, 817, 2043, 'Gaston', 'Pidwell', 'gpidwell3t@bandcamp.com', 93);
+2, 817, 243, 'Gaston', 'Pidwell', 'gpidwell3t@bandcamp.com', 93);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1413, 810, 
 
-1, 818, 1823, 'Oberon', 'Chicken', 'ochicken3u@europa.eu', 151);
+1, 818, 823, 'Oberon', 'Chicken', 'ochicken3u@europa.eu', 151);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8000, 811, 
 
 2, 819, 1362, 'Mina', 'Campos', 'mcampos3v@tumblr.com', 222);
@@ -44995,10 +44995,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 820, 1647, 'Tamar', 'Freckelton', 'tfreckelton3w@cam.ac.uk', 53);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7205, 813, 
 
-1, 821, 2060, 'Jerrie', 'Cowpland', 'jcowpland3x@hud.gov', 104);
+1, 821, 260, 'Jerrie', 'Cowpland', 'jcowpland3x@hud.gov', 104);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6644, 814, 
 
-2, 822, 2427, 'Fremont', 'Thornham', 'fthornham3y@squarespace.com', 64);
+2, 822, 427, 'Fremont', 'Thornham', 'fthornham3y@squarespace.com', 64);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2868, 815, 
 
 1, 823, 1611, 'Dougie', 'Tremain', 'dtremain3z@dyndns.org', 191);
@@ -45007,7 +45007,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 824, 300, 'Aguie', 'Cauderlie', 'acauderlie40@google.es', 190);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5791, 817, 
 
-3, 825, 2025, 'Mab', 'Lambotin', 'mlambotin41@bbb.org', 134);
+3, 825, 225, 'Mab', 'Lambotin', 'mlambotin41@bbb.org', 134);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8695, 818, 
 
 2, 826, 967, 'Rikki', 'Bradman', 'rbradman42@amazon.com', 103);
@@ -45016,16 +45016,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 827, 452, 'Lanae', 'Center', 'lcenter43@umich.edu', 94);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9714, 820, 
 
-3, 828, 2329, 'Salome', 'Revell', 'srevell44@fc2.com', 33);
+3, 828, 329, 'Salome', 'Revell', 'srevell44@fc2.com', 33);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9852, 821, 
 
-3, 829, 2298, 'Isa', 'Beards', 'ibeards45@wikia.com', 227);
+3, 829, 298, 'Isa', 'Beards', 'ibeards45@wikia.com', 227);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (755, 822, 
 
 2, 830, 1223, 'Obidiah', 'Jerrard', 'ojerrard46@sitemeter.com', 81);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2494, 823, 
 
-1, 831, 2487, 'Hank', 'Willcox', 'hwillcox47@buzzfeed.com', 281);
+1, 831, 487, 'Hank', 'Willcox', 'hwillcox47@buzzfeed.com', 281);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2723, 824, 
 
 3, 832, 1094, 'Claus', 'Burlay', 'cburlay48@unicef.org', 37);
@@ -45034,10 +45034,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 833, 1084, 'Paxton', 'Kenway', 'pkenway49@ted.com', 168);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1405, 826, 
 
-2, 834, 1839, 'Sidonia', 'Mauchline', 'smauchline4a@zimbio.com', 329);
+2, 834, 1139, 'Sidonia', 'Mauchline', 'smauchline4a@zimbio.com', 329);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4224, 827, 
 
-3, 835, 2265, 'Loralie', 'Walthall', 'lwalthall4b@senate.gov', 326);
+3, 835, 1265, 'Loralie', 'Walthall', 'lwalthall4b@senate.gov', 326);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6464, 828, 
 
 1, 836, 72, 'Paige', 'Liccardi', 'pliccardi4c@vinaora.com', 29);
@@ -45058,7 +45058,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 841, 1270, 'Aylmer', 'Scorey', 'ascorey4h@devhub.com', 269);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7814, 834, 
 
-2, 842, 1963, 'Lamar', 'Bisson', 'lbisson4i@mit.edu', 68);
+2, 842, 1163, 'Lamar', 'Bisson', 'lbisson4i@mit.edu', 68);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (664, 835, 
 
 2, 843, 973, 'Vincent', 'Keepence', 'vkeepence4j@domainmarket.com', 55);
@@ -45076,13 +45076,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 847, 455, 'Dalton', 'Loosmore', 'dloosmore4n@bing.com', 133);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9717, 840, 
 
-2, 848, 1806, 'Forrester', 'Smethurst', 'fsmethurst4o@printfriendly.com', 5);
+2, 848, 1106, 'Forrester', 'Smethurst', 'fsmethurst4o@printfriendly.com', 5);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7502, 841, 
 
-3, 849, 1667, 'Mattie', 'Leipelt', 'mleipelt4p@jigsy.com', 334);
+3, 849, 1167, 'Mattie', 'Leipelt', 'mleipelt4p@jigsy.com', 334);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4796, 842, 
 
-2, 850, 1794, 'Jeni', 'Arnli', 'jarnli4q@shop-pro.jp', 201);
+2, 850, 1194, 'Jeni', 'Arnli', 'jarnli4q@shop-pro.jp', 201);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6119, 843, 
 
 1, 851, 583, 'Meridel', 'Miners', 'mminers4r@bloglovin.com', 61);
@@ -45091,7 +45091,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 852, 419, 'Kerry', 'Spread', 'kspread4s@comcast.net', 39);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5833, 845, 
 
-1, 853, 2023, 'Garwin', 'Ingall', 'gingall4t@ehow.com', 95);
+1, 853, 23, 'Garwin', 'Ingall', 'gingall4t@ehow.com', 95);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9109, 846, 
 
 1, 854, 1063, 'Creight', 'Ritchard', 'critchard4u@scientificamerican.com', 141);
@@ -45112,13 +45112,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 859, 311, 'Ree', 'Cloake', 'rcloake4z@newyorker.com', 47);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2698, 852, 
 
-2, 860, 2024, 'Ursulina', 'Lightollers', 'ulightollers50@psu.edu', 88);
+2, 860, 224, 'Ursulina', 'Lightollers', 'ulightollers50@psu.edu', 88);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4050, 853, 
 
 1, 861, 397, 'Randie', 'Dunleavy', 'rdunleavy51@people.com.cn', 265);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2369, 854, 
 
-1, 862, 2389, 'Les', 'Zebedee', 'lzebedee52@360.cn', 41);
+1, 862, 238, 'Les', 'Zebedee', 'lzebedee52@360.cn', 41);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5727, 855, 
 
 2, 863, 510, 'Guinevere', 'Lazer', 'glazer53@hexun.com', 330);
@@ -45130,7 +45130,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 865, 1251, 'Thayne', 'Imesen', 'timesen55@gmpg.org', 170);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6800, 858, 
 
-1, 866, 1820, 'Domenico', 'Bunt', 'dbunt56@posterous.com', 101);
+1, 866, 120, 'Domenico', 'Bunt', 'dbunt56@posterous.com', 101);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2512, 859, 
 
 2, 867, 751, 'Cordelie', 'Ellinor', 'cellinor57@illinois.edu', 289);
@@ -45139,10 +45139,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 868, 1563, 'Elmer', 'Gosz', 'egosz58@lulu.com', 67);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4712, 861, 
 
-1, 869, 2526, 'Kettie', 'Galle', 'kgalle59@ow.ly', 267);
+1, 869, 252, 'Kettie', 'Galle', 'kgalle59@ow.ly', 267);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8904, 862, 
 
-2, 870, 2630, 'Kurt', 'Louche', 'klouche5a@spiegel.de', 285);
+2, 870, 263, 'Kurt', 'Louche', 'klouche5a@spiegel.de', 285);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6164, 863, 
 
 2, 871, 342, 'Brynne', 'Jacob', 'bjacob5b@networksolutions.com', 243);
@@ -45151,7 +45151,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 872, 1499, 'Lauri', 'Sixsmith', 'lsixsmith5c@cyberchimps.com', 281);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3084, 865, 
 
-3, 873, 2042, 'Mark', 'Crockford', 'mcrockford5d@nba.com', 108);
+3, 873, 242, 'Mark', 'Crockford', 'mcrockford5d@nba.com', 108);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5278, 866, 
 
 3, 874, 14, 'Ethan', 'Cathel', 'ecathel5e@slideshare.net', 30);
@@ -45160,7 +45160,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 875, 939, 'Gearard', 'Giottoi', 'ggiottoi5f@spiegel.de', 255);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4563, 868, 
 
-3, 876, 1896, 'Quint', 'Peyton', 'qpeyton5g@indiegogo.com', 206);
+3, 876, 196, 'Quint', 'Peyton', 'qpeyton5g@indiegogo.com', 206);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9422, 869, 
 
 2, 877, 1162, 'Jamal', 'Derrett', 'jderrett5h@quantcast.com', 228);
@@ -45172,10 +45172,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 879, 167, 'Deina', 'Gemlett', 'dgemlett5j@jalbum.net', 233);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7200, 872, 
 
-3, 880, 2240, 'Ara', 'Knappen', 'aknappen5k@dyndns.org', 30);
+3, 880, 2, 'Ara', 'Knappen', 'aknappen5k@dyndns.org', 30);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7515, 873, 
 
-2, 881, 1953, 'Maud', 'Deddum', 'mdeddum5l@behance.net', 237);
+2, 881, 153, 'Maud', 'Deddum', 'mdeddum5l@behance.net', 237);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (375, 874, 
 
 1, 882, 443, 'Doria', 'Lowell', 'dlowell5m@buzzfeed.com', 236);
@@ -45193,7 +45193,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 886, 707, 'Christen', 'Lyffe', 'clyffe5q@hp.com', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9092, 879, 
 
-3, 887, 1953, 'Darb', 'Hevner', 'dhevner5r@cmu.edu', 236);
+3, 887, 153, 'Darb', 'Hevner', 'dhevner5r@cmu.edu', 236);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4790, 880, 
 
 1, 888, 398, 'Clarance', 'MacCardle', 'cmaccardle5s@google.co.jp', 80);
@@ -45208,16 +45208,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 891, 1377, 'Megan', 'Purvis', 'mpurvis5v@sohu.com', 163);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6374, 884, 
 
-2, 892, 2666, 'Mischa', 'Stoppard', 'mstoppard5w@163.com', 180);
+2, 892, 666, 'Mischa', 'Stoppard', 'mstoppard5w@163.com', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (670, 885, 
 
-3, 893, 2237, 'Frederique', 'Luard', 'fluard5x@instagram.com', 69);
+3, 893, 237, 'Frederique', 'Luard', 'fluard5x@instagram.com', 69);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4266, 886, 
 
 1, 894, 1388, 'Nichol', 'Howsam', 'nhowsam5y@spotify.com', 123);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9541, 887, 
 
-2, 895, 2286, 'Charles', 'Calwell', 'ccalwell5z@japanpost.jp', 167);
+2, 895, 286, 'Charles', 'Calwell', 'ccalwell5z@japanpost.jp', 167);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3878, 888, 
 
 3, 896, 227, 'Rosemaria', 'Antushev', 'rantushev60@t-online.de', 296);
@@ -45226,40 +45226,40 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 897, 363, 'Correy', 'Cancelier', 'ccancelier61@jiathis.com', 302);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1174, 890, 
 
-3, 898, 2526, 'Riannon', 'Steuart', 'rsteuart62@marketwatch.com', 317);
+3, 898, 526, 'Riannon', 'Steuart', 'rsteuart62@marketwatch.com', 317);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4529, 891, 
 
-3, 899, 1949, 'Dorelle', 'Pakes', 'dpakes63@usda.gov', 275);
+3, 899, 1249, 'Dorelle', 'Pakes', 'dpakes63@usda.gov', 275);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4634, 892, 
 
-2, 900, 1718, 'Dirk', 'Dover', 'ddover64@foxnews.com', 88);
+2, 900, 1118, 'Dirk', 'Dover', 'ddover64@foxnews.com', 88);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2281, 893, 
 
-1, 901, 2157, 'Harriott', 'O''Moylan', 'homoylan65@eepurl.com', 71);
+1, 901, 1157, 'Harriott', 'O''Moylan', 'homoylan65@eepurl.com', 71);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3197, 894, 
 
 3, 902, 1206, 'Coleman', 'Iorizzo', 'ciorizzo66@lulu.com', 172);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6102, 895, 
 
-1, 903, 2628, 'Sigrid', 'Olufsen', 'solufsen67@clickbank.net', 65);
+1, 903, 1628, 'Sigrid', 'Olufsen', 'solufsen67@clickbank.net', 65);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4139, 896, 
 
 2, 904, 641, 'Kitty', 'Willingale', 'kwillingale68@ucla.edu', 155);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2882, 897, 
 
-2, 905, 2113, 'Tobe', 'Aldridge', 'taldridge69@craigslist.org', 292);
+2, 905, 1113, 'Tobe', 'Aldridge', 'taldridge69@craigslist.org', 292);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6717, 898, 
 
 2, 906, 1630, 'Gaylord', 'Deshorts', 'gdeshorts6a@google.nl', 24);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1341, 899, 
 
-1, 907, 2628, 'Cleveland', 'Veltman', 'cveltman6b@wp.com', 89);
+1, 907, 1628, 'Cleveland', 'Veltman', 'cveltman6b@wp.com', 89);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1026, 900, 
 
 3, 908, 1081, 'Beatrisa', 'Cardoso', 'bcardoso6c@tuttocitta.it', 20);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4168, 901, 
 
-2, 909, 2616, 'Dulcia', 'Corneljes', 'dcorneljes6d@google.es', 14);
+2, 909, 116, 'Dulcia', 'Corneljes', 'dcorneljes6d@google.es', 14);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4287, 902, 
 
 3, 910, 168, 'Siegfried', 'Robertsson', 'srobertsson6e@hhs.gov', 76);
@@ -45274,13 +45274,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 913, 890, 'Eb', 'Frayne', 'efrayne6h@techcrunch.com', 272);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6217, 906, 
 
-3, 914, 2291, 'Kareem', 'Lount', 'klount6i@wiley.com', 62);
+3, 914, 291, 'Kareem', 'Lount', 'klount6i@wiley.com', 62);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3610, 907, 
 
 1, 915, 475, 'Edmon', 'Lehr', 'elehr6j@accuweather.com', 214);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5708, 908, 
 
-3, 916, 2345, 'Karalee', 'Dunnion', 'kdunnion6k@intel.com', 20);
+3, 916, 345, 'Karalee', 'Dunnion', 'kdunnion6k@intel.com', 20);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9154, 909, 
 
 2, 917, 150, 'Russell', 'Horder', 'rhorder6l@aboutads.info', 55);
@@ -45307,7 +45307,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 924, 360, 'Annnora', 'Goodbarr', 'agoodbarr6s@ocn.ne.jp', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7773, 917, 
 
-2, 925, 1894, 'Hana', 'Simmen', 'hsimmen6t@photobucket.com', 177);
+2, 925, 1194, 'Hana', 'Simmen', 'hsimmen6t@photobucket.com', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6372, 918, 
 
 1, 926, 1581, 'Ferrel', 'Costley', 'fcostley6u@washingtonpost.com', 71);
@@ -45322,13 +45322,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 929, 43, 'Joann', 'Trayford', 'jtrayford6x@craigslist.org', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (307, 922, 
 
-1, 930, 1832, 'Blakelee', 'Le Barr', 'blebarr6y@seesaa.net', 21);
+1, 930, 132, 'Blakelee', 'Le Barr', 'blebarr6y@seesaa.net', 21);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2824, 923, 
 
-2, 931, 1860, 'Chad', 'Winckles', 'cwinckles6z@amazon.com', 89);
+2, 931, 160, 'Chad', 'Winckles', 'cwinckles6z@amazon.com', 89);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9226, 924, 
 
-3, 932, 1960, 'Oralia', 'Joyes', 'ojoyes70@indiatimes.com', 13);
+3, 932, 190, 'Oralia', 'Joyes', 'ojoyes70@indiatimes.com', 13);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7210, 925, 
 
 1, 933, 314, 'Sukey', 'Ody', 'sody71@twitter.com', 172);
@@ -45340,13 +45340,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 935, 42, 'Inna', 'Ibbitson', 'iibbitson73@reverbnation.com', 53);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5147, 928, 
 
-1, 936, 2589, 'Miranda', 'Chaise', 'mchaise74@mayoclinic.com', 274);
+1, 936, 1589, 'Miranda', 'Chaise', 'mchaise74@mayoclinic.com', 274);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5445, 929, 
 
-1, 937, 1856, 'Gannie', 'Askaw', 'gaskaw75@w3.org', 305);
+1, 937, 1156, 'Gannie', 'Askaw', 'gaskaw75@w3.org', 305);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5166, 930, 
 
-2, 938, 2122, 'Dora', 'Dredge', 'ddredge76@cpanel.net', 110);
+2, 938, 222, 'Dora', 'Dredge', 'ddredge76@cpanel.net', 110);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3852, 931, 
 
 3, 939, 1049, 'Emmet', 'Weedon', 'eweedon77@etsy.com', 42);
@@ -45358,10 +45358,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 941, 929, 'Rachael', 'Sprowle', 'rsprowle79@phoca.cz', 63);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3738, 934, 
 
-3, 942, 2044, 'Lu', 'Sweeny', 'lsweeny7a@comcast.net', 53);
+3, 942, 1044, 'Lu', 'Sweeny', 'lsweeny7a@comcast.net', 53);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4094, 935, 
 
-1, 943, 2543, 'Tonia', 'Hardcastle', 'thardcastle7b@usa.gov', 286);
+1, 943, 1543, 'Tonia', 'Hardcastle', 'thardcastle7b@usa.gov', 286);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6777, 936, 
 
 1, 944, 1625, 'Royce', 'Hiddersley', 'rhiddersley7c@ehow.com', 319);
@@ -45373,7 +45373,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 946, 1173, 'Garret', 'Girardoni', 'ggirardoni7e@msu.edu', 131);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9089, 939, 
 
-2, 947, 1890, 'Jennica', 'Lalevee', 'jlalevee7f@google.nl', 1);
+2, 947, 1190, 'Jennica', 'Lalevee', 'jlalevee7f@google.nl', 1);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5440, 940, 
 
 2, 948, 989, 'Markos', 'Aishford', 'maishford7g@51.la', 244);
@@ -45388,13 +45388,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 951, 1156, 'Kirstyn', 'Cadogan', 'kcadogan7j@ning.com', 195);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1197, 944, 
 
-3, 952, 2394, 'Kelly', 'Ibbitt', 'kibbitt7k@liveinternet.ru', 313);
+3, 952, 1394, 'Kelly', 'Ibbitt', 'kibbitt7k@liveinternet.ru', 313);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3788, 945, 
 
 3, 953, 137, 'Isa', 'St. Clair', 'istclair7l@google.co.jp', 147);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3890, 946, 
 
-1, 954, 1957, 'Toby', 'Beckles', 'tbeckles7m@theguardian.com', 34);
+1, 954, 1157, 'Toby', 'Beckles', 'tbeckles7m@theguardian.com', 34);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3549, 947, 
 
 2, 955, 786, 'Giacomo', 'Eastbrook', 'geastbrook7n@timesonline.co.uk', 152);
@@ -45418,31 +45418,31 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 961, 573, 'Tally', 'Lamberto', 'tlamberto7t@wordpress.org', 238);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9536, 954, 
 
-3, 962, 2052, 'Sherm', 'Lightfoot', 'slightfoot7u@diigo.com', 252);
+3, 962, 252, 'Sherm', 'Lightfoot', 'slightfoot7u@diigo.com', 252);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8157, 955, 
 
 1, 963, 301, 'Dimitry', 'Garrett', 'dgarrett7v@bloomberg.com', 184);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2823, 956, 
 
-1, 964, 2308, 'Star', 'Boocock', 'sboocock7w@cnbc.com', 234);
+1, 964, 1308, 'Star', 'Boocock', 'sboocock7w@cnbc.com', 234);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4077, 957, 
 
 2, 965, 712, 'Tyrus', 'Markwick', 'tmarkwick7x@stanford.edu', 210);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7557, 958, 
 
-1, 966, 2038, 'Lona', 'Fewell', 'lfewell7y@utexas.edu', 89);
+1, 966, 1038, 'Lona', 'Fewell', 'lfewell7y@utexas.edu', 89);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1256, 959, 
 
 1, 967, 1491, 'Dorice', 'Holdron', 'dholdron7z@foxnews.com', 293);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3487, 960, 
 
-1, 968, 2416, 'Dione', 'Stoneley', 'dstoneley80@craigslist.org', 32);
+1, 968, 1416, 'Dione', 'Stoneley', 'dstoneley80@craigslist.org', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4629, 961, 
 
 1, 969, 1361, 'Turner', 'Askaw', 'taskaw81@t.co', 179);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3973, 962, 
 
-2, 970, 1864, 'Terri', 'Davidzon', 'tdavidzon82@homestead.com', 145);
+2, 970, 1164, 'Terri', 'Davidzon', 'tdavidzon82@homestead.com', 145);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5725, 963, 
 
 2, 971, 1457, 'Tasia', 'Filipychev', 'tfilipychev83@samsung.com', 1);
@@ -45451,10 +45451,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 972, 620, 'Edmund', 'Murdy', 'emurdy84@elpais.com', 24);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4303, 965, 
 
-3, 973, 2338, 'Zabrina', 'Pashler', 'zpashler85@msu.edu', 157);
+3, 973, 1138, 'Zabrina', 'Pashler', 'zpashler85@msu.edu', 157);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3794, 966, 
 
-3, 974, 2362, 'Marwin', 'Chastagnier', 'mchastagnier86@phpbb.com', 118);
+3, 974, 1362, 'Marwin', 'Chastagnier', 'mchastagnier86@phpbb.com', 118);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (396, 967, 
 
 2, 975, 115, 'Bab', 'Cannicott', 'bcannicott87@odnoklassniki.ru', 317);
@@ -45466,13 +45466,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 977, 605, 'Naomi', 'Danielli', 'ndanielli89@sina.com.cn', 231);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6958, 970, 
 
-1, 978, 1722, 'Garrot', 'Osbaldstone', 'gosbaldstone8a@gmpg.org', 269);
+1, 978, 1122, 'Garrot', 'Osbaldstone', 'gosbaldstone8a@gmpg.org', 269);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1159, 971, 
 
 3, 979, 283, 'Nicolea', 'Marfell', 'nmarfell8b@reuters.com', 206);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9621, 972, 
 
-2, 980, 2337, 'Peta', 'Padefield', 'ppadefield8c@blogs.com', 321);
+2, 980, 1337, 'Peta', 'Padefield', 'ppadefield8c@blogs.com', 321);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3430, 973, 
 
 1, 981, 262, 'Vivyan', 'Ranfield', 'vranfield8d@howstuffworks.com', 69);
@@ -45487,31 +45487,31 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 984, 814, 'Ophelia', 'O''Brien', 'oobrien8g@google.de', 189);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3542, 977, 
 
-3, 985, 2368, 'Everard', 'Ringrose', 'eringrose8h@t-online.de', 185);
+3, 985, 1368, 'Everard', 'Ringrose', 'eringrose8h@t-online.de', 185);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6602, 978, 
 
 3, 986, 133, 'Larina', 'Wardale', 'lwardale8i@desdev.cn', 131);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1871, 979, 
 
-1, 987, 2388, 'Elbertine', 'Andrus', 'eandrus8j@4shared.com', 108);
+1, 987, 1388, 'Elbertine', 'Andrus', 'eandrus8j@4shared.com', 108);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2126, 980, 
 
 1, 988, 1399, 'Roarke', 'Walklot', 'rwalklot8k@theatlantic.com', 37);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1765, 981, 
 
-1, 989, 1748, 'Moyra', 'Daw', 'mdaw8l@tumblr.com', 269);
+1, 989, 1248, 'Moyra', 'Daw', 'mdaw8l@tumblr.com', 269);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8467, 982, 
 
 1, 990, 753, 'Rufus', 'Comiskey', 'rcomiskey8m@epa.gov', 53);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1449, 983, 
 
-3, 991, 1851, 'Anna-maria', 'Albrooke', 'aalbrooke8n@purevolume.com', 301);
+3, 991, 1251, 'Anna-maria', 'Albrooke', 'aalbrooke8n@purevolume.com', 301);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6656, 984, 
 
-1, 992, 2547, 'Martica', 'Iuorio', 'miuorio8o@youku.com', 216);
+1, 992, 1547, 'Martica', 'Iuorio', 'miuorio8o@youku.com', 216);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4534, 985, 
 
-2, 993, 2445, 'Lelia', 'Kirsop', 'lkirsop8p@nydailynews.com', 254);
+2, 993, 1445, 'Lelia', 'Kirsop', 'lkirsop8p@nydailynews.com', 254);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1116, 986, 
 
 3, 994, 1349, 'Jacques', 'Phillips', 'jphillips8q@disqus.com', 30);
@@ -45520,13 +45520,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 995, 404, 'Tymothy', 'Middleditch', 'tmiddleditch8r@reuters.com', 194);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4994, 988, 
 
-1, 996, 1727, 'Stormie', 'Froschauer', 'sfroschauer8s@wiley.com', 200);
+1, 996, 1127, 'Stormie', 'Froschauer', 'sfroschauer8s@wiley.com', 200);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9405, 989, 
 
-3, 997, 1898, 'Marylinda', 'Lapthorn', 'mlapthorn8t@abc.net.au', 214);
+3, 997, 1198, 'Marylinda', 'Lapthorn', 'mlapthorn8t@abc.net.au', 214);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2750, 990, 
 
-2, 998, 1978, 'Kassey', 'Giffin', 'kgiffin8u@slate.com', 329);
+2, 998, 1178, 'Kassey', 'Giffin', 'kgiffin8u@slate.com', 329);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5312, 991, 
 
 3, 999, 307, 'Manolo', 'Dyzart', 'mdyzart8v@cornell.edu', 196);
@@ -45535,16 +45535,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1000, 368, 'Charil', 'Henrichsen', 'chenrichsen8w@multiply.com', 25);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1954, 993, 
 
-2, 1001, 2015, 'Brew', 'Barnhart', 'bbarnhart8x@jimdo.com', 288);
+2, 1001, 1015, 'Brew', 'Barnhart', 'bbarnhart8x@jimdo.com', 288);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1777, 994, 
 
 3, 1002, 594, 'Ophelia', 'Surgood', 'osurgood8y@phpbb.com', 38);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1290, 995, 
 
-2, 1003, 2276, 'Camey', 'Calcutt', 'ccalcutt8z@pinterest.com', 51);
+2, 1003, 1276, 'Camey', 'Calcutt', 'ccalcutt8z@pinterest.com', 51);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4148, 996, 
 
-3, 1004, 2489, 'Leanor', 'Ragbourn', 'lragbourn90@discuz.net', 151);
+3, 1004, 1489, 'Leanor', 'Ragbourn', 'lragbourn90@discuz.net', 151);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8617, 997, 
 
 1, 1005, 474, 'Sully', 'Caldero', 'scaldero91@opensource.org', 131);
@@ -45556,7 +45556,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1007, 1582, 'Maris', 'Friar', 'mfriar93@indiatimes.com', 156);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8015, 1000, 
 
-2, 1008, 2253, 'Vonnie', 'Hickinbottom', 'vhickinbottom94@hhs.gov', 126);
+2, 1008, 1253, 'Vonnie', 'Hickinbottom', 'vhickinbottom94@hhs.gov', 126);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1442, 1001, 
 
 2, 1009, 543, 'Orazio', 'Blackham', 'oblackham95@furl.net', 22);
@@ -45565,7 +45565,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1010, 698, 'Carney', 'Kaiser', 'ckaiser96@uiuc.edu', 171);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9252, 1003, 
 
-1, 1011, 2659, 'Shepard', 'Billingsley', 'sbillingsley97@tamu.edu', 299);
+1, 1011, 659, 'Shepard', 'Billingsley', 'sbillingsley97@tamu.edu', 299);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5133, 1004, 
 
 3, 1012, 1652, 'Jermaine', 'Lumley', 'jlumley98@bigcartel.com', 233);
@@ -45574,7 +45574,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1013, 1382, 'Doralin', 'Bellchamber', 'dbellchamber99@mysql.com', 79);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7697, 1006, 
 
-3, 1014, 1745, 'Bond', 'Matthisson', 'bmatthisson9a@foxnews.com', 2);
+3, 1014, 1145, 'Bond', 'Matthisson', 'bmatthisson9a@foxnews.com', 2);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3253, 1007, 
 
 3, 1015, 1580, 'Cyndy', 'Dowthwaite', 'cdowthwaite9b@miibeian.gov.cn', 260);
@@ -45583,7 +45583,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1016, 600, 'Yolanthe', 'Burtwhistle', 'yburtwhistle9c@devhub.com', 234);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3570, 1009, 
 
-3, 1017, 1808, 'Ade', 'Farlane', 'afarlane9d@uol.com.br', 152);
+3, 1017, 1408, 'Ade', 'Farlane', 'afarlane9d@uol.com.br', 152);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6694, 1010, 
 
 2, 1018, 1350, 'Del', 'McUre', 'dmcure9e@tripadvisor.com', 176);
@@ -45610,7 +45610,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1025, 984, 'Amara', 'Vel', 'avel9l@utexas.edu', 321);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9310, 1018, 
 
-2, 1026, 1827, 'Ambrosius', 'Melton', 'amelton9m@china.com.cn', 283);
+2, 1026, 1127, 'Ambrosius', 'Melton', 'amelton9m@china.com.cn', 283);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (889, 1019, 
 
 1, 1027, 157, 'Lorri', 'Faire', 'lfaire9n@reuters.com', 89);
@@ -45631,7 +45631,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1032, 571, 'Toby', 'Jollye', 'tjollye9s@army.mil', 190);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1557, 1025, 
 
-3, 1033, 1725, 'Sybil', 'Janicki', 'sjanicki9t@youku.com', 309);
+3, 1033, 1125, 'Sybil', 'Janicki', 'sjanicki9t@youku.com', 309);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6676, 1026, 
 
 1, 1034, 1455, 'Aubert', 'Tinwell', 'atinwell9u@a8.net', 325);
@@ -45643,16 +45643,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1036, 1238, 'Christie', 'Attenborrow', 'cattenborrow9w@pbs.org', 82);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8535, 1029, 
 
-2, 1037, 1749, 'Bel', 'Muffett', 'bmuffett9x@cam.ac.uk', 146);
+2, 1037, 1149, 'Bel', 'Muffett', 'bmuffett9x@cam.ac.uk', 146);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5750, 1030, 
 
-3, 1038, 1928, 'Melany', 'Porcher', 'mporcher9y@elpais.com', 66);
+3, 1038, 1128, 'Melany', 'Porcher', 'mporcher9y@elpais.com', 66);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7253, 1031, 
 
 3, 1039, 927, 'Odele', 'Storrar', 'ostorrar9z@scientificamerican.com', 64);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1809, 1032, 
 
-3, 1040, 1805, 'Myra', 'Woof', 'mwoofa0@wordpress.org', 329);
+3, 1040, 1105, 'Myra', 'Woof', 'mwoofa0@wordpress.org', 329);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (756, 1033, 
 
 1, 1041, 41, 'Chrysa', 'Leiden', 'cleidena1@opensource.org', 182);
@@ -45667,10 +45667,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1044, 769, 'Josefa', 'Rosenfarb', 'jrosenfarba4@biblegateway.com', 243);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6830, 1037, 
 
-3, 1045, 2268, 'Craig', 'Besemer', 'cbesemera5@webs.com', 139);
+3, 1045, 1268, 'Craig', 'Besemer', 'cbesemera5@webs.com', 139);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (289, 1038, 
 
-2, 1046, 2017, 'Linn', 'Mitchel', 'lmitchela6@php.net', 163);
+2, 1046, 1017, 'Linn', 'Mitchel', 'lmitchela6@php.net', 163);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9802, 1039, 
 
 3, 1047, 287, 'Marian', 'Orrow', 'morrowa7@forbes.com', 222);
@@ -45685,13 +45685,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1050, 1539, 'Stephani', 'Willcocks', 'swillcocksaa@java.com', 14);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (689, 1043, 
 
-1, 1051, 2645, 'Neila', 'Garces', 'ngarcesab@vinaora.com', 44);
+1, 1051, 645, 'Neila', 'Garces', 'ngarcesab@vinaora.com', 44);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4038, 1044, 
 
-1, 1052, 1837, 'Glen', 'Tett', 'gtettac@google.it', 298);
+1, 1052, 837, 'Glen', 'Tett', 'gtettac@google.it', 298);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4367, 1045, 
 
-1, 1053, 2256, 'Orella', 'Hulle', 'ohullead@tripadvisor.com', 266);
+1, 1053, 256, 'Orella', 'Hulle', 'ohullead@tripadvisor.com', 266);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5881, 1046, 
 
 1, 1054, 177, 'Arne', 'Brame', 'abrameae@cyberchimps.com', 22);
@@ -45703,7 +45703,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1056, 1112, 'Kirbie', 'Umfrey', 'kumfreyag@techcrunch.com', 49);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7770, 1049, 
 
-1, 1057, 2432, 'Tate', 'Sheeran', 'tsheeranah@mozilla.org', 139);
+1, 1057, 432, 'Tate', 'Sheeran', 'tsheeranah@mozilla.org', 139);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1056, 1050, 
 
 3, 1058, 416, 'Benedicta', 'Bucklee', 'bbuckleeai@miibeian.gov.cn', 282);
@@ -45712,7 +45712,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1059, 1179, 'Marybeth', 'Davie', 'mdavieaj@icq.com', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1247, 1052, 
 
-3, 1060, 2361, 'Nikki', 'Depke', 'ndepkeak@csmonitor.com', 203);
+3, 1060, 361, 'Nikki', 'Depke', 'ndepkeak@csmonitor.com', 203);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8541, 1053, 
 
 1, 1061, 1168, 'Huntington', 'Glossup', 'hglossupal@walmart.com', 175);
@@ -45724,7 +45724,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1063, 113, 'Tye', 'Farrans', 'tfarransan@sourceforge.net', 118);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4911, 1056, 
 
-2, 1064, 2339, 'Timmy', 'Narbett', 'tnarbettao@earthlink.net', 231);
+2, 1064, 339, 'Timmy', 'Narbett', 'tnarbettao@earthlink.net', 231);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6625, 1057, 
 
 2, 1065, 868, 'Des', 'Kewley', 'dkewleyap@omniture.com', 273);
@@ -45733,25 +45733,25 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1066, 1640, 'Dorri', 'Euston', 'deustonaq@desdev.cn', 223);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6545, 1059, 
 
-2, 1067, 1998, 'Ermina', 'Linsey', 'elinseyar@marketwatch.com', 200);
+2, 1067, 198, 'Ermina', 'Linsey', 'elinseyar@marketwatch.com', 200);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1092, 1060, 
 
-3, 1068, 1905, 'Bryan', 'Hexum', 'bhexumas@timesonline.co.uk', 219);
+3, 1068, 105, 'Bryan', 'Hexum', 'bhexumas@timesonline.co.uk', 219);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7014, 1061, 
 
 2, 1069, 1053, 'Chery', 'Lanfranchi', 'clanfranchiat@phpbb.com', 252);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2938, 1062, 
 
-2, 1070, 2249, 'Waite', 'Leece', 'wleeceau@slate.com', 38);
+2, 1070, 249, 'Waite', 'Leece', 'wleeceau@slate.com', 38);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8487, 1063, 
 
-2, 1071, 1111, 'Timmie', 'Fraser', 'tfraserav@instagram.com', 11);
+2, 1071, 1211, 'Timmie', 'Fraser', 'tfraserav@instagram.com', 11);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5703, 1064, 
 
-3, 1072, 2620, 'Ancell', 'Denver', 'adenveraw@drupal.org', 192);
+3, 1072, 220, 'Ancell', 'Denver', 'adenveraw@drupal.org', 192);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1161, 1065, 
 
-3, 1073, 1804, 'Ivonne', 'Shoppee', 'ishoppeeax@paginegialle.it', 138);
+3, 1073, 104, 'Ivonne', 'Shoppee', 'ishoppeeax@paginegialle.it', 138);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9409, 1066, 
 
 2, 1074, 317, 'Stacie', 'Albasiny', 'salbasinyay@bandcamp.com', 264);
@@ -45766,13 +45766,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1077, 1065, 'Johnna', 'Pollak', 'jpollakb1@51.la', 220);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9918, 1070, 
 
-3, 1078, 1789, 'Myrtia', 'Tidmarsh', 'mtidmarshb2@uol.com.br', 178);
+3, 1078, 189, 'Myrtia', 'Tidmarsh', 'mtidmarshb2@uol.com.br', 178);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (561, 1071, 
 
 1, 1079, 17, 'Jacquelin', 'Duddin', 'jduddinb3@amazon.co.uk', 169);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (222, 1072, 
 
-3, 1080, 2075, 'Loralie', 'Renfield', 'lrenfieldb4@howstuffworks.com', 217);
+3, 1080, 275, 'Loralie', 'Renfield', 'lrenfieldb4@howstuffworks.com', 217);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7296, 1073, 
 
 3, 1081, 1014, 'Dukey', 'Simmig', 'dsimmigb5@gov.uk', 185);
@@ -45784,22 +45784,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1083, 112, 'Jennee', 'Blanchard', 'jblanchardb7@amazon.de', 209);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1681, 1076, 
 
-1, 1084, 1828, 'Pennie', 'Peasey', 'ppeaseyb8@ibm.com', 250);
+1, 1084, 128, 'Pennie', 'Peasey', 'ppeaseyb8@ibm.com', 250);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6296, 1077, 
 
 2, 1085, 1310, 'Vite', 'Garside', 'vgarsideb9@yale.edu', 176);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3530, 1078, 
 
-1, 1086, 2213, 'Talbert', 'Petrou', 'tpetrouba@weather.com', 192);
+1, 1086, 213, 'Talbert', 'Petrou', 'tpetrouba@weather.com', 192);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5518, 1079, 
 
 1, 1087, 673, 'Wolf', 'Pipes', 'wpipesbb@bravesites.com', 60);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2214, 1080, 
 
-3, 1088, 1759, 'Gavra', 'Blackall', 'gblackallbc@ted.com', 97);
+3, 1088, 159, 'Gavra', 'Blackall', 'gblackallbc@ted.com', 97);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6971, 1081, 
 
-1, 1089, 2420, 'Patrizio', 'Breffit', 'pbreffitbd@mayoclinic.com', 93);
+1, 1089, 420, 'Patrizio', 'Breffit', 'pbreffitbd@mayoclinic.com', 93);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4891, 1082, 
 
 3, 1090, 773, 'Inge', 'Farndon', 'ifarndonbe@livejournal.com', 290);
@@ -45820,10 +45820,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1095, 1039, 'Teriann', 'Labram', 'tlabrambj@posterous.com', 6);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3862, 1088, 
 
-1, 1096, 2029, 'Faber', 'Ioannou', 'fioannoubk@angelfire.com', 108);
+1, 1096, 229, 'Faber', 'Ioannou', 'fioannoubk@angelfire.com', 108);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9896, 1089, 
 
-3, 1097, 1997, 'Benton', 'Agates', 'bagatesbl@tripadvisor.com', 58);
+3, 1097, 197, 'Benton', 'Agates', 'bagatesbl@tripadvisor.com', 58);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9516, 1090, 
 
 2, 1098, 38, 'Lynn', 'Laity', 'llaitybm@amazon.co.uk', 203);
@@ -45835,16 +45835,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1100, 406, 'Morgana', 'Nerger', 'mnergerbo@sitemeter.com', 141);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1619, 1093, 
 
-2, 1101, 1701, 'Melisent', 'Tear', 'mtearbp@cbc.ca', 146);
+2, 1101, 101, 'Melisent', 'Tear', 'mtearbp@cbc.ca', 146);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4621, 1094, 
 
 2, 1102, 992, 'Lavina', 'Towey', 'ltoweybq@livejournal.com', 54);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7671, 1095, 
 
-2, 1103, 2158, 'Gaelan', 'Linneman', 'glinnemanbr@mac.com', 117);
+2, 1103, 158, 'Gaelan', 'Linneman', 'glinnemanbr@mac.com', 117);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (574, 1096, 
 
-3, 1104, 1834, 'Madalyn', 'Cutill', 'mcutillbs@phpbb.com', 30);
+3, 1104, 134, 'Madalyn', 'Cutill', 'mcutillbs@phpbb.com', 30);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5965, 1097, 
 
 1, 1105, 902, 'Wanids', 'Braime', 'wbraimebt@webeden.co.uk', 126);
@@ -45853,7 +45853,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1106, 58, 'Carroll', 'Boyne', 'cboynebu@miitbeian.gov.cn', 122);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8666, 1099, 
 
-1, 1107, 2353, 'Roley', 'Stivani', 'rstivanibv@npr.org', 207);
+1, 1107, 353, 'Roley', 'Stivani', 'rstivanibv@npr.org', 207);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4917, 1100, 
 
 3, 1108, 697, 'Bartel', 'Long', 'blongbw@yandex.ru', 270);
@@ -45865,7 +45865,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1110, 1286, 'Brittani', 'Beinke', 'bbeinkeby@rambler.ru', 99);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1721, 1103, 
 
-2, 1111, 2222, 'Kennith', 'McBay', 'kmcbaybz@ocn.ne.jp', 47);
+2, 1111, 222, 'Kennith', 'McBay', 'kmcbaybz@ocn.ne.jp', 47);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9236, 1104, 
 
 2, 1112, 1288, 'Justen', 'Tarbert', 'jtarbertc0@baidu.com', 197);
@@ -45883,13 +45883,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1116, 507, 'Durward', 'Rebichon', 'drebichonc4@webmd.com', 143);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2483, 1109, 
 
-1, 1117, 2226, 'Sal', 'Cork', 'scorkc5@qq.com', 217);
+1, 1117, 226, 'Sal', 'Cork', 'scorkc5@qq.com', 217);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5553, 1110, 
 
-3, 1118, 1733, 'Darb', 'Strangman', 'dstrangmanc6@mayoclinic.com', 324);
+3, 1118, 133, 'Darb', 'Strangman', 'dstrangmanc6@mayoclinic.com', 324);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8883, 1111, 
 
-3, 1119, 2526, 'Cissy', 'Paff', 'cpaffc7@clickbank.net', 35);
+3, 1119, 526, 'Cissy', 'Paff', 'cpaffc7@clickbank.net', 35);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6423, 1112, 
 
 3, 1120, 382, 'Delinda', 'Dakers', 'ddakersc8@pagesperso-orange.fr', 69);
@@ -45910,31 +45910,31 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1125, 1348, 'Tann', 'Widocks', 'twidockscd@usda.gov', 85);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8004, 1118, 
 
-2, 1126, 2148, 'Amber', 'Bernhard', 'abernhardce@businessinsider.com', 5);
+2, 1126, 148, 'Amber', 'Bernhard', 'abernhardce@businessinsider.com', 5);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3090, 1119, 
 
 3, 1127, 616, 'Kara-lynn', 'Petrecz', 'kpetreczcf@mozilla.org', 237);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1054, 1120, 
 
-2, 1128, 1683, 'Emalee', 'Skillings', 'eskillingscg@instagram.com', 157);
+2, 1128, 1611, 'Emalee', 'Skillings', 'eskillingscg@instagram.com', 157);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2333, 1121, 
 
-1, 1129, 1823, 'Garey', 'Caygill', 'gcaygillch@drupal.org', 7);
+1, 1129, 123, 'Garey', 'Caygill', 'gcaygillch@drupal.org', 7);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2617, 1122, 
 
-1, 1130, 1970, 'Anjela', 'Hearnah', 'ahearnahci@icio.us', 282);
+1, 1130, 170, 'Anjela', 'Hearnah', 'ahearnahci@icio.us', 282);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (155, 1123, 
 
-1, 1131, 2535, 'Imelda', 'Gyurko', 'igyurkocj@msn.com', 137);
+1, 1131, 535, 'Imelda', 'Gyurko', 'igyurkocj@msn.com', 137);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1258, 1124, 
 
-2, 1132, 1949, 'Erica', 'Brumhead', 'ebrumheadck@yelp.com', 1);
+2, 1132, 149, 'Erica', 'Brumhead', 'ebrumheadck@yelp.com', 1);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7048, 1125, 
 
-1, 1133, 2337, 'Pamela', 'McConaghy', 'pmcconaghycl@pbs.org', 14);
+1, 1133, 337, 'Pamela', 'McConaghy', 'pmcconaghycl@pbs.org', 14);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3036, 1126, 
 
-1, 1134, 1987, 'Tierney', 'Stang-Gjertsen', 'tstanggjertsencm@va.gov', 305);
+1, 1134, 187, 'Tierney', 'Stang-Gjertsen', 'tstanggjertsencm@va.gov', 305);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7336, 1127, 
 
 1, 1135, 1578, 'Viviyan', 'Davisson', 'vdavissoncn@xrea.com', 87);
@@ -45946,10 +45946,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1137, 1573, 'Flory', 'Whittaker', 'fwhittakercp@eventbrite.com', 245);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8567, 1130, 
 
-1, 1138, 1751, 'Cacilia', 'Critcher', 'ccritchercq@paypal.com', 181);
+1, 1138, 151, 'Cacilia', 'Critcher', 'ccritchercq@paypal.com', 181);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7718, 1131, 
 
-1, 1139, 2346, 'Melody', 'Liddiatt', 'mliddiattcr@rakuten.co.jp', 190);
+1, 1139, 346, 'Melody', 'Liddiatt', 'mliddiattcr@rakuten.co.jp', 190);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9568, 1132, 
 
 1, 1140, 762, 'Elliott', 'Giorgietto', 'egiorgiettocs@sciencedirect.com', 334);
@@ -45958,7 +45958,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1141, 942, 'Roy', 'Marlor', 'rmarlorct@bandcamp.com', 208);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2982, 1134, 
 
-1, 1142, 2040, 'Caty', 'Trass', 'ctrasscu@booking.com', 155);
+1, 1142, 240, 'Caty', 'Trass', 'ctrasscu@booking.com', 155);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2581, 1135, 
 
 3, 1143, 754, 'Tilda', 'Ratt', 'trattcv@cnet.com', 196);
@@ -45967,37 +45967,37 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1144, 37, 'Emmott', 'Simonato', 'esimonatocw@latimes.com', 74);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5315, 1137, 
 
-3, 1145, 1477, 'Gilbert', 'Clouston', 'gcloustoncx@discuz.net', 334);
+3, 1145, 177, 'Gilbert', 'Clouston', 'gcloustoncx@discuz.net', 334);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6173, 1138, 
 
-1, 1146, 1840, 'Chelsy', 'Self', 'cselfcy@wikipedia.org', 302);
+1, 1146, 140, 'Chelsy', 'Self', 'cselfcy@wikipedia.org', 302);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7056, 1139, 
 
-1, 1147, 1757, 'Sauveur', 'Breeze', 'sbreezecz@seesaa.net', 19);
+1, 1147, 157, 'Sauveur', 'Breeze', 'sbreezecz@seesaa.net', 19);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5031, 1140, 
 
 1, 1148, 625, 'Fidelio', 'Tocher', 'ftocherd0@comcast.net', 210);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2268, 1141, 
 
-1, 1149, 1886, 'Marcille', 'Bissex', 'mbissexd1@ow.ly', 11);
+1, 1149, 186, 'Marcille', 'Bissex', 'mbissexd1@ow.ly', 11);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4840, 1142, 
 
 3, 1150, 1452, 'Tiphanie', 'Blakiston', 'tblakistond2@illinois.edu', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (227, 1143, 
 
-3, 1151, 2090, 'Jewelle', 'Rodear', 'jrodeard3@diigo.com', 199);
+3, 1151, 290, 'Jewelle', 'Rodear', 'jrodeard3@diigo.com', 199);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4049, 1144, 
 
 3, 1152, 764, 'Arleen', 'Whitham', 'awhithamd4@china.com.cn', 262);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2967, 1145, 
 
-1, 1153, 2103, 'Catharina', 'Bickmore', 'cbickmored5@twitpic.com', 250);
+1, 1153, 103, 'Catharina', 'Bickmore', 'cbickmored5@twitpic.com', 250);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (468, 1146, 
 
 3, 1154, 1374, 'Clotilda', 'Maplestone', 'cmaplestoned6@hc360.com', 56);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7126, 1147, 
 
-2, 1155, 1721, 'Mersey', 'Ounsworth', 'mounsworthd7@jalbum.net', 82);
+2, 1155, 121, 'Mersey', 'Ounsworth', 'mounsworthd7@jalbum.net', 82);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4329, 1148, 
 
 1, 1156, 1994, 'Haven', 'Kielt', 'hkieltd8@sohu.com', 24);
@@ -46006,31 +46006,31 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1157, 157, 'Dalli', 'Ashlee', 'dashleed9@miibeian.gov.cn', 314);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6428, 1150, 
 
-3, 1158, 2359, 'Cullan', 'Kosel', 'ckoselda@stumbleupon.com', 284);
+3, 1158, 359, 'Cullan', 'Kosel', 'ckoselda@stumbleupon.com', 284);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3540, 1151, 
 
 1, 1159, 302, 'Lonnard', 'Schulze', 'lschulzedb@unc.edu', 44);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2851, 1152, 
 
-1, 1160, 1886, 'Paton', 'Vennart', 'pvennartdc@skype.com', 21);
+1, 1160, 186, 'Paton', 'Vennart', 'pvennartdc@skype.com', 21);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1933, 1153, 
 
 2, 1161, 1106, 'Patricia', 'Vanes', 'pvanesdd@homestead.com', 15);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6700, 1154, 
 
-1, 1162, 2288, 'Jeno', 'Stubbert', 'jstubbertde@buzzfeed.com', 286);
+1, 1162, 288, 'Jeno', 'Stubbert', 'jstubbertde@buzzfeed.com', 286);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1185, 1155, 
 
-2, 1163, 2183, 'Edgard', 'Cheese', 'echeesedf@bluehost.com', 174);
+2, 1163, 183, 'Edgard', 'Cheese', 'echeesedf@bluehost.com', 174);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6346, 1156, 
 
-1, 1164, 1689, 'Everard', 'Aberkirder', 'eaberkirderdg@comcast.net', 75);
+1, 1164, 169, 'Everard', 'Aberkirder', 'eaberkirderdg@comcast.net', 75);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5081, 1157, 
 
 1, 1165, 409, 'Drud', 'Grinishin', 'dgrinishindh@ning.com', 196);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3939, 1158, 
 
-1, 1166, 2075, 'Steven', 'Doerling', 'sdoerlingdi@yellowpages.com', 73);
+1, 1166, 275, 'Steven', 'Doerling', 'sdoerlingdi@yellowpages.com', 73);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1563, 1159, 
 
 1, 1167, 540, 'Tonye', 'Doghartie', 'tdoghartiedj@loc.gov', 169);
@@ -46042,19 +46042,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1169, 1049, 'Julianne', 'Bishell', 'jbishelldl@census.gov', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (133, 1162, 
 
-2, 1170, 2196, 'Libbie', 'Margiotta', 'lmargiottadm@purevolume.com', 175);
+2, 1170, 196, 'Libbie', 'Margiotta', 'lmargiottadm@purevolume.com', 175);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3420, 1163, 
 
-2, 1171, 1967, 'Tammy', 'Adney', 'tadneydn@ft.com', 73);
+2, 1171, 167, 'Tammy', 'Adney', 'tadneydn@ft.com', 73);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2548, 1164, 
 
-1, 1172, 2004, 'Demetre', 'Bert', 'dbertdo@ask.com', 177);
+1, 1172, 204, 'Demetre', 'Bert', 'dbertdo@ask.com', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5863, 1165, 
 
 2, 1173, 119, 'Reinwald', 'Ricco', 'rriccodp@google.com', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7492, 1166, 
 
-3, 1174, 2249, 'Elvera', 'Micklem', 'emicklemdq@goo.gl', 6);
+3, 1174, 249, 'Elvera', 'Micklem', 'emicklemdq@goo.gl', 6);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (516, 1167, 
 
 1, 1175, 1211, 'Clarke', 'Chittock', 'cchittockdr@senate.gov', 266);
@@ -46066,25 +46066,25 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1177, 1464, 'Antonina', 'Leeming', 'aleemingdt@nymag.com', 132);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7081, 1170, 
 
-1, 1178, 2282, 'Shanan', 'MacKinnon', 'smackinnondu@mit.edu', 33);
+1, 1178, 282, 'Shanan', 'MacKinnon', 'smackinnondu@mit.edu', 33);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5263, 1171, 
 
 2, 1179, 876, 'Moira', 'Gouda', 'mgoudadv@hp.com', 4);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4864, 1172, 
 
-1, 1180, 2640, 'Maurine', 'Kyngdon', 'mkyngdondw@answers.com', 182);
+1, 1180, 640, 'Maurine', 'Kyngdon', 'mkyngdondw@answers.com', 182);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1474, 1173, 
 
-3, 1181, 2430, 'Jo ann', 'Folomkin', 'jfolomkindx@nsw.gov.au', 261);
+3, 1181, 430, 'Jo ann', 'Folomkin', 'jfolomkindx@nsw.gov.au', 261);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1109, 1174, 
 
-3, 1182, 2618, 'Roldan', 'Farre', 'rfarredy@npr.org', 215);
+3, 1182, 218, 'Roldan', 'Farre', 'rfarredy@npr.org', 215);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1102, 1175, 
 
-3, 1183, 2170, 'Caron', 'Alywen', 'calywendz@statcounter.com', 217);
+3, 1183, 170, 'Caron', 'Alywen', 'calywendz@statcounter.com', 217);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6036, 1176, 
 
-1, 1184, 1145, 'Martguerita', 'Eastmead', 'meastmeade0@archive.org', 166);
+1, 1184, 145, 'Martguerita', 'Eastmead', 'meastmeade0@archive.org', 166);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6051, 1177, 
 
 2, 1185, 649, 'Ashia', 'Krinks', 'akrinkse1@si.edu', 139);
@@ -46093,10 +46093,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1186, 999, 'Jorry', 'Geary', 'jgearye2@ameblo.jp', 54);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7542, 1179, 
 
-1, 1187, 2512, 'Mitzi', 'MacAree', 'mmacareee3@mail.ru', 211);
+1, 1187, 512, 'Mitzi', 'MacAree', 'mmacareee3@mail.ru', 211);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1782, 1180, 
 
-2, 1188, 2390, 'Lolita', 'Cunde', 'lcundee4@yellowpages.com', 64);
+2, 1188, 390, 'Lolita', 'Cunde', 'lcundee4@yellowpages.com', 64);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7371, 1181, 
 
 2, 1189, 703, 'Esmaria', 'Moodie', 'emoodiee5@alexa.com', 63);
@@ -46111,25 +46111,25 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1192, 1578, 'Emile', 'Everal', 'eeverale8@free.fr', 243);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8236, 1185, 
 
-1, 1193, 2315, 'Vasilis', 'Fee', 'vfeee9@blinklist.com', 72);
+1, 1193, 315, 'Vasilis', 'Fee', 'vfeee9@blinklist.com', 72);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (792, 1186, 
 
-2, 1194, 2309, 'Sim', 'Gurry', 'sgurryea@fc2.com', 138);
+2, 1194, 309, 'Sim', 'Gurry', 'sgurryea@fc2.com', 138);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9548, 1187, 
 
-1, 1195, 2541, 'Jorrie', 'Jellett', 'jjelletteb@about.me', 110);
+1, 1195, 241, 'Jorrie', 'Jellett', 'jjelletteb@about.me', 110);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3743, 1188, 
 
 1, 1196, 820, 'Dennet', 'Orleton', 'dorletonec@sogou.com', 157);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7891, 1189, 
 
-3, 1197, 1777, 'Andrey', 'Thunderchief', 'athunderchiefed@blogspot.com', 202);
+3, 1197, 177, 'Andrey', 'Thunderchief', 'athunderchiefed@blogspot.com', 202);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6956, 1190, 
 
 2, 1198, 904, 'Zacherie', 'Harrod', 'zharrodee@washington.edu', 134);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3654, 1191, 
 
-3, 1199, 1959, 'Mattie', 'Backler', 'mbackleref@technorati.com', 260);
+3, 1199, 159, 'Mattie', 'Backler', 'mbackleref@technorati.com', 260);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8792, 1192, 
 
 3, 1200, 475, 'Christopher', 'Liffe', 'cliffeeg@columbia.edu', 23);
@@ -46138,13 +46138,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1201, 907, 'Johnathan', 'MacFarlan', 'jmacfarlaneh@rambler.ru', 298);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (534, 1194, 
 
-3, 1202, 1763, 'Timoteo', 'Tather', 'ttatherei@dmoz.org', 223);
+3, 1202, 163, 'Timoteo', 'Tather', 'ttatherei@dmoz.org', 223);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8918, 1195, 
 
 2, 1203, 65, 'Langsdon', 'Ainslie', 'lainslieej@sciencedaily.com', 76);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8844, 1196, 
 
-3, 1204, 2282, 'Elizabet', 'Tangye', 'etangyeek@squarespace.com', 297);
+3, 1204, 282, 'Elizabet', 'Tangye', 'etangyeek@squarespace.com', 297);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5539, 1197, 
 
 1, 1205, 183, 'Alastair', 'McCoy', 'amccoyel@ca.gov', 333);
@@ -46165,10 +46165,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1210, 1255, 'Paolo', 'Casale', 'pcasaleeq@chronoengine.com', 5);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (431, 1203, 
 
-2, 1211, 1686, 'Whit', 'Rapson', 'wrapsoner@hubpages.com', 262);
+2, 1211, 166, 'Whit', 'Rapson', 'wrapsoner@hubpages.com', 262);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7105, 1204, 
 
-1, 1212, 2015, 'Ynes', 'Matonin', 'ymatonines@columbia.edu', 186);
+1, 1212, 15, 'Ynes', 'Matonin', 'ymatonines@columbia.edu', 186);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8515, 1205, 
 
 3, 1213, 281, 'Kristofer', 'Kaes', 'kkaeset@nifty.com', 241);
@@ -46183,13 +46183,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1216, 1496, 'Aigneis', 'Deme', 'ademeew@theglobeandmail.com', 200);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8553, 1209, 
 
-2, 1217, 2223, 'Jeramey', 'O''Kielt', 'jokieltex@is.gd', 64);
+2, 1217, 223, 'Jeramey', 'O''Kielt', 'jokieltex@is.gd', 64);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4910, 1210, 
 
 1, 1218, 98, 'Annis', 'Calyton', 'acalytoney@sohu.com', 277);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1356, 1211, 
 
-3, 1219, 1389, 'Lacee', 'Branchflower', 'lbranchflowerez@bandcamp.com', 46);
+3, 1219, 189, 'Lacee', 'Branchflower', 'lbranchflowerez@bandcamp.com', 46);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9658, 1212, 
 
 1, 1220, 517, 'Roslyn', 'Farley', 'rfarleyf0@huffingtonpost.com', 139);
@@ -46210,7 +46210,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1225, 869, 'Cathee', 'Rumens', 'crumensf5@wiley.com', 156);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7977, 1218, 
 
-3, 1226, 1700, 'Valina', 'Loach', 'vloachf6@infoseek.co.jp', 14);
+3, 1226, 100, 'Valina', 'Loach', 'vloachf6@infoseek.co.jp', 14);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1206, 1219, 
 
 2, 1227, 1258, 'Ryan', 'Crosswaite', 'rcrosswaitef7@mysql.com', 102);
@@ -46219,7 +46219,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1228, 556, 'Bank', 'Prickett', 'bprickettf8@flavors.me', 315);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2892, 1221, 
 
-1, 1229, 1974, 'Delly', 'Hebblewhite', 'dhebblewhitef9@cbsnews.com', 230);
+1, 1229, 174, 'Delly', 'Hebblewhite', 'dhebblewhitef9@cbsnews.com', 230);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7846, 1222, 
 
 3, 1230, 382, 'Michele', 'Axell', 'maxellfa@twitpic.com', 179);
@@ -46231,7 +46231,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1232, 906, 'Doroteya', 'Griston', 'dgristonfc@harvard.edu', 96);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1147, 1225, 
 
-2, 1233, 2211, 'Marna', 'Sissons', 'msissonsfd@homestead.com', 275);
+2, 1233, 211, 'Marna', 'Sissons', 'msissonsfd@homestead.com', 275);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4577, 1226, 
 
 3, 1234, 1450, 'Luce', 'Guillet', 'lguilletfe@soup.io', 314);
@@ -46246,7 +46246,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1237, 743, 'Raeann', 'Sudron', 'rsudronfh@biblegateway.com', 94);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4173, 1230, 
 
-1, 1238, 2633, 'Nicholle', 'Screeton', 'nscreetonfi@reverbnation.com', 104);
+1, 1238, 633, 'Nicholle', 'Screeton', 'nscreetonfi@reverbnation.com', 104);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9146, 1231, 
 
 3, 1239, 1569, 'Dominick', 'Swiffin', 'dswiffinfj@examiner.com', 325);
@@ -46255,13 +46255,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1240, 1343, 'Brita', 'Marsden', 'bmarsdenfk@skype.com', 121);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9884, 1233, 
 
-2, 1241, 2070, 'Devi', 'Darling', 'ddarlingfl@amazon.com', 318);
+2, 1241, 270, 'Devi', 'Darling', 'ddarlingfl@amazon.com', 318);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5103, 1234, 
 
-1, 1242, 1740, 'Ronni', 'Shapland', 'rshaplandfm@odnoklassniki.ru', 16);
+1, 1242, 170, 'Ronni', 'Shapland', 'rshaplandfm@odnoklassniki.ru', 16);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8783, 1235, 
 
-2, 1243, 2425, 'Ianthe', 'Strelitzki', 'istrelitzkifn@1688.com', 176);
+2, 1243, 425, 'Ianthe', 'Strelitzki', 'istrelitzkifn@1688.com', 176);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4790, 1236, 
 
 2, 1244, 487, 'Mark', 'Weakley', 'mweakleyfo@nature.com', 2);
@@ -46285,25 +46285,25 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1250, 121, 'Pru', 'Busson', 'pbussonfu@vk.com', 273);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1758, 1243, 
 
-3, 1251, 2272, 'Timmie', 'Berard', 'tberardfv@phpbb.com', 6);
+3, 1251, 272, 'Timmie', 'Berard', 'tberardfv@phpbb.com', 6);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2990, 1244, 
 
 3, 1252, 1196, 'Daisy', 'Schriren', 'dschrirenfw@wix.com', 313);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4708, 1245, 
 
-3, 1253, 2662, 'Shay', 'Norkutt', 'snorkuttfx@mapy.cz', 220);
+3, 1253, 662, 'Shay', 'Norkutt', 'snorkuttfx@mapy.cz', 220);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8012, 1246, 
 
 2, 1254, 1382, 'Geri', 'Gloucester', 'ggloucesterfy@sciencedaily.com', 214);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7305, 1247, 
 
-3, 1255, 1697, 'Valentin', 'Davitt', 'vdavittfz@unblog.fr', 303);
+3, 1255, 167, 'Valentin', 'Davitt', 'vdavittfz@unblog.fr', 303);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6746, 1248, 
 
 1, 1256, 106, 'Livvy', 'Fawdry', 'lfawdryg0@hexun.com', 174);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2496, 1249, 
 
-1, 1257, 2372, 'Mathias', 'Heinicke', 'mheinickeg1@microsoft.com', 75);
+1, 1257, 272, 'Mathias', 'Heinicke', 'mheinickeg1@microsoft.com', 75);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9858, 1250, 
 
 2, 1258, 162, 'Lotty', 'Dell', 'ldellg2@vimeo.com', 206);
@@ -46312,7 +46312,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1259, 538, 'Molli', 'Avis', 'mavisg3@sciencedirect.com', 199);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8067, 1252, 
 
-1, 1260, 2002, 'Joella', 'O''Roan', 'joroang4@cbslocal.com', 186);
+1, 1260, 202, 'Joella', 'O''Roan', 'joroang4@cbslocal.com', 186);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2980, 1253, 
 
 1, 1261, 545, 'Dimitry', 'Russan', 'drussang5@livejournal.com', 292);
@@ -46321,13 +46321,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1262, 1276, 'Verney', 'Gunthorp', 'vgunthorpg6@freewebs.com', 229);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2314, 1255, 
 
-2, 1263, 2258, 'Raimondo', 'Lipscombe', 'rlipscombeg7@jimdo.com', 110);
+2, 1263, 258, 'Raimondo', 'Lipscombe', 'rlipscombeg7@jimdo.com', 110);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8750, 1256, 
 
 1, 1264, 1455, 'Gallagher', 'Lehrian', 'glehriang8@admin.ch', 185);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4831, 1257, 
 
-3, 1265, 2511, 'Charlotte', 'Broadbear', 'cbroadbearg9@altervista.org', 235);
+3, 1265, 211, 'Charlotte', 'Broadbear', 'cbroadbearg9@altervista.org', 235);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7507, 1258, 
 
 1, 1266, 341, 'Caye', 'Tattoo', 'ctattooga@posterous.com', 220);
@@ -46339,13 +46339,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1268, 1580, 'Bettine', 'Hinnerk', 'bhinnerkgc@etsy.com', 20);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2995, 1261, 
 
-3, 1269, 2561, 'Ange', 'Plampeyn', 'aplampeyngd@wunderground.com', 283);
+3, 1269, 561, 'Ange', 'Plampeyn', 'aplampeyngd@wunderground.com', 283);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7855, 1262, 
 
 2, 1270, 674, 'Jonie', 'Birtwell', 'jbirtwellge@hugedomains.com', 150);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5338, 1263, 
 
-2, 1271, 1971, 'Lizzy', 'Scrivenor', 'lscrivenorgf@salon.com', 91);
+2, 1271, 171, 'Lizzy', 'Scrivenor', 'lscrivenorgf@salon.com', 91);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (102, 1264, 
 
 1, 1272, 1197, 'Kelcy', 'O''Malley', 'komalleygg@example.com', 175);
@@ -46375,16 +46375,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1280, 1285, 'Benetta', 'Brettell', 'bbrettellgo@reuters.com', 291);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4192, 1273, 
 
-2, 1281, 2313, 'Elvera', 'Rotherforth', 'erotherforthgp@jimdo.com', 44);
+2, 1281, 313, 'Elvera', 'Rotherforth', 'erotherforthgp@jimdo.com', 44);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7489, 1274, 
 
-1, 1282, 1963, 'Hamilton', 'Beardshall', 'hbeardshallgq@jimdo.com', 56);
+1, 1282, 163, 'Hamilton', 'Beardshall', 'hbeardshallgq@jimdo.com', 56);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9388, 1275, 
 
-3, 1283, 2407, 'Kimberlyn', 'Raecroft', 'kraecroftgr@oracle.com', 119);
+3, 1283, 207, 'Kimberlyn', 'Raecroft', 'kraecroftgr@oracle.com', 119);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7672, 1276, 
 
-1, 1284, 2378, 'Connie', 'Cisar', 'ccisargs@columbia.edu', 80);
+1, 1284, 278, 'Connie', 'Cisar', 'ccisargs@columbia.edu', 80);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8149, 1277, 
 
 1, 1285, 909, 'Kati', 'Lebourn', 'klebourngt@java.com', 287);
@@ -46405,10 +46405,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1290, 260, 'Lockwood', 'McGerraghty', 'lmcgerraghtygy@imageshack.us', 262);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5971, 1283, 
 
-1, 1291, 1901, 'Haze', 'Blackley', 'hblackleygz@google.com.au', 290);
+1, 1291, 101, 'Haze', 'Blackley', 'hblackleygz@google.com.au', 290);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6490, 1284, 
 
-2, 1292, 2595, 'Diandra', 'Wenderoth', 'dwenderothh0@vimeo.com', 18);
+2, 1292, 595, 'Diandra', 'Wenderoth', 'dwenderothh0@vimeo.com', 18);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1294, 1285, 
 
 2, 1293, 1613, 'Gene', 'Labbe', 'glabbeh1@ow.ly', 306);
@@ -46420,7 +46420,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1295, 1096, 'Joel', 'Thornhill', 'jthornhillh3@friendfeed.com', 55);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8516, 1288, 
 
-3, 1296, 1964, 'Mindy', 'Aharoni', 'maharonih4@mit.edu', 129);
+3, 1296, 164, 'Mindy', 'Aharoni', 'maharonih4@mit.edu', 129);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (745, 1289, 
 
 3, 1297, 753, 'Piotr', 'Lown', 'plownh5@nymag.com', 202);
@@ -46429,7 +46429,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1298, 1089, 'Amandi', 'Belloch', 'abellochh6@smh.com.au', 266);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8070, 1291, 
 
-1, 1299, 2248, 'Caye', 'Birchenough', 'cbirchenoughh7@yolasite.com', 49);
+1, 1299, 248, 'Caye', 'Birchenough', 'cbirchenoughh7@yolasite.com', 49);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9784, 1292, 
 
 2, 1300, 1667, 'Byrom', 'Corradini', 'bcorradinih8@dmoz.org', 163);
@@ -46438,16 +46438,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1301, 758, 'Doe', 'Gillott', 'dgillotth9@alexa.com', 9);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8141, 1294, 
 
-2, 1302, 2170, 'Bartlet', 'Summerley', 'bsummerleyha@soundcloud.com', 323);
+2, 1302, 170, 'Bartlet', 'Summerley', 'bsummerleyha@soundcloud.com', 323);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1550, 1295, 
 
 1, 1303, 816, 'Valentine', 'Skilton', 'vskiltonhb@odnoklassniki.ru', 20);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4434, 1296, 
 
-2, 1304, 1773, 'Lorie', 'Audritt', 'laudritthc@biblegateway.com', 307);
+2, 1304, 173, 'Lorie', 'Audritt', 'laudritthc@biblegateway.com', 307);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6866, 1297, 
 
-2, 1305, 2613, 'Holli', 'Masse', 'hmassehd@scientificamerican.com', 30);
+2, 1305, 613, 'Holli', 'Masse', 'hmassehd@scientificamerican.com', 30);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7158, 1298, 
 
 1, 1306, 1296, 'Barrie', 'Weekes', 'bweekeshe@mail.ru', 182);
@@ -46459,7 +46459,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1308, 1469, 'Pryce', 'Loble', 'ploblehg@newsvine.com', 171);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (928, 1301, 
 
-3, 1309, 2009, 'Mandel', 'Kembery', 'mkemberyhh@acquirethisname.com', 111);
+3, 1309, 209, 'Mandel', 'Kembery', 'mkemberyhh@acquirethisname.com', 111);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1168, 1302, 
 
 3, 1310, 872, 'Ramona', 'Worham', 'rworhamhi@wisc.edu', 28);
@@ -46477,22 +46477,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1314, 267, 'Ivory', 'Fiorentino', 'ifiorentinohm@cnet.com', 193);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4278, 1307, 
 
-1, 1315, 1886, 'Rosette', 'Brooke', 'rbrookehn@harvard.edu', 242);
+1, 1315, 186, 'Rosette', 'Brooke', 'rbrookehn@harvard.edu', 242);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2088, 1308, 
 
 1, 1316, 345, 'Averil', 'Vedenyakin', 'avedenyakinho@goo.gl', 213);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9244, 1309, 
 
-2, 1317, 2177, 'Ericha', 'Blanckley', 'eblanckleyhp@google.com.br', 280);
+2, 1317, 177, 'Ericha', 'Blanckley', 'eblanckleyhp@google.com.br', 280);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5232, 1310, 
 
-3, 1318, 2071, 'Germaine', 'Isted', 'gistedhq@howstuffworks.com', 252);
+3, 1318, 271, 'Germaine', 'Isted', 'gistedhq@howstuffworks.com', 252);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8372, 1311, 
 
 1, 1319, 1139, 'Clayson', 'Dulake', 'cdulakehr@istockphoto.com', 98);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7291, 1312, 
 
-3, 1320, 2418, 'Beitris', 'Ginnelly', 'bginnellyhs@google.co.jp', 254);
+3, 1320, 418, 'Beitris', 'Ginnelly', 'bginnellyhs@google.co.jp', 254);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (458, 1313, 
 
 3, 1321, 291, 'Hank', 'Hirschmann', 'hhirschmannht@washingtonpost.com', 93);
@@ -46504,10 +46504,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1323, 701, 'Bertine', 'Sivier', 'bsivierhv@go.com', 333);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (467, 1316, 
 
-2, 1324, 2405, 'Waite', 'Enders', 'wendershw@artisteer.com', 42);
+2, 1324, 245, 'Waite', 'Enders', 'wendershw@artisteer.com', 42);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9314, 1317, 
 
-2, 1325, 2649, 'Evangeline', 'St Leger', 'estlegerhx@abc.net.au', 221);
+2, 1325, 249, 'Evangeline', 'St Leger', 'estlegerhx@abc.net.au', 221);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1278, 1318, 
 
 1, 1326, 347, 'Ardyth', 'Mollin', 'amollinhy@google.it', 177);
@@ -46516,55 +46516,55 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1327, 713, 'Caprice', 'Hickisson', 'chickissonhz@redcross.org', 79);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4251, 1320, 
 
-1, 1328, 2629, 'Giulietta', 'Switsur', 'gswitsuri0@webmd.com', 148);
+1, 1328, 229, 'Giulietta', 'Switsur', 'gswitsuri0@webmd.com', 148);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7443, 1321, 
 
 3, 1329, 290, 'Chalmers', 'Gallimore', 'cgallimorei1@mayoclinic.com', 206);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4536, 1322, 
 
-1, 1330, 2546, 'Cesaro', 'Wasiela', 'cwasielai2@oaic.gov.au', 75);
+1, 1330, 546, 'Cesaro', 'Wasiela', 'cwasielai2@oaic.gov.au', 75);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4354, 1323, 
 
-3, 1331, 1390, 'Carlota', 'Cappell', 'ccappelli3@jalbum.net', 32);
+3, 1331, 190, 'Carlota', 'Cappell', 'ccappelli3@jalbum.net', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7643, 1324, 
 
 1, 1332, 1663, 'Trudi', 'Rupprecht', 'trupprechti4@amazonaws.com', 137);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5046, 1325, 
 
-2, 1333, 2034, 'Augustine', 'Shefton', 'asheftoni5@homestead.com', 170);
+2, 1333, 204, 'Augustine', 'Shefton', 'asheftoni5@homestead.com', 170);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4508, 1326, 
 
-3, 1334, 2087, 'Roderigo', 'Rasher', 'rrasheri6@fda.gov', 247);
+3, 1334, 287, 'Roderigo', 'Rasher', 'rrasheri6@fda.gov', 247);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2021, 1327, 
 
-2, 1335, 2349, 'Kalil', 'Ricks', 'kricksi7@meetup.com', 199);
+2, 1335, 349, 'Kalil', 'Ricks', 'kricksi7@meetup.com', 199);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8268, 1328, 
 
-1, 1336, 1869, 'Levin', 'Firpo', 'lfirpoi8@mtv.com', 328);
+1, 1336, 869, 'Levin', 'Firpo', 'lfirpoi8@mtv.com', 328);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3982, 1329, 
 
 1, 1337, 661, 'Dennet', 'Wordley', 'dwordleyi9@nhs.uk', 291);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5022, 1330, 
 
-1, 1338, 1928, 'Kenny', 'Clow', 'kclowia@t-online.de', 310);
+1, 1338, 128, 'Kenny', 'Clow', 'kclowia@t-online.de', 310);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4566, 1331, 
 
 2, 1339, 136, 'Donia', 'Jellico', 'djellicoib@phpbb.com', 53);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4929, 1332, 
 
-2, 1340, 2551, 'Felice', 'Hylden', 'fhyldenic@blogs.com', 223);
+2, 1340, 551, 'Felice', 'Hylden', 'fhyldenic@blogs.com', 223);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8270, 1333, 
 
 2, 1341, 1286, 'Thorin', 'Schusterl', 'tschusterlid@pen.io', 206);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6820, 1334, 
 
-3, 1342, 1996, 'Dyana', 'Spire', 'dspireie@washingtonpost.com', 156);
+3, 1342, 196, 'Dyana', 'Spire', 'dspireie@washingtonpost.com', 156);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3295, 1335, 
 
 3, 1343, 1655, 'Bernadine', 'Mingardi', 'bmingardiif@gmpg.org', 112);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3374, 1336, 
 
-1, 1344, 1717, 'Lilia', 'Harrild', 'lharrildig@shinystat.com', 211);
+1, 1344, 117, 'Lilia', 'Harrild', 'lharrildig@shinystat.com', 211);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5332, 1337, 
 
 1, 1345, 1184, 'Evie', 'Toplin', 'etoplinih@discuz.net', 221);
@@ -46573,7 +46573,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1346, 51, 'Roobbie', 'Hearmon', 'rhearmonii@dedecms.com', 94);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2835, 1339, 
 
-3, 1347, 1699, 'Donelle', 'Daid', 'ddaidij@cpanel.net', 154);
+3, 1347, 169, 'Donelle', 'Daid', 'ddaidij@cpanel.net', 154);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4429, 1340, 
 
 2, 1348, 1024, 'Rosemaria', 'Ryland', 'rrylandik@tiny.cc', 268);
@@ -46585,10 +46585,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1350, 836, 'My', 'Ibeson', 'mibesonim@slashdot.org', 209);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6176, 1343, 
 
-1, 1351, 2332, 'Earle', 'Provis', 'eprovisin@hostgator.com', 127);
+1, 1351, 232, 'Earle', 'Provis', 'eprovisin@hostgator.com', 127);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1020, 1344, 
 
-1, 1352, 1871, 'Rodrique', 'Petrov', 'rpetrovio@usgs.gov', 140);
+1, 1352, 871, 'Rodrique', 'Petrov', 'rpetrovio@usgs.gov', 140);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6005, 1345, 
 
 2, 1353, 750, 'Dudley', 'Ruecastle', 'druecastleip@google.com.br', 265);
@@ -46597,28 +46597,28 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1354, 379, 'Lucine', 'Duckham', 'lduckhamiq@google.com.br', 324);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6515, 1347, 
 
-3, 1355, 1796, 'Joleen', 'Ramos', 'jramosir@google.de', 292);
+3, 1355, 176, 'Joleen', 'Ramos', 'jramosir@google.de', 292);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5253, 1348, 
 
 1, 1356, 822, 'Whitman', 'Chestney', 'wchestneyis@weibo.com', 135);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8682, 1349, 
 
-1, 1357, 2119, 'Yuma', 'Munkley', 'ymunkleyit@twitpic.com', 262);
+1, 1357, 219, 'Yuma', 'Munkley', 'ymunkleyit@twitpic.com', 262);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8960, 1350, 
 
 2, 1358, 1584, 'Sonnie', 'Collicott', 'scollicottiu@wp.com', 109);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5063, 1351, 
 
-2, 1359, 1925, 'Libbey', 'Chippin', 'lchippiniv@jimdo.com', 32);
+2, 1359, 925, 'Libbey', 'Chippin', 'lchippiniv@jimdo.com', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2213, 1352, 
 
-3, 1360, 1882, 'Valle', 'Goodread', 'vgoodreadiw@admin.ch', 111);
+3, 1360, 182, 'Valle', 'Goodread', 'vgoodreadiw@admin.ch', 111);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1402, 1353, 
 
 3, 1361, 111, 'Liuka', 'Gregorin', 'lgregorinix@cnbc.com', 178);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (778, 1354, 
 
-2, 1362, 2468, 'Robyn', 'Spickett', 'rspickettiy@stanford.edu', 249);
+2, 1362, 468, 'Robyn', 'Spickett', 'rspickettiy@stanford.edu', 249);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7938, 1355, 
 
 3, 1363, 1452, 'Tracie', 'Bleue', 'tbleueiz@studiopress.com', 192);
@@ -46627,7 +46627,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1364, 39, 'Dasha', 'Hebner', 'dhebnerj0@biblegateway.com', 162);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1208, 1357, 
 
-1, 1365, 1743, 'Kelley', 'Tieraney', 'ktieraneyj1@imdb.com', 16);
+1, 1365, 143, 'Kelley', 'Tieraney', 'ktieraneyj1@imdb.com', 16);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2890, 1358, 
 
 3, 1366, 1180, 'Brooks', 'Kos', 'bkosj2@cbc.ca', 81);
@@ -46642,7 +46642,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1369, 246, 'Gerard', 'Botwood', 'gbotwoodj5@yahoo.co.jp', 141);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7284, 1362, 
 
-1, 1370, 2053, 'Morris', 'Chesman', 'mchesmanj6@jalbum.net', 32);
+1, 1370, 253, 'Morris', 'Chesman', 'mchesmanj6@jalbum.net', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7892, 1363, 
 
 2, 1371, 290, 'Willetta', 'Attwood', 'wattwoodj7@bizjournals.com', 149);
@@ -46657,16 +46657,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1374, 1553, 'Elora', 'Giles', 'egilesja@google.it', 172);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4519, 1367, 
 
-1, 1375, 1998, 'Merralee', 'Laffoley-Lane', 'mlaffoleylanejb@cisco.com', 220);
+1, 1375, 198, 'Merralee', 'Laffoley-Lane', 'mlaffoleylanejb@cisco.com', 220);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9859, 1368, 
 
-3, 1376, 1739, 'Lucius', 'Pinkett', 'lpinkettjc@marriott.com', 229);
+3, 1376, 139, 'Lucius', 'Pinkett', 'lpinkettjc@marriott.com', 229);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9745, 1369, 
 
 1, 1377, 920, 'Sher', 'Bynold', 'sbynoldjd@dell.com', 83);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7210, 1370, 
 
-2, 1378, 2556, 'Val', 'Lamers', 'vlamersje@aboutads.info', 130);
+2, 1378, 256, 'Val', 'Lamers', 'vlamersje@aboutads.info', 130);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9832, 1371, 
 
 1, 1379, 955, 'Adams', 'Segoe', 'asegoejf@technorati.com', 244);
@@ -46678,10 +46678,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1381, 30, 'Kelli', 'Bore', 'kborejh@barnesandnoble.com', 263);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9759, 1374, 
 
-3, 1382, 2432, 'Nathanial', 'Crayk', 'ncraykji@gmpg.org', 106);
+3, 1382, 432, 'Nathanial', 'Crayk', 'ncraykji@gmpg.org', 106);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6245, 1375, 
 
-1, 1383, 1957, 'Nigel', 'Irvine', 'nirvinejj@dropbox.com', 87);
+1, 1383, 157, 'Nigel', 'Irvine', 'nirvinejj@dropbox.com', 87);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9697, 1376, 
 
 1, 1384, 1576, 'Cameron', 'Manders', 'cmandersjk@yale.edu', 206);
@@ -46690,13 +46690,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1385, 374, 'Germain', 'Semeradova', 'gsemeradovajl@senate.gov', 242);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5183, 1378, 
 
-2, 1386, 2278, 'Massimiliano', 'Croxley', 'mcroxleyjm@sakura.ne.jp', 334);
+2, 1386, 278, 'Massimiliano', 'Croxley', 'mcroxleyjm@sakura.ne.jp', 334);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4624, 1379, 
 
 3, 1387, 1237, 'Benedicta', 'Steenson', 'bsteensonjn@1und1.de', 248);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6985, 1380, 
 
-1, 1388, 2464, 'Sidoney', 'Tremmil', 'stremmiljo@opera.com', 175);
+1, 1388, 244, 'Sidoney', 'Tremmil', 'stremmiljo@opera.com', 175);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5393, 1381, 
 
 2, 1389, 340, 'Joscelin', 'Dottridge', 'jdottridgejp@dropbox.com', 5);
@@ -46705,10 +46705,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1390, 1393, 'Lucina', 'Farnorth', 'lfarnorthjq@arstechnica.com', 251);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6990, 1383, 
 
-2, 1391, 1783, 'Scot', 'Beininck', 'sbeininckjr@rambler.ru', 297);
+2, 1391, 183, 'Scot', 'Beininck', 'sbeininckjr@rambler.ru', 297);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9103, 1384, 
 
-2, 1392, 2161, 'Fremont', 'Hildrew', 'fhildrewjs@abc.net.au', 226);
+2, 1392, 161, 'Fremont', 'Hildrew', 'fhildrewjs@abc.net.au', 226);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9325, 1385, 
 
 2, 1393, 943, 'Gerry', 'Dalziell', 'gdalzielljt@comcast.net', 184);
@@ -46732,13 +46732,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1399, 685, 'Rodolphe', 'Fluck', 'rfluckjz@cpanel.net', 143);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4011, 1392, 
 
-3, 1400, 1757, 'Christen', 'Riall', 'criallk0@gravatar.com', 3);
+3, 1400, 157, 'Christen', 'Riall', 'criallk0@gravatar.com', 3);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7560, 1393, 
 
 1, 1401, 233, 'Audy', 'Branche', 'abranchek1@wunderground.com', 158);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8384, 1394, 
 
-1, 1402, 2145, 'Ogdan', 'Corbould', 'ocorbouldk2@ted.com', 258);
+1, 1402, 245, 'Ogdan', 'Corbould', 'ocorbouldk2@ted.com', 258);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8810, 1395, 
 
 1, 1403, 1590, 'Berton', 'Scedall', 'bscedallk3@phpbb.com', 76);
@@ -46747,7 +46747,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1404, 918, 'Wiley', 'Meale', 'wmealek4@constantcontact.com', 280);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6213, 1397, 
 
-2, 1405, 1718, 'Cesaro', 'Messiter', 'cmessiterk5@last.fm', 124);
+2, 1405, 118, 'Cesaro', 'Messiter', 'cmessiterk5@last.fm', 124);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (906, 1398, 
 
 1, 1406, 946, 'Silvain', 'Asey', 'saseyk6@umich.edu', 157);
@@ -46771,22 +46771,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1412, 1190, 'Fred', 'Lotterington', 'flotteringtonkc@github.io', 334);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5209, 1405, 
 
-3, 1413, 2387, 'Borden', 'Botler', 'bbotlerkd@mozilla.com', 245);
+3, 1413, 287, 'Borden', 'Botler', 'bbotlerkd@mozilla.com', 245);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7415, 1406, 
 
 1, 1414, 1187, 'Reinhard', 'Tripney', 'rtripneyke@t-online.de', 118);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8737, 1407, 
 
-3, 1415, 2588, 'Nat', 'Allwright', 'nallwrightkf@studiopress.com', 171);
+3, 1415, 588, 'Nat', 'Allwright', 'nallwrightkf@studiopress.com', 171);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1046, 1408, 
 
-3, 1416, 1936, 'Fields', 'Tyas', 'ftyaskg@uol.com.br', 244);
+3, 1416, 136, 'Fields', 'Tyas', 'ftyaskg@uol.com.br', 244);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9627, 1409, 
 
-2, 1417, 2554, 'Kameko', 'Cathrall', 'kcathrallkh@is.gd', 40);
+2, 1417, 554, 'Kameko', 'Cathrall', 'kcathrallkh@is.gd', 40);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7886, 1410, 
 
-1, 1418, 2192, 'Weidar', 'Reely', 'wreelyki@facebook.com', 15);
+1, 1418, 292, 'Weidar', 'Reely', 'wreelyki@facebook.com', 15);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5211, 1411, 
 
 3, 1419, 1153, 'Etan', 'Basham', 'ebashamkj@github.io', 70);
@@ -46801,13 +46801,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1422, 373, 'Sylvan', 'Ouldcott', 'souldcottkm@wikia.com', 262);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1236, 1415, 
 
-1, 1423, 1855, 'Lauren', 'Scatchar', 'lscatcharkn@timesonline.co.uk', 125);
+1, 1423, 155, 'Lauren', 'Scatchar', 'lscatcharkn@timesonline.co.uk', 125);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2466, 1416, 
 
-1, 1424, 2534, 'Dermot', 'Ettels', 'dettelsko@virginia.edu', 280);
+1, 1424, 534, 'Dermot', 'Ettels', 'dettelsko@virginia.edu', 280);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2043, 1417, 
 
-3, 1425, 1877, 'Launce', 'Kraft', 'lkraftkp@state.tx.us', 197);
+3, 1425, 177, 'Launce', 'Kraft', 'lkraftkp@state.tx.us', 197);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1297, 1418, 
 
 2, 1426, 641, 'Judie', 'Clampe', 'jclampekq@stumbleupon.com', 248);
@@ -46816,7 +46816,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1427, 1463, 'Dorella', 'Bereford', 'dberefordkr@wiley.com', 134);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4384, 1420, 
 
-1, 1428, 2212, 'Sergeant', 'Harlett', 'sharlettks@apache.org', 15);
+1, 1428, 212, 'Sergeant', 'Harlett', 'sharlettks@apache.org', 15);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2663, 1421, 
 
 1, 1429, 181, 'Tiebout', 'McConnell', 'tmcconnellkt@google.com', 237);
@@ -46828,19 +46828,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1431, 1492, 'Isidore', 'Elcum', 'ielcumkv@loc.gov', 200);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5124, 1424, 
 
-2, 1432, 2650, 'Hillier', 'Jaqueminet', 'hjaqueminetkw@archive.org', 79);
+2, 1432, 650, 'Hillier', 'Jaqueminet', 'hjaqueminetkw@archive.org', 79);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1101, 1425, 
 
-2, 1433, 2099, 'Ganny', 'Greenalf', 'ggreenalfkx@fastcompany.com', 331);
+2, 1433, 299, 'Ganny', 'Greenalf', 'ggreenalfkx@fastcompany.com', 331);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3071, 1426, 
 
-1, 1434, 1831, 'Hodge', 'Parnell', 'hparnellky@discovery.com', 19);
+1, 1434, 831, 'Hodge', 'Parnell', 'hparnellky@discovery.com', 19);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1653, 1427, 
 
 1, 1435, 481, 'Michaella', 'Twiggs', 'mtwiggskz@wikimedia.org', 265);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6113, 1428, 
 
-2, 1436, 1711, 'Odele', 'Wondraschek', 'owondraschekl0@dion.ne.jp', 283);
+2, 1436, 111, 'Odele', 'Wondraschek', 'owondraschekl0@dion.ne.jp', 283);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4319, 1429, 
 
 1, 1437, 614, 'Moore', 'Tripett', 'mtripettl1@nytimes.com', 2);
@@ -46858,13 +46858,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1441, 374, 'Mata', 'Lusk', 'mluskl5@free.fr', 205);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (117, 1434, 
 
-2, 1442, 1930, 'Breanne', 'Nairy', 'bnairyl6@bloomberg.com', 228);
+2, 1442, 130, 'Breanne', 'Nairy', 'bnairyl6@bloomberg.com', 228);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1193, 1435, 
 
 1, 1443, 1053, 'Pip', 'Ingold', 'pingoldl7@ning.com', 269);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3557, 1436, 
 
-3, 1444, 2393, 'Gustavo', 'Capey', 'gcapeyl8@trellian.com', 263);
+3, 1444, 393, 'Gustavo', 'Capey', 'gcapeyl8@trellian.com', 263);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1818, 1437, 
 
 2, 1445, 553, 'Jilleen', 'Gorce', 'jgorcel9@bbc.co.uk', 14);
@@ -46900,43 +46900,43 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1455, 1331, 'Merell', 'Glasbey', 'mglasbeylj@wordpress.org', 264);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7473, 1448, 
 
-3, 1456, 2316, 'Sharleen', 'Pennazzi', 'spennazzilk@blogtalkradio.com', 113);
+3, 1456, 316, 'Sharleen', 'Pennazzi', 'spennazzilk@blogtalkradio.com', 113);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9837, 1449, 
 
 3, 1457, 111, 'Vonny', 'MacRierie', 'vmacrieriell@people.com.cn', 308);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2536, 1450, 
 
-2, 1458, 2345, 'Diannne', 'Catherick', 'dcathericklm@about.com', 52);
+2, 1458, 345, 'Diannne', 'Catherick', 'dcathericklm@about.com', 52);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4600, 1451, 
 
 2, 1459, 1110, 'Henri', 'Ferriday', 'hferridayln@google.it', 183);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9112, 1452, 
 
-3, 1460, 2324, 'Rufe', 'Holttom', 'rholttomlo@spiegel.de', 242);
+3, 1460, 324, 'Rufe', 'Holttom', 'rholttomlo@spiegel.de', 242);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2769, 1453, 
 
-1, 1461, 2073, 'Boris', 'Pratchett', 'bpratchettlp@cpanel.net', 191);
+1, 1461, 273, 'Boris', 'Pratchett', 'bpratchettlp@cpanel.net', 191);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2522, 1454, 
 
-2, 1462, 2456, 'Eldredge', 'Danilchik', 'edanilchiklq@spotify.com', 218);
+2, 1462, 456, 'Eldredge', 'Danilchik', 'edanilchiklq@spotify.com', 218);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7298, 1455, 
 
-3, 1463, 1799, 'Ana', 'Piddle', 'apiddlelr@washingtonpost.com', 254);
+3, 1463, 199, 'Ana', 'Piddle', 'apiddlelr@washingtonpost.com', 254);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9326, 1456, 
 
-1, 1464, 2123, 'Skipp', 'Djurisic', 'sdjurisicls@cbc.ca', 106);
+1, 1464, 123, 'Skipp', 'Djurisic', 'sdjurisicls@cbc.ca', 106);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2296, 1457, 
 
 1, 1465, 706, 'Valentino', 'Stallon', 'vstallonlt@tinypic.com', 296);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9853, 1458, 
 
-1, 1466, 2393, 'Kathye', 'Labroue', 'klabrouelu@forbes.com', 296);
+1, 1466, 293, 'Kathye', 'Labroue', 'klabrouelu@forbes.com', 296);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4808, 1459, 
 
-2, 1467, 2263, 'Rhodie', 'Strathearn', 'rstrathearnlv@so-net.ne.jp', 59);
+2, 1467, 223, 'Rhodie', 'Strathearn', 'rstrathearnlv@so-net.ne.jp', 59);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5679, 1460, 
 
-2, 1468, 2176, 'Rik', 'Turfus', 'rturfuslw@europa.eu', 252);
+2, 1468, 276, 'Rik', 'Turfus', 'rturfuslw@europa.eu', 252);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2250, 1461, 
 
 1, 1469, 1405, 'Drew', 'Hallas', 'dhallaslx@so-net.ne.jp', 51);
@@ -46945,16 +46945,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1470, 1420, 'Englebert', 'Galgey', 'egalgeyly@economist.com', 211);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2491, 1463, 
 
-1, 1471, 2262, 'Kaycee', 'Shaxby', 'kshaxbylz@ocn.ne.jp', 271);
+1, 1471, 262, 'Kaycee', 'Shaxby', 'kshaxbylz@ocn.ne.jp', 271);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (442, 1464, 
 
-2, 1472, 2313, 'Muffin', 'Banes', 'mbanesm0@tumblr.com', 240);
+2, 1472, 313, 'Muffin', 'Banes', 'mbanesm0@tumblr.com', 240);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1803, 1465, 
 
-2, 1473, 1964, 'Teddy', 'Ecob', 'tecobm1@ameblo.jp', 22);
+2, 1473, 164, 'Teddy', 'Ecob', 'tecobm1@ameblo.jp', 22);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8659, 1466, 
 
-1, 1474, 2191, 'Riley', 'Garwill', 'rgarwillm2@desdev.cn', 123);
+1, 1474, 291, 'Riley', 'Garwill', 'rgarwillm2@desdev.cn', 123);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9071, 1467, 
 
 2, 1475, 1217, 'Ethyl', 'Screech', 'escreechm3@istockphoto.com', 60);
@@ -46969,7 +46969,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1478, 176, 'Paule', 'Mayler', 'pmaylerm6@yellowbook.com', 42);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3996, 1471, 
 
-1, 1479, 2498, 'John', 'Schenkel', 'jschenkelm7@qq.com', 249);
+1, 1479, 498, 'John', 'Schenkel', 'jschenkelm7@qq.com', 249);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9193, 1472, 
 
 1, 1480, 14, 'Hailey', 'Cash', 'hcashm8@networksolutions.com', 219);
@@ -46978,7 +46978,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1481, 1043, 'Cristi', 'Grichukhin', 'cgrichukhinm9@senate.gov', 240);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7050, 1474, 
 
-3, 1482, 2233, 'Moishe', 'Leythley', 'mleythleyma@liveinternet.ru', 40);
+3, 1482, 233, 'Moishe', 'Leythley', 'mleythleyma@liveinternet.ru', 40);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7316, 1475, 
 
 2, 1483, 243, 'Elbert', 'Brixham', 'ebrixhammb@springer.com', 30);
@@ -46987,10 +46987,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1484, 1179, 'Brett', 'Nowakowski', 'bnowakowskimc@yandex.ru', 74);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2391, 1477, 
 
-2, 1485, 2077, 'Idette', 'Robelin', 'irobelinmd@tamu.edu', 151);
+2, 1485, 277, 'Idette', 'Robelin', 'irobelinmd@tamu.edu', 151);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4306, 1478, 
 
-2, 1486, 2145, 'Lay', 'Eden', 'ledenme@jugem.jp', 96);
+2, 1486, 145, 'Lay', 'Eden', 'ledenme@jugem.jp', 96);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4616, 1479, 
 
 2, 1487, 202, 'Kassey', 'Finlan', 'kfinlanmf@merriam-webster.com', 217);
@@ -46999,10 +46999,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1488, 1270, 'Rog', 'Reitenbach', 'rreitenbachmg@4shared.com', 187);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5875, 1481, 
 
-3, 1489, 2520, 'Marthena', 'Jirusek', 'mjirusekmh@microsoft.com', 152);
+3, 1489, 520, 'Marthena', 'Jirusek', 'mjirusekmh@microsoft.com', 152);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7092, 1482, 
 
-2, 1490, 1791, 'Aurelia', 'McLarens', 'amclarensmi@nydailynews.com', 318);
+2, 1490, 191, 'Aurelia', 'McLarens', 'amclarensmi@nydailynews.com', 318);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5236, 1483, 
 
 1, 1491, 976, 'Bernadine', 'Barnbrook', 'bbarnbrookmj@huffingtonpost.com', 295);
@@ -47017,34 +47017,34 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1494, 923, 'Roxanna', 'Striker', 'rstrikermm@blogger.com', 187);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9571, 1487, 
 
-2, 1495, 1843, 'Maddy', 'McNally', 'mmcnallymn@sohu.com', 131);
+2, 1495, 143, 'Maddy', 'McNally', 'mmcnallymn@sohu.com', 131);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1837, 1488, 
 
-3, 1496, 1897, 'Rogers', 'Patching', 'rpatchingmo@delicious.com', 12);
+3, 1496, 197, 'Rogers', 'Patching', 'rpatchingmo@delicious.com', 12);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (926, 1489, 
 
 2, 1497, 84, 'Matias', 'Gergely', 'mgergelymp@topsy.com', 26);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1220, 1490, 
 
-2, 1498, 2453, 'Sawyer', 'Kemmis', 'skemmismq@csmonitor.com', 126);
+2, 1498, 453, 'Sawyer', 'Kemmis', 'skemmismq@csmonitor.com', 126);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5949, 1491, 
 
 2, 1499, 1196, 'Adoree', 'Spavins', 'aspavinsmr@weather.com', 302);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3170, 1492, 
 
-3, 1500, 2509, 'Leila', 'Marskell', 'lmarskellms@blogger.com', 81);
+3, 1500, 509, 'Leila', 'Marskell', 'lmarskellms@blogger.com', 81);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5417, 1493, 
 
-1, 1501, 2444, 'Wilfred', 'Camacho', 'wcamachomt@blog.com', 264);
+1, 1501, 444, 'Wilfred', 'Camacho', 'wcamachomt@blog.com', 264);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5507, 1494, 
 
-2, 1502, 2577, 'Bret', 'Hinners', 'bhinnersmu@walmart.com', 158);
+2, 1502, 277, 'Bret', 'Hinners', 'bhinnersmu@walmart.com', 158);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2500, 1495, 
 
-1, 1503, 1453, 'Freemon', 'Hackford', 'fhackfordmv@nbcnews.com', 191);
+1, 1503, 453, 'Freemon', 'Hackford', 'fhackfordmv@nbcnews.com', 191);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1285, 1496, 
 
-2, 1504, 1762, 'Gilligan', 'Spiteri', 'gspiterimw@huffingtonpost.com', 23);
+2, 1504, 162, 'Gilligan', 'Spiteri', 'gspiterimw@huffingtonpost.com', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5320, 1497, 
 
 3, 1505, 453, 'Jacqui', 'Hicks', 'jhicksmx@census.gov', 285);
@@ -47053,7 +47053,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1506, 1100, 'Wiatt', 'Elington', 'welingtonmy@go.com', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2888, 1499, 
 
-3, 1507, 2572, 'Yasmin', 'Rodliff', 'yrodliffmz@dagondesign.com', 254);
+3, 1507, 572, 'Yasmin', 'Rodliff', 'yrodliffmz@dagondesign.com', 254);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5129, 1500, 
 
 3, 1508, 736, 'Viviene', 'Bonus', 'vbonusn0@github.io', 149);
@@ -47065,10 +47065,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1510, 172, 'Harlan', 'Dryden', 'hdrydenn2@skype.com', 137);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6150, 1503, 
 
-1, 1511, 1760, 'Agneta', 'Beautyman', 'abeautymann3@businesswire.com', 183);
+1, 1511, 160, 'Agneta', 'Beautyman', 'abeautymann3@businesswire.com', 183);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6553, 1504, 
 
-3, 1512, 2529, 'Glenine', 'Baldry', 'gbaldryn4@last.fm', 184);
+3, 1512, 529, 'Glenine', 'Baldry', 'gbaldryn4@last.fm', 184);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7290, 1505, 
 
 3, 1513, 1163, 'Rahal', 'Tersay', 'rtersayn5@google.com.au', 169);
@@ -47080,10 +47080,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1515, 709, 'Bria', 'Totman', 'btotmann7@addthis.com', 3);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9517, 1508, 
 
-2, 1516, 2541, 'Josi', 'Caccavale', 'jcaccavalen8@php.net', 180);
+2, 1516, 541, 'Josi', 'Caccavale', 'jcaccavalen8@php.net', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6952, 1509, 
 
-3, 1517, 2301, 'Pennie', 'Stanmer', 'pstanmern9@a8.net', 32);
+3, 1517, 301, 'Pennie', 'Stanmer', 'pstanmern9@a8.net', 32);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2355, 1510, 
 
 3, 1518, 48, 'Stanwood', 'Acaster', 'sacasterna@canalblog.com', 192);
@@ -47095,28 +47095,28 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1520, 365, 'Wilmer', 'Hamsher', 'whamshernc@google.pl', 272);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8970, 1513, 
 
-3, 1521, 2202, 'Magdaia', 'McGreay', 'mmcgreaynd@opera.com', 326);
+3, 1521, 202, 'Magdaia', 'McGreay', 'mmcgreaynd@opera.com', 326);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2062, 1514, 
 
 1, 1522, 545, 'Audry', 'Prinnett', 'aprinnettne@nyu.edu', 121);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7211, 1515, 
 
-1, 1523, 2451, 'Colet', 'Paylie', 'cpaylienf@phpbb.com', 328);
+1, 1523, 251, 'Colet', 'Paylie', 'cpaylienf@phpbb.com', 328);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8617, 1516, 
 
-1, 1524, 2568, 'Bari', 'Addy', 'baddyng@elpais.com', 267);
+1, 1524, 568, 'Bari', 'Addy', 'baddyng@elpais.com', 267);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8131, 1517, 
 
 2, 1525, 1550, 'Rennie', 'O''Shavlan', 'roshavlannh@technorati.com', 327);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3331, 1518, 
 
-3, 1526, 2033, 'Karyl', 'Santore', 'ksantoreni@squidoo.com', 124);
+3, 1526, 233, 'Karyl', 'Santore', 'ksantoreni@squidoo.com', 124);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7964, 1519, 
 
 2, 1527, 757, 'Morgan', 'Kinkead', 'mkinkeadnj@bandcamp.com', 160);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4707, 1520, 
 
-3, 1528, 2087, 'Susette', 'Yarnell', 'syarnellnk@indiatimes.com', 22);
+3, 1528, 287, 'Susette', 'Yarnell', 'syarnellnk@indiatimes.com', 22);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (361, 1521, 
 
 3, 1529, 247, 'Liva', 'Wanderschek', 'lwanderscheknl@mashable.com', 87);
@@ -47131,16 +47131,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1532, 919, 'Bax', 'Paulisch', 'bpaulischno@over-blog.com', 181);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6367, 1525, 
 
-3, 1533, 1705, 'Cello', 'Quest', 'cquestnp@example.com', 66);
+3, 1533, 105, 'Cello', 'Quest', 'cquestnp@example.com', 66);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4326, 1526, 
 
-2, 1534, 1836, 'Jolene', 'Hailwood', 'jhailwoodnq@bbb.org', 282);
+2, 1534, 136, 'Jolene', 'Hailwood', 'jhailwoodnq@bbb.org', 282);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8876, 1527, 
 
 3, 1535, 376, 'Si', 'Downham', 'sdownhamnr@businessweek.com', 86);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8620, 1528, 
 
-1, 1536, 2260, 'Tony', 'Rustich', 'trustichns@ow.ly', 37);
+1, 1536, 260, 'Tony', 'Rustich', 'trustichns@ow.ly', 37);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8309, 1529, 
 
 3, 1537, 832, 'Quentin', 'Crassweller', 'qcrasswellernt@people.com.cn', 314);
@@ -47152,7 +47152,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1539, 721, 'Milissent', 'Hallum', 'mhallumnv@wisc.edu', 60);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8068, 1532, 
 
-3, 1540, 1778, 'Stanfield', 'Hanway', 'shanwaynw@google.co.uk', 233);
+3, 1540, 178, 'Stanfield', 'Hanway', 'shanwaynw@google.co.uk', 233);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9354, 1533, 
 
 3, 1541, 551, 'Valentin', 'Gludor', 'vgludornx@msu.edu', 209);
@@ -47170,7 +47170,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1545, 1097, 'Sutherland', 'Phare', 'sphareo1@trellian.com', 25);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8097, 1538, 
 
-2, 1546, 2404, 'Shaina', 'Posselwhite', 'sposselwhiteo2@umich.edu', 243);
+2, 1546, 404, 'Shaina', 'Posselwhite', 'sposselwhiteo2@umich.edu', 243);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2477, 1539, 
 
 2, 1547, 651, 'Eadmund', 'Haddeston', 'ehaddestono3@indiegogo.com', 69);
@@ -47182,7 +47182,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1549, 363, 'Angelo', 'Gurnay', 'agurnayo5@tinyurl.com', 74);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5253, 1542, 
 
-3, 1550, 2249, 'Jackie', 'Jenney', 'jjenneyo6@cbslocal.com', 174);
+3, 1550, 249, 'Jackie', 'Jenney', 'jjenneyo6@cbslocal.com', 174);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2675, 1543, 
 
 1, 1551, 509, 'Zea', 'Vyse', 'zvyseo7@disqus.com', 52);
@@ -47194,19 +47194,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1553, 1071, 'Ermentrude', 'Rohlfs', 'erohlfso9@hud.gov', 203);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6980, 1546, 
 
-3, 1554, 1944, 'Jefferey', 'Gelly', 'jgellyoa@foxnews.com', 244);
+3, 1554, 144, 'Jefferey', 'Gelly', 'jgellyoa@foxnews.com', 244);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8732, 1547, 
 
 2, 1555, 152, 'Caprice', 'Stamps', 'cstampsob@seattletimes.com', 330);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6598, 1548, 
 
-3, 1556, 2152, 'Ned', 'Tabbernor', 'ntabbernoroc@wordpress.com', 251);
+3, 1556, 152, 'Ned', 'Tabbernor', 'ntabbernoroc@wordpress.com', 251);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7120, 1549, 
 
-2, 1557, 2083, 'Falito', 'Macura', 'fmacuraod@slate.com', 84);
+2, 1557, 283, 'Falito', 'Macura', 'fmacuraod@slate.com', 84);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7411, 1550, 
 
-2, 1558, 2305, 'Toby', 'Meader', 'tmeaderoe@google.it', 16);
+2, 1558, 305, 'Toby', 'Meader', 'tmeaderoe@google.it', 16);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4376, 1551, 
 
 2, 1559, 1335, 'Laney', 'Battisson', 'lbattissonof@mapy.cz', 100);
@@ -47218,10 +47218,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1561, 321, 'Kellyann', 'Powter', 'kpowteroh@domainmarket.com', 301);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7773, 1554, 
 
-2, 1562, 1674, 'Lynne', 'Champerlen', 'lchamperlenoi@hexun.com', 51);
+2, 1562, 167, 'Lynne', 'Champerlen', 'lchamperlenoi@hexun.com', 51);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3881, 1555, 
 
-2, 1563, 1697, 'Alva', 'Blaskett', 'ablaskettoj@ucsd.edu', 216);
+2, 1563, 169, 'Alva', 'Blaskett', 'ablaskettoj@ucsd.edu', 216);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6519, 1556, 
 
 3, 1564, 1041, 'Jillene', 'Martelet', 'jmarteletok@trellian.com', 21);
@@ -47248,7 +47248,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1571, 74, 'Emmanuel', 'Noweak', 'enoweakor@miibeian.gov.cn', 144);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6079, 1564, 
 
-1, 1572, 2416, 'Harley', 'Dalbey', 'hdalbeyos@biblegateway.com', 43);
+1, 1572, 246, 'Harley', 'Dalbey', 'hdalbeyos@biblegateway.com', 43);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8239, 1565, 
 
 2, 1573, 822, 'Xavier', 'Lenaghen', 'xlenaghenot@bbb.org', 270);
@@ -47260,7 +47260,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1575, 1086, 'Case', 'Blondelle', 'cblondelleov@bing.com', 181);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9648, 1568, 
 
-1, 1576, 1756, 'Deloria', 'Lockhart', 'dlockhartow@issuu.com', 309);
+1, 1576, 156, 'Deloria', 'Lockhart', 'dlockhartow@issuu.com', 309);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8961, 1569, 
 
 3, 1577, 132, 'Tracy', 'Matuszynski', 'tmatuszynskiox@ehow.com', 105);
@@ -47269,34 +47269,34 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1578, 1491, 'Shayne', 'Godin', 'sgodinoy@nba.com', 207);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7324, 1571, 
 
-3, 1579, 2377, 'Raynell', 'Dagless', 'rdaglessoz@amazon.com', 310);
+3, 1579, 377, 'Raynell', 'Dagless', 'rdaglessoz@amazon.com', 310);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2116, 1572, 
 
 1, 1580, 95, 'Babb', 'Ebbitt', 'bebbittp0@shutterfly.com', 323);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3157, 1573, 
 
-1, 1581, 1892, 'Amby', 'Tunsley', 'atunsleyp1@nsw.gov.au', 310);
+1, 1581, 192, 'Amby', 'Tunsley', 'atunsleyp1@nsw.gov.au', 310);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3955, 1574, 
 
 3, 1582, 723, 'Marrissa', 'Hansmann', 'mhansmannp2@ibm.com', 261);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4814, 1575, 
 
-3, 1583, 1856, 'Stesha', 'Ladloe', 'sladloep3@walmart.com', 292);
+3, 1583, 156, 'Stesha', 'Ladloe', 'sladloep3@walmart.com', 292);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6110, 1576, 
 
 2, 1584, 15, 'Evelyn', 'Punyer', 'epunyerp4@columbia.edu', 143);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8331, 1577, 
 
-2, 1585, 2145, 'Heddi', 'McReynolds', 'hmcreynoldsp5@is.gd', 27);
+2, 1585, 145, 'Heddi', 'McReynolds', 'hmcreynoldsp5@is.gd', 27);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8643, 1578, 
 
-2, 1586, 2513, 'Jarib', 'Kleiner', 'jkleinerp6@loc.gov', 294);
+2, 1586, 513, 'Jarib', 'Kleiner', 'jkleinerp6@loc.gov', 294);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (696, 1579, 
 
-3, 1587, 2010, 'Bobbette', 'Beames', 'bbeamesp7@who.int', 225);
+3, 1587, 010, 'Bobbette', 'Beames', 'bbeamesp7@who.int', 225);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3508, 1580, 
 
-3, 1588, 2197, 'Enriqueta', 'Patchett', 'epatchettp8@g.co', 170);
+3, 1588, 197, 'Enriqueta', 'Patchett', 'epatchettp8@g.co', 170);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9669, 1581, 
 
 2, 1589, 1376, 'Horatius', 'Hing', 'hhingp9@netscape.com', 88);
@@ -47305,7 +47305,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1590, 1116, 'Glyn', 'Widdowson', 'gwiddowsonpa@pinterest.com', 158);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2939, 1583, 
 
-1, 1591, 1694, 'Francisca', 'Kingwell', 'fkingwellpb@google.com', 128);
+1, 1591, 164, 'Francisca', 'Kingwell', 'fkingwellpb@google.com', 128);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9815, 1584, 
 
 3, 1592, 883, 'Fleming', 'Fradgley', 'ffradgleypc@java.com', 127);
@@ -47317,19 +47317,19 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1594, 1199, 'Kesley', 'Scoggan', 'kscogganpe@symantec.com', 63);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5929, 1587, 
 
-2, 1595, 1703, 'Gris', 'Lamping', 'glampingpf@ovh.net', 231);
+2, 1595, 103, 'Gris', 'Lamping', 'glampingpf@ovh.net', 231);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3882, 1588, 
 
 2, 1596, 784, 'Dev', 'Sparshott', 'dsparshottpg@about.com', 277);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (759, 1589, 
 
-2, 1597, 1790, 'Neille', 'Blazdell', 'nblazdellph@statcounter.com', 238);
+2, 1597, 190, 'Neille', 'Blazdell', 'nblazdellph@statcounter.com', 238);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1617, 1590, 
 
-3, 1598, 2110, 'Trudie', 'McAughtry', 'tmcaughtrypi@utexas.edu', 163);
+3, 1598, 110, 'Trudie', 'McAughtry', 'tmcaughtrypi@utexas.edu', 163);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4251, 1591, 
 
-1, 1599, 2484, 'Budd', 'Pohling', 'bpohlingpj@unicef.org', 153);
+1, 1599, 484, 'Budd', 'Pohling', 'bpohlingpj@unicef.org', 153);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8737, 1592, 
 
 1, 1600, 1402, 'Dahlia', 'Helsdon', 'dhelsdonpk@livejournal.com', 141);
@@ -47338,10 +47338,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1601, 671, 'Tamara', 'Stubbley', 'tstubbleypl@tripadvisor.com', 36);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3060, 1594, 
 
-1, 1602, 2071, 'Bill', 'Tuffell', 'btuffellpm@homestead.com', 180);
+1, 1602, 271, 'Bill', 'Tuffell', 'btuffellpm@homestead.com', 180);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7115, 1595, 
 
-2, 1603, 2563, 'Myrtice', 'Winsome', 'mwinsomepn@oaic.gov.au', 249);
+2, 1603, 563, 'Myrtice', 'Winsome', 'mwinsomepn@oaic.gov.au', 249);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3811, 1596, 
 
 1, 1604, 1365, 'Jody', 'Fattore', 'jfattorepo@amazon.de', 149);
@@ -47353,10 +47353,10 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1606, 898, 'Cecilio', 'Bento', 'cbentopq@sakura.ne.jp', 236);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1882, 1599, 
 
-3, 1607, 1815, 'Caprice', 'Crampin', 'ccrampinpr@redcross.org', 140);
+3, 1607, 115, 'Caprice', 'Crampin', 'ccrampinpr@redcross.org', 140);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7843, 1600, 
 
-3, 1608, 2645, 'Jillayne', 'Burgum', 'jburgumps@cloudflare.com', 44);
+3, 1608, 645, 'Jillayne', 'Burgum', 'jburgumps@cloudflare.com', 44);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3712, 1601, 
 
 3, 1609, 1347, 'Ceciley', 'Bruckental', 'cbruckentalpt@addtoany.com', 180);
@@ -47365,22 +47365,22 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1610, 1421, 'Leif', 'Berrygun', 'lberrygunpu@simplemachines.org', 191);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5635, 1603, 
 
-2, 1611, 2378, 'Damaris', 'Crat', 'dcratpv@upenn.edu', 45);
+2, 1611, 278, 'Damaris', 'Crat', 'dcratpv@upenn.edu', 45);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9787, 1604, 
 
-3, 1612, 1900, 'Bar', 'Nijssen', 'bnijssenpw@rambler.ru', 221);
+3, 1612, 10, 'Bar', 'Nijssen', 'bnijssenpw@rambler.ru', 221);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7635, 1605, 
 
 1, 1613, 608, 'Muffin', 'Watkiss', 'mwatkisspx@spotify.com', 67);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6158, 1606, 
 
-3, 1614, 1691, 'Carly', 'Stollhofer', 'cstollhoferpy@oracle.com', 131);
+3, 1614, 161, 'Carly', 'Stollhofer', 'cstollhoferpy@oracle.com', 131);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3803, 1607, 
 
 2, 1615, 748, 'Maribel', 'Keeler', 'mkeelerpz@about.com', 31);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9591, 1608, 
 
-3, 1616, 2547, 'Brigitta', 'Gatteridge', 'bgatteridgeq0@imgur.com', 223);
+3, 1616, 247, 'Brigitta', 'Gatteridge', 'bgatteridgeq0@imgur.com', 223);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (735, 1609, 
 
 2, 1617, 252, 'Madeline', 'Alldre', 'malldreq1@rediff.com', 101);
@@ -47389,7 +47389,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1618, 3, 'Robbert', 'Dibson', 'rdibsonq2@state.gov', 48);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1628, 1611, 
 
-3, 1619, 2216, 'Dennie', 'Cadding', 'dcaddingq3@msu.edu', 52);
+3, 1619, 216, 'Dennie', 'Cadding', 'dcaddingq3@msu.edu', 52);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6638, 1612, 
 
 3, 1620, 699, 'Ange', 'Matyas', 'amatyasq4@ucoz.com', 172);
@@ -47398,7 +47398,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1621, 468, 'Druci', 'Turbern', 'dturbernq5@oracle.com', 61);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8480, 1614, 
 
-1, 1622, 2511, 'Tova', 'Posvner', 'tposvnerq6@wix.com', 143);
+1, 1622, 511, 'Tova', 'Posvner', 'tposvnerq6@wix.com', 143);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (1339, 1615, 
 
 2, 1623, 1034, 'Barbra', 'MacCole', 'bmaccoleq7@bloglovin.com', 225);
@@ -47407,34 +47407,34 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1624, 1269, 'Paxton', 'Morecomb', 'pmorecombq8@xrea.com', 90);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9882, 1617, 
 
-2, 1625, 2520, 'Aurora', 'Nuccitelli', 'anuccitelliq9@paginegialle.it', 144);
+2, 1625, 520, 'Aurora', 'Nuccitelli', 'anuccitelliq9@paginegialle.it', 144);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9394, 1618, 
 
 2, 1626, 980, 'Ragnar', 'Fosdyke', 'rfosdykeqa@auda.org.au', 277);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6277, 1619, 
 
-1, 1627, 2016, 'Pacorro', 'Hendonson', 'phendonsonqb@mysql.com', 83);
+1, 1627, 216, 'Pacorro', 'Hendonson', 'phendonsonqb@mysql.com', 83);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5211, 1620, 
 
-1, 1628, 2426, 'Alexio', 'Bilbrey', 'abilbreyqc@kickstarter.com', 35);
+1, 1628, 226, 'Alexio', 'Bilbrey', 'abilbreyqc@kickstarter.com', 35);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3971, 1621, 
 
-1, 1629, 2429, 'Babs', 'Hatje', 'bhatjeqd@businessweek.com', 52);
+1, 1629, 229, 'Babs', 'Hatje', 'bhatjeqd@businessweek.com', 52);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7866, 1622, 
 
 2, 1630, 1120, 'Adey', 'Peasby', 'apeasbyqe@surveymonkey.com', 83);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8495, 1623, 
 
-3, 1631, 2332, 'Anson', 'Balcon', 'abalconqf@drupal.org', 158);
+3, 1631, 332, 'Anson', 'Balcon', 'abalconqf@drupal.org', 158);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (710, 1624, 
 
-1, 1632, 2647, 'Adina', 'Wetherell', 'awetherellqg@amazon.com', 101);
+1, 1632, 647, 'Adina', 'Wetherell', 'awetherellqg@amazon.com', 101);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (838, 1625, 
 
-2, 1633, 1928, 'Elinore', 'House', 'ehouseqh@dot.gov', 261);
+2, 1633, 928, 'Elinore', 'House', 'ehouseqh@dot.gov', 261);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2956, 1626, 
 
-3, 1634, 2260, 'Burt', 'Caherny', 'bcahernyqi@dyndns.org', 283);
+3, 1634, 260, 'Burt', 'Caherny', 'bcahernyqi@dyndns.org', 283);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3534, 1627, 
 
 1, 1635, 338, 'Liza', 'Cleave', 'lcleaveqj@independent.co.uk', 130);
@@ -47443,13 +47443,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1636, 668, 'Denys', 'Sizland', 'dsizlandqk@whitehouse.gov', 123);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3006, 1629, 
 
-2, 1637, 2377, 'Myca', 'Milborn', 'mmilbornql@wunderground.com', 281);
+2, 1637, 377, 'Myca', 'Milborn', 'mmilbornql@wunderground.com', 281);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6036, 1630, 
 
 3, 1638, 1199, 'Chiarra', 'Castagne', 'ccastagneqm@acquirethisname.com', 206);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8596, 1631, 
 
-1, 1639, 2452, 'Petunia', 'Autie', 'pautieqn@chronoengine.com', 28);
+1, 1639, 252, 'Petunia', 'Autie', 'pautieqn@chronoengine.com', 28);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9575, 1632, 
 
 3, 1640, 1306, 'Grange', 'des Remedios', 'gdesremediosqo@abc.net.au', 150);
@@ -47464,13 +47464,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1643, 523, 'Katey', 'Goodley', 'kgoodleyqr@cdbaby.com', 86);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4553, 1636, 
 
-1, 1644, 2522, 'Sharleen', 'Sydall', 'ssydallqs@wufoo.com', 209);
+1, 1644, 522, 'Sharleen', 'Sydall', 'ssydallqs@wufoo.com', 209);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6326, 1637, 
 
 1, 1645, 819, 'Herculie', 'Valler', 'hvallerqt@webmd.com', 191);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6450, 1638, 
 
-2, 1646, 2557, 'Larissa', 'Matous', 'lmatousqu@tiny.cc', 140);
+2, 1646, 557, 'Larissa', 'Matous', 'lmatousqu@tiny.cc', 140);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (942, 1639, 
 
 3, 1647, 925, 'Jeddy', 'D''eye', 'jdeyeqv@goo.ne.jp', 94);
@@ -47488,7 +47488,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1651, 475, 'Tracey', 'Woolaghan', 'twoolaghanqz@arizona.edu', 69);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3814, 1644, 
 
-3, 1652, 1910, 'Mariellen', 'Vicker', 'mvickerr0@wordpress.org', 22);
+3, 1652, 110, 'Mariellen', 'Vicker', 'mvickerr0@wordpress.org', 22);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5914, 1645, 
 
 1, 1653, 1419, 'Nevsa', 'Fyfe', 'nfyfer1@amazon.co.jp', 29);
@@ -47497,16 +47497,16 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1654, 34, 'Abdul', 'Brodhead', 'abrodheadr2@constantcontact.com', 31);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (6095, 1647, 
 
-2, 1655, 2279, 'Griff', 'McShirie', 'gmcshirier3@meetup.com', 261);
+2, 1655, 279, 'Griff', 'McShirie', 'gmcshirier3@meetup.com', 261);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (5255, 1648, 
 
-2, 1656, 2198, 'Nils', 'Gorwood', 'ngorwoodr4@discovery.com', 98);
+2, 1656, 298, 'Nils', 'Gorwood', 'ngorwoodr4@discovery.com', 98);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (909, 1649, 
 
 2, 1657, 1416, 'Marillin', 'Djordjevic', 'mdjordjevicr5@quantcast.com', 262);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8540, 1650, 
 
-1, 1658, 2116, 'Karna', 'Hainey`', 'khaineyr6@answers.com', 302);
+1, 1658, 116, 'Karna', 'Hainey`', 'khaineyr6@answers.com', 302);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7170, 1651, 
 
 2, 1659, 724, 'Abigale', 'Antliff', 'aantliffr7@vkontakte.ru', 71);
@@ -47518,7 +47518,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 2, 1661, 805, 'Elva', 'McElrath', 'emcelrathr9@hatena.ne.jp', 297);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (4936, 1654, 
 
-3, 1662, 2112, 'Florina', 'Kosel', 'fkoselra@ow.ly', 161);
+3, 1662, 112, 'Florina', 'Kosel', 'fkoselra@ow.ly', 161);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9764, 1655, 
 
 3, 1663, 856, 'Royce', 'Seeley', 'rseeleyrb@unblog.fr', 52);
@@ -47527,7 +47527,7 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 1, 1664, 1489, 'Aurea', 'Dedam', 'adedamrc@odnoklassniki.ru', 188);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3466, 1657, 
 
-3, 1665, 2468, 'Taddeo', 'Kleuer', 'tkleuerrd@thetimes.co.uk', 23);
+3, 1665, 468, 'Taddeo', 'Kleuer', 'tkleuerrd@thetimes.co.uk', 23);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (9777, 1658, 
 
 3, 1666, 1519, 'Karlie', 'Meynell', 'kmeynellre@pagesperso-orange.fr', 74);
@@ -47539,13 +47539,13 @@ insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefon
 3, 1668, 1377, 'Tanney', 'Leake', 'tleakerg@usnews.com', 169);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (3388, 1661, 
 
-2, 1669, 2539, 'Sherill', 'Hamner', 'shamnerrh@epa.gov', 177);
+2, 1669, 539, 'Sherill', 'Hamner', 'shamnerrh@epa.gov', 177);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (7854, 1662, 
 
 1, 1670, 935, 'Giffard', 'Isaacson', 'gisaacsonri@vkontakte.ru', 60);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (8630, 1663, 
 
-2, 1671, 1813, 'Jody', 'Newiss', 'jnewissrj@icio.us', 75);
+2, 1671, 113, 'Jody', 'Newiss', 'jnewissrj@icio.us', 75);
 insert into envio (costo, fk_cliente_envia, fk_tipoenvio, fk_paquete, fk_telefono, nombre_recibe, apellido_recibe, email_recibe, fk_ruta) values (2700, 1664, 
 
 2, 1672, 470, 'Siana', 'O'' Liddy', 'soliddyrk@rakuten.co.jp', 220);
