@@ -6,6 +6,7 @@ TO DO ENTREGA #3
 - Costo del envío con formula
 - Arreglar vista de usuario (que se vean nombres en vez de números)
 - Si me falta un campo no borrar todo lo anterior 
+- Agregar más insert en sucursal_envio
 
 reportes para empleados:
  - Registro de asistencia de empleados
