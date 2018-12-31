@@ -36,12 +36,6 @@ reportes para oficina:
  - Oficina que envía y recibe más paquetes
  - Ingresos y egresos por oficina por mes
 
-reporte para ruta:
- - ruta más utilizada
-
-reporte para puerto y aeropuerto:
- - Sucursales de puertos y aeropuertos
-
 reporte para transporte:
  - Histórico de revisión de la flota indicando taller, falla y duración de la revisión
  - Total de gastos generados por revisión de flotas por mes y por sucursal.
@@ -50,3 +44,5 @@ reporte para transporte:
 
 ---------------------------------------------REPORTES HECHOS------------------------------------------------
  - Envío de paquetes con el medio de transporte, tomar en cuenta duración, costos y fecha estimada de entrega
+ - Ruta más utilizada
+ - Sucursales de puertos y aeropuertos
