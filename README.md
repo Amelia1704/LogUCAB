@@ -14,7 +14,6 @@ reportes para empleados:
  - Recibo de pago de nómina
 
 reportes para envíos/paquetes:
- - Cambio de estatus de paquetes durante el envío
  - Recibo de envíos
  - Alerta de paquetes con más de 24 horas
  - Peso promedio de los paquetes que se envían por oficina
@@ -46,3 +45,4 @@ reporte para transporte:
  - Envío de paquetes con el medio de transporte, tomar en cuenta duración, costos y fecha estimada de entrega
  - Ruta más utilizada
  - Sucursales de puertos y aeropuertos
+ - Cambio de estatus de paquetes durante el envío
