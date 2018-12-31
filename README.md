@@ -7,3 +7,46 @@ TO DO ENTREGA #3
 - Arreglar vista de usuario (que se vean nombres en vez de números)
 - Si me falta un campo no borrar todo lo anterior 
 
+reportes para empleados:
+ - Registro de asistencia de empleados
+ - Listado de empleados con las inasistencias
+ - Listado de inasistencia indicando el horario asignado al empleado
+ - Recibo de pago de nómina
+
+reportes para envíos/paquetes:
+ - Cambio de estatus de paquetes durante el envío
+ - Recibo de envíos
+ - Alerta de paquetes con más de 24 horas
+ - Peso promedio de los paquetes que se envían por oficina
+ - Mes del año que se realizan más envíos
+ - Listado de paquetes con todos los cambios de estatus indicando las fechas de cambio
+ - Promedio de la estancia de los paquetes por cada zona de las oficinas
+
+reportes para clientes:
+ - Para los clientes VIP se otorga 10% de descuento sobre el total a pagar en el envío
+ - Generación de clientes VIP y su carnet
+
+reportes para roles y usuarios:
+ - Asignación de roles a usuarios
+ - Asignación de permisos a roles
+ - Incio de sesión con validación de permisos
+ - Auditoria del sistema por fecha
+
+reportes para oficina: 
+ - Oficina que envía y recibe más paquetes
+ - Ingresos y egresos por oficina por mes
+
+reporte para ruta:
+ - ruta más utilizada
+
+reporte para puerto y aeropuerto:
+ - Sucursales de puertos y aeropuertos
+
+reporte para transporte:
+ - Histórico de revisión de la flota indicando taller, falla y duración de la revisión
+ - Total de gastos generados por revisión de flotas por mes y por sucursal.
+
+
+
+---------------------------------------------REPORTES HECHOS------------------------------------------------
+ - Envío de paquetes con el medio de transporte, tomar en cuenta duración, costos y fecha estimada de entrega
