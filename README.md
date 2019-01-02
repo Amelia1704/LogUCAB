@@ -17,7 +17,6 @@ reportes para empleados:
 reportes para envíos/paquetes:
  - Recibo de envíos
  - Alerta de paquetes con más de 24 horas
- - Peso promedio de los paquetes que se envían por oficina
  - Mes del año que se realizan más envíos
  - Listado de paquetes con todos los cambios de estatus indicando las fechas de cambio
  - Promedio de la estancia de los paquetes por cada zona de las oficinas
@@ -47,3 +46,4 @@ reporte para transporte:
  - Ruta más utilizada
  - Sucursales de puertos y aeropuertos
  - Cambio de estatus de paquetes durante el envío
+ - Peso promedio de los paquetes que se envían por oficina
