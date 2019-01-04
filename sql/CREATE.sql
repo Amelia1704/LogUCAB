@@ -348,7 +348,7 @@ CREATE TABLE estatus(
 );
 CREATE TABLE estatus_envio(
 	codigo serial NOT NULL primary key,
-	descripcion varchar(40) NOT NULL,
+	fecha varchar(40) NOT NULL,
 	fk_estatus integer NOT NULL,
 	fk_envio integer NOT NULL,
 	constraint fk_estatus foreign key(fk_estatus) references estatus(codigo),
