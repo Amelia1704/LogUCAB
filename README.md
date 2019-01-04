@@ -18,7 +18,6 @@ reportes para envíos/paquetes:
  - Recibo de envíos
  - Alerta de paquetes con más de 24 horas
  - Mes del año que se realizan más envíos
- - Listado de paquetes con todos los cambios de estatus indicando las fechas de cambio
  - Promedio de la estancia de los paquetes por cada zona de las oficinas
 
 reportes para clientes:
@@ -47,3 +46,4 @@ reporte para transporte:
  - Sucursales de puertos y aeropuertos
  - Cambio de estatus de paquetes durante el envío
  - Peso promedio de los paquetes que se envían por oficina
+ - Listado de paquetes con todos los cambios de estatus indicando las fechas de cambio
