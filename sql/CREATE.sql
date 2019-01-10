@@ -147,14 +147,15 @@ CREATE TABLE tipoenvio(
 
 CREATE TABLE tipopaquete(
 	codigo serial NOT NULL primary key,
-	nombre varchar(40) NOT NULL
+	nombre varchar(40) NOT NULL,
+	costo integer NOT NULL
 );
 
 
 CREATE TABLE paquete(
 	codigo serial NOT NULL primary key,
 	peso numeric NOT NULL,
-	largo numeric NOT NULL,
+	profundidad numeric NOT NULL,
 	ancho numeric NOT NULL,
 	alto numeric NOT NULL,
 	fk_tipopaquete integer NOT NULL,
