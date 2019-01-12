@@ -20,7 +20,6 @@ reportes para envíos/paquetes:
  - Promedio de la estancia de los paquetes por cada zona de las oficinas
  
 reportes para roles y usuarios:
- - Asignación de roles a usuarios
  - Asignación de permisos a roles
  - Incio de sesión con validación de permisos
  - Auditoria del sistema por fecha
@@ -44,3 +43,4 @@ reporte para transporte:
  - Listado de paquetes con todos los cambios de estatus indicando las fechas de cambio
  - Para los clientes VIP se otorga 10% de descuento sobre el total a pagar en el envío
  - Generación de clientes VIP y su carnet
+ - Asignación de roles a usuarios
