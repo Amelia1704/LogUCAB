@@ -18,10 +18,7 @@ reportes para envíos/paquetes:
  - Alerta de paquetes con más de 24 horas
  - Mes del año que se realizan más envíos
  - Promedio de la estancia de los paquetes por cada zona de las oficinas
-
-reportes para clientes:
- - Generación de clientes VIP y su carnet
-
+ 
 reportes para roles y usuarios:
  - Asignación de roles a usuarios
  - Asignación de permisos a roles
@@ -46,3 +43,4 @@ reporte para transporte:
  - Peso promedio de los paquetes que se envían por oficina
  - Listado de paquetes con todos los cambios de estatus indicando las fechas de cambio
  - Para los clientes VIP se otorga 10% de descuento sobre el total a pagar en el envío
+ - Generación de clientes VIP y su carnet
