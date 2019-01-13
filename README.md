@@ -5,7 +5,7 @@ TO DO ENTREGA #3
 - Puto salario de mierda
 - Arreglar vista de usuario (que se vean nombres en vez de números)
 - Si me falta un campo no borrar todo lo anterior 
-- Agregar más insert en sucursal_envio
+- Agregar más insert en sucursal_envio y en sucursal_envio_destino
 
 reportes para empleados:
  - Registro de asistencia de empleados
