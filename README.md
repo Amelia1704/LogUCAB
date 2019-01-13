@@ -29,7 +29,6 @@ reportes para oficina:
  - Ingresos y egresos por oficina por mes
 
 reporte para transporte:
- - Histórico de revisión de la flota indicando taller, falla y duración de la revisión
  - Total de gastos generados por revisión de flotas por mes y por sucursal.
 
 
@@ -44,3 +43,4 @@ reporte para transporte:
  - Para los clientes VIP se otorga 10% de descuento sobre el total a pagar en el envío
  - Generación de clientes VIP y su carnet
  - Asignación de roles a usuarios
+ - Histórico de revisión de la flota indicando taller, falla y duración de la revisión
