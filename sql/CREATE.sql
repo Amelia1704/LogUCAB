@@ -164,7 +164,7 @@ CREATE TABLE paquete(
 
 CREATE TABLE envio(
 	numero serial NOT NULL primary key,
-	costo integer,
+	costo numeric,
 	fk_cliente_envia integer NOT NULL,
 	fk_tipoenvio integer NOT NULL,
 	fk_paquete integer NOT NULL,
