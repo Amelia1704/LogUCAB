@@ -16,7 +16,6 @@ reportes para empleados:
 reportes para envíos/paquetes:
  - Recibo de envíos
  - Alerta de paquetes con más de 24 horas
- - Mes del año que se realizan más envíos
  - Promedio de la estancia de los paquetes por cada zona de las oficinas
  
 reportes para roles y usuarios:
@@ -44,3 +43,4 @@ reporte para transporte:
  - Generación de clientes VIP y su carnet
  - Asignación de roles a usuarios
  - Histórico de revisión de la flota indicando taller, falla y duración de la revisión
+ - Mes del año que se realizan más envíos
