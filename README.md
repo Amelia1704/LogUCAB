@@ -2,7 +2,6 @@
 TO DO ENTREGA #3
 - Origen y destino distintos
 - Eliminar sucursal
-- Puto salario de mierda
 - Arreglar vista de usuario (que se vean nombres en vez de números)
 - Si me falta un campo no borrar todo lo anterior 
 - Agregar más insert en sucursal_envio y en sucursal_envio_destino
@@ -44,3 +43,4 @@ reporte para transporte:
  - Histórico de revisión de la flota indicando taller, falla y duración de la revisión
  - Mes del año que se realizan más envíos
  - Registro de asistencia de empleados
+ - Puto salario de mierda
