@@ -8,7 +8,6 @@ TO DO ENTREGA #3
 - Agregar más insert en sucursal_envio y en sucursal_envio_destino
 
 reportes para empleados:
- - Registro de asistencia de empleados
  - Listado de empleados con las inasistencias
  - Listado de inasistencia indicando el horario asignado al empleado
  - Recibo de pago de nómina
@@ -44,3 +43,4 @@ reporte para transporte:
  - Asignación de roles a usuarios
  - Histórico de revisión de la flota indicando taller, falla y duración de la revisión
  - Mes del año que se realizan más envíos
+ - Registro de asistencia de empleados
